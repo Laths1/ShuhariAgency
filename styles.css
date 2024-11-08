@@ -1513,18 +1513,30 @@ talents
     }
     .talent-text-container{
         flex-direction: row;
-        padding: .25rem;
+        padding: .25rem 0;
         justify-content: space-between;
-        align-items: baseline;
+        /* align-items: baseline; */
         gap: 0;
         width: 100%;
+        margin: 0;
     }
     .talent-main-text{
         display: none;
     }
+    #person-btn{
+        margin: 0;
+        display: inline;
+    }
+    .talent-title{
+        text-align: left;
+        font-size: 0.75rem;
+    }
     .talent-title h2{
         color: var(--primary-color-3);
         background: none;
+        padding: 0;
+        width: 100%;
+        text-align: left;
     }
     .talent-container2{
         width: 100%; 
@@ -1545,10 +1557,6 @@ talents
         font-size: 2.3rem;
     }
 
-    .talent-title{
-        margin: auto;
-        font-size: .75rem;
-    }
     .manifesto-card{
         margin: auto;
         width: 100%;
@@ -1559,7 +1567,7 @@ talents
         padding: 1rem;        
     }
 
-    .talent-text-container, .talent-img img{
+    .talent-img img{
         width: 100%; 
         border-top-right-radius: var(--radius);
         border-top-left-radius: var(--radius);

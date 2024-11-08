@@ -133,7 +133,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./editors/Blake Crankshaw/",
             "profileLink": "profile_elisa.html"
         },
@@ -142,7 +142,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./editors/Bill Kongolo/",
             "profileLink": "profile_elisa.html"
         },
@@ -151,7 +151,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./editors/Kwanda Molefe/",
             "profileLink": "profile_elisa.html"
         },
@@ -160,7 +160,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./editors/Tad Mazhanga/",
             "profileLink": "profile_elisa.html"
         },
@@ -169,7 +169,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./editors/Thandiwe Dhlamini/",
             "profileLink": "profile_elisa.html"
         },
@@ -178,7 +178,7 @@
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
-            "description": "John Doe is an experienced fashion model with work in both editorial and commercial projects.",
+            "description": "",
             "image": "./editors/Dylan Mohlala/",
             "profileLink": "profile_john.html"
         },
@@ -187,7 +187,7 @@
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
-            "description": "John Doe is an experienced fashion model with work in both editorial and commercial projects.",
+            "description": "",
             "image": "./editors/Herschelle Adams/",
             "profileLink": "profile_john.html"
         },
@@ -270,7 +270,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./photographers/Photographers/",
             "profileLink": "profile_elisa.html"
         },
@@ -279,7 +279,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./photographers/Photographers/Aviona/IMG_3643.jpg",
             "profileLink": "profile_elisa.html"
         },
@@ -288,7 +288,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./photographers/Photographers/Chante Joubert/Profile Pic_.jpg",
             "profileLink": "profile_elisa.html"
         },
@@ -297,7 +297,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./photographers/Photographers/Dylan Mohlala/img.jpg",
             "profileLink": "profile_elisa.html"
         },
@@ -306,7 +306,7 @@
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
-            "description": "John Doe is an experienced fashion model with work in both editorial and commercial projects.",
+            "description": "",
             "image": "./photographers/Photographers/Gabriella Lynn/Profile image_.jpg",
             "profileLink": "profile_john.html"
         },
@@ -315,7 +315,7 @@
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
-            "description": "John Doe is an experienced fashion model with work in both editorial and commercial projects.",
+            "description": "",
             "image": "./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg",
             "profileLink": "profile_john.html"
         },
@@ -333,7 +333,7 @@
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
-            "description": "John Doe is an experienced fashion model with work in both editorial and commercial projects.",
+            "description": "",
             "image": "./photographers/Photographers/Melo Bopape/profile p.jpg",
             "profileLink": "profile_john.html"
         },
@@ -342,7 +342,7 @@
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
-            "description": "John Doe is an experienced fashion model with work in both editorial and commercial projects.",
+            "description": "",
             "image": "./photographers/Photographers/Tinashe Chihwayi/Profile pic_.jpg",
             "profileLink": "profile_john.html"
         },
@@ -372,7 +372,7 @@
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
-            "image": "./graphic designers/Graphic Design/Inganawe Mayedwa_/Profile Pic.png",
+            "image": "./graphic designers/Graphic Design/Inganawe Mayedwa_/Profile pic.png",
             "profileLink": "profile_john.html"
         },
         {
@@ -523,15 +523,6 @@
         },
         {
             "name": "shaun nkosi",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./videographers/",
-            "profileLink": "profile/leo.html"
-        },
-        {
-            "name": "Alex Finch",
             "height": "",
             "waist": "",
             "location": "",

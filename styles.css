@@ -1442,13 +1442,10 @@ talents
     /* padding: 1rem; */
     text-align: center;
 }
-.talent-title{
-    width: 100%;
-}
 .talent-title h2{
     background: none;
     color: var(--primary-color-6);
-    width: 100%;
+    /* width: 100%; */
 }
 .talent-container2:hover{
     transform: scale(1.02);

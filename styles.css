@@ -19,7 +19,7 @@ variables
     --primary-color-4:#263734;
     --primary-color-5:#ffffff;
     --primary-color-6:#004AAD;
-    --primary-color-7:#26373448;
+    --primary-color-7:#26373446;
     
     --transition:all 300ms linear;
     --spacing:0.25rem;
@@ -74,7 +74,7 @@ overflow-x: hidden;
 }
 a{
     text-decoration: none;
-    color: var(--primary-color-7);
+    color: var(--primary-color-5);
 }
 ul{
     list-style-type: none;

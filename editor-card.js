@@ -15,7 +15,7 @@ fetch('cardData.json')
                         <!--<h3>location: ${editor.location || 'N/A'}</h3>-->
                     </div>
                     <!--<div class="talent-sub-text"><p>${editor.description || ''}</p></div>-->
-                    <div class="btn person-btn" id="person-btn"><a href="${editor.profileLink}" target="_blank"> see more</a></div>
+                    <div class="btn person-btn" id="person-btn"><a href="${editor.profileLink}" target="_blank"> view</a></div>
                 </div>
                 <div class="talent-img">
                     <a href="${editor.profileLink}" target="_blank"><img src="${editor.image}" alt="${editor.name}"></a>

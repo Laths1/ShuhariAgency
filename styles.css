@@ -1565,7 +1565,9 @@ talents
         border-top-left-radius: var(--radius);
         border-radius: 0;
         border-bottom-right-radius: 0;
+        /* box-shadow: 0 5px 15px var(--primary-color-4); */
     }
+ 
     
 }
 

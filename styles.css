@@ -1507,18 +1507,32 @@ talents
 @media screen and (max-width: 992px) {
     .talent-container,.manifesto-container {
         /* flex-direction: column;  */
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         gap: 2rem;
         height: 100%; 
     }
-    
-
+    .talent-text-container{
+        flex-direction: row;
+        padding: .25rem;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 0;
+        width: 100%;
+    }
+    .talent-main-text{
+        display: none;
+    }
+    .talent-title h2{
+        color: var(--primary-color-3);
+        background: none;
+    }
     .talent-container2{
-        width: 50%; 
+        width: 100%; 
         flex-direction: column-reverse;
         text-align: center;
         height: 100%;
         margin: 1rem 0; 
+        box-shadow: none;
     }
     .manifesto-container{
         flex-direction: column;
@@ -1549,10 +1563,8 @@ talents
         width: 100%; 
         border-top-right-radius: var(--radius);
         border-top-left-radius: var(--radius);
+        border-radius: 0;
         border-bottom-right-radius: 0;
-    }
-    .talent-img img{
-        height: 10rem;
     }
     
 }

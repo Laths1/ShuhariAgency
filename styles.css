@@ -513,7 +513,7 @@ facts
     padding: 0 8rem;
     /* border: 2px solid #000080 ; */
     background: var(--primary-color-1);
-    height: 18rem; 
+    height: 12rem; 
     display: flex; 
 }
 .facts-items{
@@ -1594,7 +1594,7 @@ footer
 
 .disposal-list li{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     gap: 1rem; 
 }

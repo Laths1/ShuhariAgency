@@ -138,13 +138,14 @@
     ],
     "editors": [
         {
+            "id": "editor-1",
             "name": "Blake crankshaw",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./editors/Blake Crankshaw/",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=editor-1"
         },
         {
             "name": "bill kongolo",
@@ -376,6 +377,7 @@
     ],
     "designers":[
         {
+            
             "name": "Inganawe Mayedwa",
             "height": "6'0\"",
             "waist": "32\"",

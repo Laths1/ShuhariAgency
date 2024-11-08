@@ -1427,7 +1427,7 @@ talents
     box-shadow: 0 5px 15px var(--primary-color-4);
     display: flex;
     justify-content: space-between;
-    width: 48%; /* Adjust to allow two cards side by side */
+    width: 48%; 
     height: 50%;
     margin: 1rem 0; /* Adjust the margin to have spacing between cards */
     transition: var(--transition);
@@ -1509,15 +1509,17 @@ talents
 
 @media screen and (max-width: 992px) {
     .talent-container,.manifesto-container {
-        flex-direction: column; /* Stack the cards in one column for smaller screens */
-        gap: 2rem; /* Space between stacked items */
+        /* flex-direction: column;  */
+        flex-wrap: nowrap;
+        gap: 2rem; 
     }
+    
 
     .talent-container2{
-        width: 100%; /* Make each card take full width on smaller screens */
+        /* width: 30%;  */
         flex-direction: column-reverse;
         text-align: center;
-        margin: 1rem 0; /* Adjust margin */
+        margin: 1rem 0; 
     }
     .manifesto-container{
         flex-direction: column;
@@ -1531,6 +1533,7 @@ talents
 
     .talent-title{
         margin: auto;
+        font-size: .75rem;
     }
     .manifesto-card{
         margin: auto;
@@ -1543,7 +1546,7 @@ talents
     }
 
     .talent-text-container, .talent-img img{
-        width: 100%; /* Ensure images and text fill their containers */
+        width: 100%; 
         border-top-right-radius: var(--radius);
         border-top-left-radius: var(--radius);
         border-bottom-right-radius: 0;

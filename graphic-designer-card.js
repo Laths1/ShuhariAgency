@@ -12,9 +12,9 @@ fetch('cardData.json')
                     <div class="talent-title"><h2>${designer.name}</h2></div>
                     <div class="talent-main-text">
                         
-                        <h3>location: ${designer.location || 'N/A'}</h3>
+                        <!--<h3>location: ${designer.location || 'N/A'}</h3>-->
                     </div>
-                    <div class="talent-sub-text"><p>${designer.description || ''}</p></div>
+                <!-- <div class="talent-sub-text"><p>${designer.description || ''}</p></div> -->
                     <div class="btn person-btn" id="person-btn"><a href="${designer.profileLink}" target="_blank"> see more</a></div>
                 </div>
                 <div class="talent-img">

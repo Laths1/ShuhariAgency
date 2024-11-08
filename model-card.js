@@ -11,10 +11,10 @@ fetch('cardData.json')
                 <div class="talent-text-container">
                     <div class="talent-title"><h2>${model.name}</h2></div>
                     <div class="talent-main-text">
-                        <h3>height: ${model.height || 'N/A'} waist: ${model.waist || 'N/A'}</h3><br>
+                        <!--<h3>height: ${model.height || 'N/A'} waist: ${model.waist || 'N/A'}</h3><br>-->
                         <h3>location: ${model.location || 'N/A'}</h3>
                     </div>
-                    <div class="talent-sub-text"><p>${model.description || ''}</p></div>
+                    <!-- <div class="talent-sub-text"><p>${model.description || ''}</p></div> -->
                     <div class="btn person-btn" id="person-btn"><a href="${model.profileLink}" target="_blank"> see more</a></div>
                 </div>
                 <div class="talent-img">

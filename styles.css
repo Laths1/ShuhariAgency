@@ -1492,10 +1492,7 @@ talents
     text-transform: uppercase;
 }
 
-.manifesto-info p {
-    max-width: 20rem;
-    /* margin: 0 auto; */
-}
+
 
 .manifesto-btn {
     font-size: 0.75rem;
@@ -1512,7 +1509,7 @@ talents
         /* flex-direction: column;  */
         flex-wrap: nowrap;
         gap: 2rem;
-        height: 50%; 
+        height: 100%; 
     }
     
 
@@ -1520,11 +1517,12 @@ talents
         width: 50%; 
         flex-direction: column-reverse;
         text-align: center;
-        height: 50%;
-        margin: 0; 
+        height: 100%;
+        margin: 1rem 0; 
     }
     .manifesto-container{
         flex-direction: column;
+        align-items: center;
         margin: auto;
         padding: 1rem;
         gap: 4rem;

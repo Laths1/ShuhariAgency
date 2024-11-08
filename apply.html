@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shuhari Agency - Apply</title>
+        <!-- styles -->
+        <link rel="stylesheet" href="styles.css"></link>
+        <!-- icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="icon" href="favicon_io/favicon-16x16.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- js -->
+         <script src="script.js"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+        emailjs.init({
+            publicKey: "JpMadjj0p8juxtZky",
+        });
+        })();
+        </script>
+    </head>
+
+<body>
+    <section class="home-page-container-apply">
+        <section class="random-img">
+           <!-- nav bar -->
+            <div id="nav-placeholder"></div>
+            <script src="nav.js"></script>
+            <!-- end of nav bar -->
+
+        <form class="apply-form" id="apply-form" onsubmit="sendApplyMail()">
+            <label for="apply-name">Name</label>
+            <input type="text" id="apply-name" name="name" placeholder="Enter your full name" required>
+        
+            <label for="apply-email">Email</label>
+            <input type="email" id="apply-email" name="email" placeholder="Enter your email" required>
+
+            <label for="apply-message">Motivation</label>
+            <textarea id="apply-message" name="message" rows="4" placeholder="Tell us why you would like to join" required></textarea>
+        
+            <label>Choose a category</label>
+            <div class="radio-options">
+                <div class="option">
+                    <input type="radio" id="option1" name="option" value="model" required>
+                    <label for="option1">model</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option2" name="option" value="editor" required>
+                    <label for="option2">editor</label><br>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option3" name="option" value="photograhper" required>
+                    <label for="option3">photograhper</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option4" name="option" value="videographer" required>
+                    <label for="option3">videographer</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option5" name="option" value="graphic designer" required>
+                    <label for="option5">graphic designer</label>
+                </div>
+        
+            </div>
+            <button type="submit" >Submit Application</button>
+          </form>
+        
+            <div class="text-container">
+                <!-- <div class="random-img-main-text"><h1>shuhari graphic designers</h1></div> -->
+                <!-- <div class="random-img-sub-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum distinctio, voluptates perspiciatis eaque sint aut hic consectetur veniam iure accusamus ex, in adipisci recusandae.</p>
+                </div> -->
+                <!-- <div class="btn random-img-btn"><a href="#talent-us">apply</a></div> -->
+            </div>
+        </section>
+    
+        <div class="hero-img">
+            <!-- <img src="./images/Shuhari Network Drop (6).png" alt=""> -->
+            
+        </div>
+        <!-- end of hero -->
+        </section>
+         <!-- footer -->
+    <div id="footer"></div>
+    <script src="footer.js"></script>
+    <!-- end of footer -->
+</body>
+</html>

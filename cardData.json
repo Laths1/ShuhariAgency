@@ -1,139 +1,154 @@
 {
     "models": [
         {
+            "id": "model-1",
             "name": "Azukiwe Gwentshe",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./models/Models/Azukiwe Gwentshe/profile_.jpg",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=model-1"
         },
         {
+            "id":"model-2",
             "name": "Elisa Mahloane",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
             "image": "./models/Models/Elisa Mahloane/Profile_.jpg",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=model-2"
         },
         {
+            "id":"model-3",
             "name": "Leo",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./models/Models/Leo/DSCF2445.jpg",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=model-3"
         },
         {
+            "id":"model-4",
             "name": "Thayanda",
             "height": "",
             "waist": "",
             "location": "",
             "description": "Thayanda approaches modeling as a creative collaboration, becoming the canvas with her appearance, energy.",
             "image": "./models/Models/Thayanda/Profile Pic.jpg",
-            "profileLink": "profile/thayanda.html"
+            "profileLink": "individual.html?id=model-4"
         },
         {
+            "id":"model-5",
             "name": "Gia Paulse",
             "height": "",
             "waist": "",
             "location": "Cape Town",
             "description": "Gia Paulse, an artist dedicated to pushing boundaries in modeling. She brings beauty, creativity, and expression to every project.",
             "image": "./models/Models/Gia Paulse/IMG_7140.jpeg",
-            "profileLink": "profile/gia-paulse.html"
+            "profileLink": "individual.html?id=model-5"
         },
         {
+            "id":"model-6",
             "name": "Hussein",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./models/Models/Hussein/profile.jpg",
-            "profileLink": "profile/hussein.html"
+            "profileLink": "individual.html?id=model-6"
         },
         {
+            "id":"model-7",
             "name": "Logan Kirby",
             "height": "",
             "waist": "",
             "location": "Worcester",
             "description": "Logan Kirby, a model specializing in editorial, commercial, and fashion work. Passionate about blending creativity with commercial appeal.",
             "image": "./models/Models/Logan Kirby/-5875053784328160068_121.jpg",
-            "profileLink": "profile/logan-kirby.html"
+            "profileLink": "individual.html?id=model-7"
         },
         {
+            "id": "model-8",
             "name": "Lona Ngwenze",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./models/Models/Lona Ngwenze/Profile_.jpg",
-            "profileLink": "profile/lona-ngwenze.html"
+            "profileLink": "individual.html?id=model-8"
         },
         {
+            "id": "model-9",
             "name": "Lwazi Goniwe",
             "height": "",
             "waist": "",
             "location": "Cape Town",
             "description": "Lwazi Goniwe, a model who has appeared in Heineken, 4th Street, The Street FW24, and Khayelitsha Fashion Week.",
             "image": "./models/Models/Lwazi Goniwe/ZFullSizeRender.jpg",
-            "profileLink": "profile/lwazi-goniwe.html"
+            "profileLink": "individual.html?id=model-9"
         },
         {
+            "id":"model-10",
             "name": "Meegan Williams",
             "height": "",
             "waist": "",
             "location": "Cape Town",
             "description": "Meegan Williams, a model specializing in erotic photography, body part modeling, and fit modeling.",
             "image": "./models/Models/Meagan Williams/profile_.jpg",
-            "profileLink": "profile/meegan-williams.html"
+            "profileLink": "individual.html?id=model-10"
         },
         {
+            "id":"model-11",
             "name": "Mpho Ryan Sihamba",
             "height": "",
             "waist": "",
             "location": "",
             "description": "Ryan Sihamba, a model specializing in commercial and fashion work. He has showcased local fashion brands.",
             "image": "./models/Models/Mpho Ryan Sihamba/Profile_.jpg",
-            "profileLink": "profile/mpho-ryan-sihamba.html"
+            "profileLink": "individual.html?id=model-11"
         },
         {
+            "id":"model-12",
             "name": "Nande Maxawula",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./models/Models/Nande Maxawula/FullSizeRender.jpeg",
-            "profileLink": "profile/nande-maxawula.html"
+            "profileLink": "individual.html?id=model-12"
         },
         {
+            "id":"model-13",
             "name": "Ontari",
             "height": "",
             "waist": "",
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
             "image": "./models/Models/Ontari/IMG_0437.jpeg",
-            "profileLink": "profile/sam.html"
+            "profileLink": "individual.html?id=model-13"
         },
         {
+            "id":"model-14",
             "name": "Sam",
             "height": "",
             "waist": "",
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
             "image": "./models/Models/Sam/Profile_.jpg",
-            "profileLink": "profile/sam.html"
+            "profileLink": "individual.html?id=model-14"
         },
         {
+            "id":"model-15",
             "name": "uju",
             "height": "",
             "waist": "",
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
             "image": "./models/Models/Sam/Profile_.jpg",
-            "profileLink": "profile/sam.html"
+            "profileLink": "individual.html?id=model-15"
         }
     ],
     "editors": [
@@ -148,398 +163,440 @@
             "profileLink": "individual.html?id=editor-1"
         },
         {
+            "id":"editor-2",
             "name": "bill kongolo",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./editors/Bill Kongolo/",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=editor-2"
         },
         {
+            "id":"editor-3",
             "name": "kwanda molefe",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./editors/Kwanda Molefe/",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=editor-3"
         },
         {
+            "id":"editor-4",
             "name": "tad mazhanga",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./editors/Tad Mazhanga/",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=editor-4"
         },
         {
+            "id":"editor-5",
             "name": "Thandiwe Dhlamini",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./editors/Thandiwe Dhlamini/",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=editor-5"
         },
         {
+            "id":"editor-6",
             "name": "Dylan Mohlala",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
             "image": "./editors/Dylan Mohlala/",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=editor-6"
         },
         {
+            "id":"editor-7",
             "name": "Herschelle Adams",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
             "image": "./editors/Herschelle Adams/",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=editor-7"
         },
         {
+            "id":"editor-8",
             "name": "Imran goga",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./editors/Imran Goga/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=editor-8"
         },
         {
+            "id":"editor-9",
             "name": "kai trull",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./editors/Kai Trull/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=editor-9"
         },
         {
+            "id":"editor-10",
             "name": "Kesavan govender",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./editors/Kesavan Govender/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=editor-10"
         },
         {
+            "id":"editor-11",
             "name": "kuluyolo hansie",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./editors/Kuluyolo Hansie/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=editor-11"
         },
         {
+            "id":"editor-12",
             "name": "mlingane dube",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./editors/Mlingane Dube/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=editor-12"
         },
         {
+            "id":"editor-13",
             "name": "rudolf wohner",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./editors/Rudolf Wohner/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=editor-13"
         },
         {
+            "id":"'editor-14",
             "name": "sandile mosimane",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./editors/Sandile Mosimane/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=editor-14"
         },
         {
+            "id":"editor-15",
             "name": "sharon mnisi",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./editors/Sharon Mnisi/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=editor-15"
         }
     ],
     "photographers": [
         {
+            "id":"photographer-1",
             "name": "Agmat Achmad",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./photographers/Photographers/",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=photographer-1"
         },
         {
+            "id":"'photographer-2",
             "name": "aviona",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./photographers/Photographers/Aviona/IMG_3643.jpg",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=photographer-2"
         },
         {
+            "id":"photographer-3",
             "name": "Chante Joubert",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./photographers/Photographers/Chante Joubert/Profile Pic_.jpg",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=photographer-3"
         },
         {
+            "id":"photographer-4",
             "name": "Dylan Mohlala",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
             "image": "./photographers/Photographers/Dylan Mohlala/img.jpg",
-            "profileLink": "profile_elisa.html"
+            "profileLink": "individual.html?id=photographer-4"
         },
         {
+            "id":"photographer-5",
             "name": "Gabriella Lynn",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
             "image": "./photographers/Photographers/Gabriella Lynn/Profile image_.jpg",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=photographer-5"
         },
         {
+            "id":"photographer-6",
             "name": "Itumeleng Khutso",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
             "image": "./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=photographer-6"
         },
         {
+            "id":"photographer-7",
             "name": "Juvani Aaron",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./photographers/Photographers/Juvan Aaron/Profile pic.jpg",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=photographer-7"
         },
         {
+            "id":"photographer-8",
             "name": "Melo Bopape",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
             "image": "./photographers/Photographers/Melo Bopape/profile p.jpg",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=photographer-8"
         },
         {
+            "id":"photographer-9",
             "name": "Tinashe Chihwayi",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
             "image": "./photographers/Photographers/Tinashe Chihwayi/Profile pic_.jpg",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=photographer-9"
         },
         {
+            "id":"photographer-10",
             "name": "Uriel Dombo",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./photographers/Photographers/Uriel Dombo/image00010.jpeg",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=photographer-10"
         },
         {
+            "id":"photographer-11",
             "name": "Wessy",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./photographers/Photographers/Wessy/Profile Pic_.jpg",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=photographer-11"
         }
     ],
     "designers":[
         {
-            
+            "id":"designer-1",
             "name": "Inganawe Mayedwa",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
             "image": "./graphic designers/Graphic Design/Inganawe Mayedwa_/Profile pic.png",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=designer-1"
         },
         {
+            "id":"designer-2",
             "name": "Kasim",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./graphic designers/Graphic Design/Kasim/IMG_0303.jpg",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=designer-2"
         },
         {
+            "id":"designer-3",
             "name": "Khanyiso Booi",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./graphic designers/Graphic Design/Khanyiso Booi/Post 2a.jpg",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=designer-3"
         },
         {
+            "id":"designer-4",
             "name": "Andisiwe Matha",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "Andisiwe is a self taught artist who has hosted a succesful event in East London, collaborated with DJ Twists and collaborated with the rapper 'Flash'.",
             "image": "./graphic designers/Graphic Design/Andisiwe Matha/Profile pic.png",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=designer-4"
         },
         {
+            "id":"designer-5",
             "name": "Daniel Makhado",
             "height": "",
             "waist": "",
             "location": "",
             "description": "Daniel has experience with Adobe Photoshop,Illustrator and InDesign. Daniel crafts logos, event posters and social media graphics.",
             "image": "./graphic designers/Graphic Design/Daniel Makhado/Artwork mega1.jpg",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=designer-5"
         },
         {
+            "id":"designer-6",
             "name": "Mabeka Kola",
             "height": "",
             "waist": "",
             "location": "",
             "description": "Mabeka has 3 years of experience in the creative industry.His work includes digital illustration, typography and branding.",
             "image": "./graphic designers/Graphic Design/Mabeka Kola/Banner.png",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=designer-6"
         },
         {
+            "id":"designer-7",
             "name": "Solomon Modiadie",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
             "image": "./graphic designers/Graphic Design/Solomon Modiadie/img.jpg",
-            "profileLink": "profile_john.html"
+            "profileLink": "individual.html?id=designer-7"
         },
         {
+            "id":"designer-8",
             "name": "Tiffinay Naku",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./graphic designers/Graphic Design/Tiffany Naku/14.1.jpg",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=designer-8"
         },
         {
+            "id":"designer-9",
             "name": "Tshepang Bapela",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=designer-9"
         }
     ],
     "videographers":[
         {
+            "id":"videographer-1",
             "name": "Alex Finch",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-1"
         },
         {
+            "id":"videographer-2",
             "name": "agmat achmad",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-2"
         },
         {
+            "id":"videographer-3",
             "name": "geotano kilian",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-3"
         },
         {
+            "id":"videographer-4",
             "name": "johan de vos",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-4"
         },
         {
+            "id":"videographer-5",
             "name": "malope le roux",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-5"
         },
         {
+            "id":"videographer-6",
             "name": "ndyebo sibam",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-6"
         },
         {
+            "id":"videographer-7",
             "name": "nyibo khoza",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-7"
         },
         {
+            "id":"videographer-8",
             "name": "sansile mosimane",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-8"
         },
         {
+            "id":"videographer-9",
             "name": "shaun nkosi",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "profile/leo.html"
+            "profileLink": "individual.html?id=videographer-9"
         }
     ]
 }

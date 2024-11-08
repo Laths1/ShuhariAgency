@@ -1510,13 +1510,13 @@ talents
 @media screen and (max-width: 992px) {
     .talent-container,.manifesto-container {
         /* flex-direction: column;  */
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         gap: 2rem; 
     }
     
 
     .talent-container2{
-        /* width: 30%;  */
+        width: 100%; 
         flex-direction: column-reverse;
         text-align: center;
         margin: 1rem 0; 

@@ -1508,14 +1508,14 @@ talents
 @media screen and (max-width: 992px) {
     .manifesto-container {
         flex-direction: column; 
-        /* flex-wrap: nowrap; */
+        flex-wrap: nowrap;
         gap: 2rem;
         height: 100%; 
     }
     .talent-container{
         display: flex;
         /* flex-direction: row; */
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         width: 100%;
     }
     .talent-text-container{
@@ -1533,7 +1533,7 @@ talents
     #person-btn{
         margin: 0;
         display: inline;
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     .talent-title{
         text-align: left;

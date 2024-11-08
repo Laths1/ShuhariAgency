@@ -1549,6 +1549,9 @@ talents
         display: inline;
         /* visibility: hidden; */
     }
+    .talent-img{
+        width: 100%;
+    }
     .talent-title{
         text-align: left;
         font-size: 0.75rem;
@@ -1561,7 +1564,7 @@ talents
         text-align: left;
     }
     .talent-container2{
-        width: 50%; 
+        width: 100%; 
         flex-direction: column-reverse;
         text-align: center;
         height: 100%;

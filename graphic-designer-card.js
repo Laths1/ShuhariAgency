@@ -15,7 +15,7 @@ fetch('cardData.json')
                         <!--<h3>location: ${designer.location || 'N/A'}</h3>-->
                     </div>
                 <!-- <div class="talent-sub-text"><p>${designer.description || ''}</p></div> -->
-                    <div class="btn person-btn" id="person-btn"><a href="${designer.profileLink}" target="_blank"> see more</a></div>
+                    <div class="btn person-btn" id="person-btn"><a href="${designer.profileLink}" target="_blank"> view</a></div>
                 </div>
                 <div class="talent-img">
                     <a href="${designer.profileLink}" target="_blank"><img src="${designer.image}" alt="${designer.name}"></a>

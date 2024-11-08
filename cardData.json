@@ -5,7 +5,7 @@
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
-            "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
+            "description": "",
             "image": "./models/Models/Azukiwe Gwentshe/profile_.jpg",
             "profileLink": "profile_elisa.html"
         },
@@ -109,6 +109,15 @@
             "profileLink": "profile/nande-maxawula.html"
         },
         {
+            "name": "Ontari",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
+            "image": "./models/Models/Ontari/IMG_0437.jpeg",
+            "profileLink": "profile/sam.html"
+        },
+        {
             "name": "Sam",
             "height": "",
             "waist": "",
@@ -118,7 +127,7 @@
             "profileLink": "profile/sam.html"
         },
         {
-            "name": "Sam",
+            "name": "uju",
             "height": "",
             "waist": "",
             "location": "",
@@ -398,7 +407,7 @@
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
-            "description": "",
+            "description": "Andisiwe is a self taught artist who has hosted a succesful event in East London, collaborated with DJ Twists and collaborated with the rapper 'Flash'.",
             "image": "./graphic designers/Graphic Design/Andisiwe Matha/Profile pic.png",
             "profileLink": "profile_john.html"
         },
@@ -407,7 +416,7 @@
             "height": "",
             "waist": "",
             "location": "",
-            "description": "",
+            "description": "Daniel has experience with Adobe Photoshop,Illustrator and InDesign. Daniel crafts logos, event posters and social media graphics.",
             "image": "./graphic designers/Graphic Design/Daniel Makhado/Artwork mega1.jpg",
             "profileLink": "profile/leo.html"
         },
@@ -416,7 +425,7 @@
             "height": "",
             "waist": "",
             "location": "",
-            "description": "",
+            "description": "Mabeka has 3 years of experience in the creative industry.His work includes digital illustration, typography and branding.",
             "image": "./graphic designers/Graphic Design/Mabeka Kola/Banner.png",
             "profileLink": "profile/leo.html"
         },

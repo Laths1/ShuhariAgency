@@ -1584,7 +1584,7 @@ talentshe
 }
 
 .manifesto-info h3{
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 
@@ -1634,7 +1634,7 @@ talentshe
     }
     .talent-title{
         text-align: left;
-        font-size: 1rem;
+        font-size: .65rem;
         
     }
     .talent-title h2{
@@ -1643,6 +1643,7 @@ talentshe
         padding: 0;
         width: 100%;
         text-align: left;
+        text-transform: uppercase;
     }
     .talent-container2{
         width: 100%; 

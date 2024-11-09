@@ -118,9 +118,9 @@ img{
 
  h1{
      font-family: var(--ff-main-title);
-     font-weight: 400;
+     font-weight: 200;
      text-transform: capitalize;
-     font-size: 3.75rem;
+     font-size: 2.75rem;
      color: var(--primary-color-4);
  }
  @media screen and (max-width:576px){
@@ -140,6 +140,7 @@ img{
     /* border-radius: 0.5rem; */
     text-transform: capitalize;
     border-radius: var(--radius);
+    font-weight: 400;
  }
  h3{
      font-family: var(--ff-primary-1);
@@ -152,7 +153,7 @@ img{
      font-family: var(--ff-primary-1);
      /* letter-spacing: 2px; */
      color: var(--primary-color-4);
-     font-size: 1.25rem;
+     font-size: 1rem;
      line-height: 1.5rem;
      /* font-weight: 300; */
  }
@@ -680,9 +681,7 @@ about
     /* border: 2px solid #000080 ; */
 }
 
-.about-sub-text p{
-    font-size:1.25rem ;
-}
+
 @media screen and (max-width:576px){
     .about-text-container{
         max-width: 100%;

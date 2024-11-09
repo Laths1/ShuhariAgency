@@ -13,7 +13,7 @@ fetch('cardData.json')
             person = data.photographers.find(photographer => photographer.id === id);
         } else if (id.startsWith("designer")){
             person = data.designers.find(designer => designer.id === id);
-        } else if(id.startsWith("videosgrapher")){
+        } else if(id.startsWith("videographer")){
             person = data.videographers.find(videographer => videographer.id === id);
         }
 

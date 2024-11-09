@@ -1447,16 +1447,26 @@ model page
 .men-container:hover,.women-container:hover{
     opacity: 0.9;
 }
-
+@media screen and (max-width: 992px) {
+    .men-container,.women-container{
+        height: 50vh;
+        width: 90vw;
+    }
+    .model-container{
+        padding: 1rem;
+        gap: 1rem;
+    }
+}
 
  /* ==========
-talents
+talentshe
 ========== */
 .talent-container{
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping of items to the next line */
-    justify-content: space-between; /* Space between the items */
-    gap: 2rem; /* Add space between the columns */
+    flex-wrap: wrap; /* Allows cards to wrap to the next row */
+    gap: 2%; /* Space between the cards */
+    justify-content: space-around;
+    width: 100%;/* Add space between the columns */
     
 }
 

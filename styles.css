@@ -123,6 +123,12 @@ img{
      font-size: 3.75rem;
      color: var(--primary-color-4);
  }
+ @media screen and (max-width:576px){
+    h1{
+        font-size: 2.75rem; 
+        font-weight: 200;
+    }
+ }
  h2{
     background: var(--primary-color-6);
     font-family: var(--ff-primary-1);

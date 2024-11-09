@@ -7,6 +7,7 @@ fonts
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&family=Neonderthaw&family=Playfair+Display&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:wght@100;300&family=Shadows+Into+Light&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* =============
 variables
@@ -33,9 +34,9 @@ variables
     --spacing:0.25rem;
     --radius:0.9rem;
 
-    --ff-primary-1:"Catamaran", sans-serif;
-    --ff-primary-2:"Catamaran", sans-serif;
-    --ff-main-title:"Catamaran", sans-serif;
+    --ff-primary-1:"Poppins", sans-serif;
+    --ff-primary-2:"Poppins", sans-serif;
+    --ff-main-title:"Poppins", sans-serif;
 }
 /* ==========
 global styles

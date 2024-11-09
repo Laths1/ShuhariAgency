@@ -1160,6 +1160,9 @@ contributions
         /* height: 1rem; */
         
     }
+    .contributions-main-text h1{
+        display: none;
+    }
     
     
 }
@@ -1371,7 +1374,9 @@ label{
         display: flex;
         text-align: center;
     }
-     
+     .contact-main-text h1{
+        display: none;
+     }
      
  }
 @media screen and (max-width:1000px){

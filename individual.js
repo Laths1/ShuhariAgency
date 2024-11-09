@@ -20,7 +20,7 @@ fetch('cardData.json')
         if (person) {
             // Display name and bio
             document.querySelector('.name').innerText = person.name;
-            document.querySelector('.bio').innerText = person.bio;
+            document.querySelector('.bio').innerText = person.description;
             
             // Display each image in a simple list layout
             const imagesContainer = document.querySelector('.images-container'); 

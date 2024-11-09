@@ -9,7 +9,8 @@
             "description": "",
             "image": "./models/Models/Azukiwe Gwentshe/profile_.jpg",
             "profileLink": "individual.html?id=model-1",
-            "gender":"w"
+            "gender":"w",
+            "images":["./models/Models/Azukiwe Gwentshe/image0.jpeg","./models/Models/Azukiwe Gwentshe/ImG_3533.jpg","./models/Models/Azukiwe Gwentshe/Photo from Odwa Nonyati.jpg"]
         },
         {
             "id":"model-2",

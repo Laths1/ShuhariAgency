@@ -149,6 +149,11 @@ img{
      line-height: 1.5rem;
      /* font-weight: 300; */
  }
+ @media screen and (max-width:576px){
+    p{
+        font-size: 1rem;
+    }
+ }
  .content-divider{
     height:0.5rem;
     background:linear-gradient(
@@ -316,6 +321,7 @@ hero
         width: 65vw;
         position: relative;
         bottom: -5rem;
+        font-size: 1rem;
     }
 }
 /* ==========
@@ -540,7 +546,7 @@ facts
     font-weight: 400;
 }
 .facts-items p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
 }
 .icon{
@@ -720,6 +726,7 @@ about
     }
     .about-sub-text p{
         max-width: 90vw;
+        font-size: 1rem;
     }
 }
 /* ==========
@@ -810,7 +817,6 @@ features
         justify-items: center;
         align-items: center;
         padding-bottom: 3rem;
-    
     }
     .features-cards-con{
         display: flex;
@@ -828,7 +834,9 @@ features
         width: 90vw;
         max-width: 100vw;
     }
-    
+    .card-text p{
+        font-size: 1rem;
+    }
 }
 /* ==========
 gallery
@@ -1458,6 +1466,7 @@ model page
     }
     #model-title{
         font-size: 2.3rem;
+        display: none;
     }
 }
 
@@ -1618,7 +1627,8 @@ talentshe
     }
     .talent-title{
         text-align: left;
-        font-size: 0.75rem;
+        font-size: 0.5rem;
+        
     }
     .talent-title h2{
         color: var(--primary-color-3);
@@ -1646,14 +1656,18 @@ talentshe
     }
     .person-container h1{
         font-size: 2.3rem;
+        display: none;
     }
 
     .manifesto-card{
         margin: auto;
         width: 100%;
         padding: 0;
+        font-size: .5rem;
     }
-
+    .manifesto-info p{
+        font-size: 1rem;
+    }
     .person-container{
         padding: 1rem;        
     }

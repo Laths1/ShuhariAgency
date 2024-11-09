@@ -10,7 +10,7 @@
             "image": "./models/Models/Azukiwe Gwentshe/profile_.jpg",
             "profileLink": "individual.html?id=model-1",
             "gender":"w",
-            "images":["./models/Models/Azukiwe Gwentshe/image0.jpeg","./models/Models/Azukiwe Gwentshe/ImG_3533.jpg","./models/Models/Azukiwe Gwentshe/Photo from Odwa Nonyati.jpg"]
+            "images":["./models/Models/Azukiwe Gwentshe/image0.jpeg","./models/Models/Azukiwe Gwentshe/ImG_3533.jpg","./models/Models/Azukiwe Gwentshe/Photo from Odwa Nonyati.jpg","models/Models/Azukiwe Gwentshe/profile_.jpg"]
         },
         {
             "id":"model-2",
@@ -21,7 +21,8 @@
             "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
             "image": "./models/Models/Elisa Mahloane/Profile_.jpg",
             "profileLink": "individual.html?id=model-2",
-            "gender":"w"
+            "gender":"w",
+            "images": ["./models/Models/Elisa Mahloane/1.jpeg","./models/Models/Elisa Mahloane/2.jpeg","./models/Models/Elisa Mahloane/3.jpeg","./models/Models/Elisa Mahloane/4.jpeg","./models/Models/Elisa Mahloane/Profile_.jpg"]
         },
         {
             "id":"model-3",
@@ -43,7 +44,8 @@
             "description": "Thayanda approaches modeling as a creative collaboration, becoming the canvas with her appearance, energy.",
             "image": "./models/Models/Thayanda/Profile Pic.jpg",
             "profileLink": "individual.html?id=model-4",
-            "gender":"w"
+            "gender":"w",
+            "images":["./models/Models/Thayanda/1.jpg","./models/Models/Thayanda/2.jpg","./models/Models/Thayanda/3.jpeg","./models/Models/Thayanda/4.jpeg","./models/Models/Thayanda/Profile Pic.jpg"]
         },
         {
             "id":"model-5",

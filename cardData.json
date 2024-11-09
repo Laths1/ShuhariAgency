@@ -438,8 +438,9 @@
             "waist": "32\"",
             "location": "Cape Town",
             "description": "",
-            "image": "./graphic designers/Graphic Design/Inganawe Mayedwa_/Profile pic.png",
-            "profileLink": "individual.html?id=designer-1"
+            "image": "./graphic designers/Graphic Design/Inganawe Mayedwa/Profile pic.png",
+            "profileLink": "individual.html?id=designer-1",
+            "images":["./graphic designers/Graphic Design/Inganawe Mayedwa/1.png","./graphic designers/Graphic Design/Inganawe Mayedwa/2.jpg","./graphic designers/Graphic Design/Inganawe Mayedwa/3.jpg","./graphic designers/Graphic Design/Inganawe Mayedwa/4.png","./graphic designers/Graphic Design/Inganawe Mayedwa/Profile pic.png"]
         },
         {
             "id":"designer-2",
@@ -448,8 +449,9 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./graphic designers/Graphic Design/Kasim/IMG_0303.jpg",
-            "profileLink": "individual.html?id=designer-2"
+            "image": "./graphic designers/Graphic Design/Kasim/1.jpg",
+            "profileLink": "individual.html?id=designer-2",
+            "images":["./graphic designers/Graphic Design/Kasim/1.jpg","./graphic designers/Graphic Design/Kasim/2.png","./graphic designers/Graphic Design/Kasim/3.jpg","./graphic designers/Graphic Design/Kasim/4.jpg","./graphic designers/Graphic Design/Kasim/5.jpg","./graphic designers/Graphic Design/Kasim/6.png"]
         },
         {
             "id":"designer-3",
@@ -458,8 +460,9 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./graphic designers/Graphic Design/Khanyiso Booi/Post 2a.jpg",
-            "profileLink": "individual.html?id=designer-3"
+            "image": "./graphic designers/Graphic Design/Khanyiso Booi/7.jpg",
+            "profileLink": "individual.html?id=designer-3",
+            "images":["./graphic designers/Graphic Design/Khanyiso Booi/1.jpg","./graphic designers/Graphic Design/Khanyiso Booi/2.jpg","./graphic designers/Graphic Design/Khanyiso Booi/3.jpg","./graphic designers/Graphic Design/Khanyiso Booi/4.jpg","./graphic designers/Graphic Design/Khanyiso Booi/5.jpg","./graphic designers/Graphic Design/Khanyiso Booi/6.jpg","./graphic designers/Graphic Design/Khanyiso Booi/8.jpg","./graphic designers/Graphic Design/Khanyiso Booi/7.jpg"]
         },
         {
             "id":"designer-4",
@@ -469,7 +472,8 @@
             "location": "Cape Town",
             "description": "Andisiwe is a self taught artist who has hosted a succesful event in East London, collaborated with DJ Twists and collaborated with the rapper 'Flash'.",
             "image": "./graphic designers/Graphic Design/Andisiwe Matha/Profile pic.png",
-            "profileLink": "individual.html?id=designer-4"
+            "profileLink": "individual.html?id=designer-4",
+            "images":["./graphic designers/Graphic Design/Andisiwe Matha/1.jpg","./graphic designers/Graphic Design/Andisiwe Matha/2.jpg","./graphic designers/Graphic Design/Andisiwe Matha/3.png","./graphic designers/Graphic Design/Andisiwe Matha/4.png","./graphic designers/Graphic Design/Andisiwe Matha/5.jpg","./graphic designers/Graphic Design/Andisiwe Matha/6.jpg","./graphic designers/Graphic Design/Andisiwe Matha/Profile pic.png"]
         },
         {
             "id":"designer-5",
@@ -478,8 +482,9 @@
             "waist": "",
             "location": "",
             "description": "Daniel has experience with Adobe Photoshop,Illustrator and InDesign. Daniel crafts logos, event posters and social media graphics.",
-            "image": "./graphic designers/Graphic Design/Daniel Makhado/Artwork mega1.jpg",
-            "profileLink": "individual.html?id=designer-5"
+            "image": "./graphic designers/Graphic Design/Daniel Makhado/2.jpg",
+            "profileLink": "individual.html?id=designer-5",
+            "images":["./graphic designers/Graphic Design/Daniel Makhado/1.png","./graphic designers/Graphic Design/Daniel Makhado/3.jpg","./graphic designers/Graphic Design/Daniel Makhado/4.png","./graphic designers/Graphic Design/Daniel Makhado/5.png","./graphic designers/Graphic Design/Daniel Makhado/6.png","./graphic designers/Graphic Design/Daniel Makhado/7.png","./graphic designers/Graphic Design/Daniel Makhado/2.jpg"]
         },
         {
             "id":"designer-6",
@@ -488,8 +493,9 @@
             "waist": "",
             "location": "",
             "description": "Mabeka has 3 years of experience in the creative industry.His work includes digital illustration, typography and branding.",
-            "image": "./graphic designers/Graphic Design/Mabeka Kola/Banner.png",
-            "profileLink": "individual.html?id=designer-6"
+            "image": "./graphic designers/Graphic Design/Mabeka Kola/3.png",
+            "profileLink": "individual.html?id=designer-6",
+            "images":["./graphic designers/Graphic Design/Mabeka Kola/1.jpg","./graphic designers/Graphic Design/Mabeka Kola/2.png","./graphic designers/Graphic Design/Mabeka Kola/4.png","./graphic designers/Graphic Design/Mabeka Kola/5.png","./graphic designers/Graphic Design/Mabeka Kola/6.jpg","./graphic designers/Graphic Design/Mabeka Kola/7.jpg","./graphic designers/Graphic Design/Mabeka Kola/8.jpg","./graphic designers/Graphic Design/Mabeka Kola/9.png","./graphic designers/Graphic Design/Mabeka Kola/10.png","./graphic designers/Graphic Design/Mabeka Kola/11.jpg","./graphic designers/Graphic Design/Mabeka Kola/12.png","./graphic designers/Graphic Design/Mabeka Kola/13.png","./graphic designers/Graphic Design/Mabeka Kola/3.png"]
         },
         {
             "id":"designer-7",
@@ -499,7 +505,8 @@
             "location": "Cape Town",
             "description": "",
             "image": "./graphic designers/Graphic Design/Solomon Modiadie/img.jpg",
-            "profileLink": "individual.html?id=designer-7"
+            "profileLink": "individual.html?id=designer-7",
+            "images":["./graphic designers/Graphic Design/Solomon Modiadie/1.jpg","./graphic designers/Graphic Design/Solomon Modiadie/2.jpg","./graphic designers/Graphic Design/Solomon Modiadie/3.jpg","./graphic designers/Graphic Design/Solomon Modiadie/4.jpg","./graphic designers/Graphic Design/Solomon Modiadie/img.jpg"]
         },
         {
             "id":"designer-8",
@@ -508,8 +515,9 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./graphic designers/Graphic Design/Tiffany Naku/14.1.jpg",
-            "profileLink": "individual.html?id=designer-8"
+            "image": "./graphic designers/Graphic Design/Tiffany Naku/2.jpg",
+            "profileLink": "individual.html?id=designer-8",
+            "images":["./graphic designers/Graphic Design/Tiffany Naku/1.jpg","./graphic designers/Graphic Design/Tiffany Naku/3.jpg","./graphic designers/Graphic Design/Tiffany Naku/4.jpg","./graphic designers/Graphic Design/Tiffany Naku/5.jpg","./graphic designers/Graphic Design/Tiffany Naku/6.jpg","./graphic designers/Graphic Design/Tiffany Naku/7.jpg","./graphic designers/Graphic Design/Tiffany Naku/8.jpg","./graphic designers/Graphic Design/Tiffany Naku/10.jpg","./graphic designers/Graphic Design/Tiffany Naku/2.jpg"]
         },
         {
             "id":"designer-9",
@@ -519,7 +527,8 @@
             "location": "",
             "description": "",
             "image": "./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png",
-            "profileLink": "individual.html?id=designer-9"
+            "profileLink": "individual.html?id=designer-9",
+            "images":["./graphic designers/Graphic Design/Tshepang Bapela/1.png","./graphic designers/Graphic Design/Tshepang Bapela/2.png","./graphic designers/Graphic Design/Tshepang Bapela/3.png","./graphic designers/Graphic Design/Tshepang Bapela/4.png","./graphic designers/Graphic Design/Tshepang Bapela/7.png","./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png"]
         }
     ],
     "videographers":[

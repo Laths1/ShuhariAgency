@@ -1456,6 +1456,9 @@ model page
         padding: 1rem;
         gap: 1rem;
     }
+    #model-title{
+        font-size: 2.3rem;
+    }
 }
 
  /* ==========

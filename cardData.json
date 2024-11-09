@@ -321,24 +321,15 @@
     ],
     "photographers": [
         {
-            "id":"photographer-1",
-            "name": "Agmat Achmad",
-            "height": "5'8\"",
-            "waist": "26\"",
-            "location": "East London",
-            "description": "",
-            "image": "./photographers/Photographers/",
-            "profileLink": "individual.html?id=photographer-1"
-        },
-        {
-            "id":"'photographer-2",
+            "id":"photographer-2",
             "name": "aviona",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
-            "image": "./photographers/Photographers/Aviona/IMG_3643.jpg",
-            "profileLink": "individual.html?id=photographer-2"
+            "image": "./photographers/Photographers/Aviona/2.jpg",
+            "profileLink": "individual.html?id=photographer-2",
+            "images":["./photographers/Photographers/Aviona/1.jpg","./photographers/Photographers/Aviona/3.jpg","./photographers/Photographers/Aviona/4.jpg","./photographers/Photographers/Aviona/5.jpg","./photographers/Photographers/Aviona/2.jpg"]
         },
         {
             "id":"photographer-3",
@@ -348,7 +339,8 @@
             "location": "East London",
             "description": "",
             "image": "./photographers/Photographers/Chante Joubert/Profile Pic_.jpg",
-            "profileLink": "individual.html?id=photographer-3"
+            "profileLink": "individual.html?id=photographer-3",
+            "images":["./photographers/Photographers/Chante Joubert/1.jpg","./photographers/Photographers/Chante Joubert/2.jpg","./photographers/Photographers/Chante Joubert/3.jpg","./photographers/Photographers/Chante Joubert/4.jpg","./photographers/Photographers/Chante Joubert/Profile Pic_.jpg"]
         },
         {
             "id":"photographer-4",
@@ -368,7 +360,8 @@
             "location": "Cape Town",
             "description": "",
             "image": "./photographers/Photographers/Gabriella Lynn/Profile image_.jpg",
-            "profileLink": "individual.html?id=photographer-5"
+            "profileLink": "individual.html?id=photographer-5",
+            "images":["./photographers/Photographers/Gabriella Lynn/1.jpg","./photographers/Photographers/Gabriella Lynn/2.jpg","./photographers/Photographers/Gabriella Lynn/3.jpg","./photographers/Photographers/Gabriella Lynn/4.jpg","./photographers/Photographers/Gabriella Lynn/Profile image_.jpg"]
         },
         {
             "id":"photographer-6",
@@ -378,7 +371,8 @@
             "location": "Cape Town",
             "description": "",
             "image": "./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg",
-            "profileLink": "individual.html?id=photographer-6"
+            "profileLink": "individual.html?id=photographer-6",
+            "images":["./photographers/Photographers/Itumeleng Khutso/1.jpg","./photographers/Photographers/Itumeleng Khutso/2.jpg","./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg"]
         },
         {
             "id":"photographer-7",
@@ -387,8 +381,9 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./photographers/Photographers/Juvan Aaron/Profile pic.jpg",
-            "profileLink": "individual.html?id=photographer-7"
+            "image": "./photographers/Photographers/Juvan Aaron/1.jpg",
+            "profileLink": "individual.html?id=photographer-7",
+            "images":["./photographers/Photographers/Juvani Aaron/1.jpg","./photographers/Photographers/Juvani Aaron/2.jpg"]
         },
         {
             "id":"photographer-8",
@@ -398,7 +393,8 @@
             "location": "Cape Town",
             "description": "",
             "image": "./photographers/Photographers/Melo Bopape/profile p.jpg",
-            "profileLink": "individual.html?id=photographer-8"
+            "profileLink": "individual.html?id=photographer-8",
+            "images":["./photographers/Photographers/Melo Bopape/1.jpeg","./photographers/Photographers/Melo Bopape/2.jpeg","./photographers/Photographers/Melo Bopape/3.jpeg","./photographers/Photographers/Melo Bopape/4.jpeg","./photographers/Photographers/Melo Bopape/5.jpeg","./photographers/Photographers/Melo Bopape/profile p.jpg"]
         },
         {
             "id":"photographer-9",
@@ -408,7 +404,8 @@
             "location": "Cape Town",
             "description": "",
             "image": "./photographers/Photographers/Tinashe Chihwayi/Profile pic_.jpg",
-            "profileLink": "individual.html?id=photographer-9"
+            "profileLink": "individual.html?id=photographer-9",
+            "images":["./photographers/Photographers/Tinashe Chihwayi/1.jpeg","./photographers/Photographers/Tinashe Chihwayi/2.jpeg","./photographers/Photographers/Tinashe Chihwayi/3.jpeg","./photographers/Photographers/Tinashe Chihwayi/4.jpeg","./photographers/Photographers/Tinashe Chihwayi/5.jpeg","./photographers/Photographers/Tinashe Chihwayi/Profile pic_.jpg"]
         },
         {
             "id":"photographer-10",
@@ -417,8 +414,9 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./photographers/Photographers/Uriel Dombo/image00010.jpeg",
-            "profileLink": "individual.html?id=photographer-10"
+            "image": "./photographers/Photographers/Uriel Dombo/5.jpeg",
+            "profileLink": "individual.html?id=photographer-10",
+            "images":["./photographers/Photographers/Uriel Dombo/1.jpeg","./photographers/Photographers/Uriel Dombo/2.jpeg","./photographers/Photographers/Uriel Dombo/3.jpeg","./photographers/Photographers/Uriel Dombo/4.jpeg","./photographers/Photographers/Uriel Dombo/5.jpeg"]
         },
         {
             "id":"photographer-11",
@@ -428,7 +426,8 @@
             "location": "",
             "description": "",
             "image": "./photographers/Photographers/Wessy/Profile Pic_.jpg",
-            "profileLink": "individual.html?id=photographer-11"
+            "profileLink": "individual.html?id=photographer-11",
+            "images":["./photographers/Photographers/Wessy/1.jpg","./photographers/Photographers/Wessy/2.jpg","./photographers/Photographers/Wessy/3.jpg","./photographers/Photographers/Wessy/4.jpg","./photographers/Photographers/Wessy/5.jpg","./photographers/Photographers/Wessy/Profile Pic.jpg"]
         }
     ],
     "designers":[

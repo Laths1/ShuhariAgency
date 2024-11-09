@@ -76,9 +76,10 @@
             "waist": "",
             "location": "Worcester",
             "description": "Logan Kirby, a model specializing in editorial, commercial, and fashion work. Passionate about blending creativity with commercial appeal.",
-            "image": "./models/Models/Logan Kirby/-5875053784328160068_121.jpg",
+            "image": "./models/Models/Logan Kirby/1.jpg",
             "profileLink": "individual.html?id=model-7",
-            "gender":"w"
+            "gender":"w",
+            "images":["./models/Models/Logan Kirby/3.jpg","./models/Models/Logan Kirby/2.jpg","./models/Models/Logan Kirby/1.jpg"]
         },
         {
             "id": "model-8",
@@ -89,7 +90,8 @@
             "description": "",
             "image": "./models/Models/Lona Ngwenze/Profile_.jpg",
             "profileLink": "individual.html?id=model-8",
-            "gender":"w"
+            "gender":"w",
+            "images":["./models/Models/Lona Ngwenze/1.jpg","./models/Models/Lona Ngwenze/2.jpg","./models/Models/Lona Ngwenze/3.jpg","./models/Models/Lona Ngwenze/Profile_.jpg"]
         },
         {
             "id": "model-9",
@@ -111,7 +113,8 @@
             "description": "Meegan Williams, a model specializing in erotic photography, body part modeling, and fit modeling.",
             "image": "./models/Models/Meagan Williams/profile_.jpg",
             "profileLink": "individual.html?id=model-10",
-            "gender":"w"
+            "gender":"w",
+            "images":["./models/Models/Meagan Williams/1.jpg","./models/Models/Meagan Williams/2.jpg","./models/Models/Mea2gan Williams/profile_.jpg"]
         },
         {
             "id":"model-11",
@@ -133,7 +136,8 @@
             "description": "",
             "image": "./models/Models/Nande Maxawula/FullSizeRender.jpeg",
             "profileLink": "individual.html?id=model-12",
-            "gender":"w"
+            "gender":"w",
+            "images":["./models/Models/Nande Maxawula/1.jpeg","./models/Models/Nande Maxawula/2.jpeg","./models/Models/Nande Maxawula/3.jpeg","./models/Models/Nande Maxawula/4.jpeg","./models/Models/Nande Maxawula/FullSizeRender.jpeg"]
         },
         {
             "id":"model-13",

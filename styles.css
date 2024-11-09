@@ -373,7 +373,7 @@ nav
 .nav-items li a:hover {
     background-color: var(--primary-color-6); /* Hover background color */
     color:var(--primary-color-5);
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
 }
 
 .dropdown-content {
@@ -1397,6 +1397,57 @@ label{
      
      
  }
+
+ /* ==========
+model page
+========== */
+#model-title{
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    padding: 2rem 0;
+}
+.model-container{
+    display: flex;
+    padding: 0 8rem ;
+    padding-bottom: 8rem;
+    gap: 2rem;
+}
+.men-container h3,.women-container h3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color-5);
+    margin: auto;
+}
+.men-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url(./models/Models/Hussein/profile.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    transition: var(--transition);
+}
+.women-container{
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url(./models/Models/Thayanda/Profile\ Pic.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: var(--transition);
+}
+.men-container:hover,.women-container:hover{
+    opacity: 0.9;
+}
+
 
  /* ==========
 talents

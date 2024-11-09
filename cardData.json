@@ -8,7 +8,8 @@
             "location": "East London",
             "description": "",
             "image": "./models/Models/Azukiwe Gwentshe/profile_.jpg",
-            "profileLink": "individual.html?id=model-1"
+            "profileLink": "individual.html?id=model-1",
+            "gender":"w"
         },
         {
             "id":"model-2",
@@ -18,7 +19,8 @@
             "location": "East London",
             "description": "Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling.",
             "image": "./models/Models/Elisa Mahloane/Profile_.jpg",
-            "profileLink": "individual.html?id=model-2"
+            "profileLink": "individual.html?id=model-2",
+            "gender":"w"
         },
         {
             "id":"model-3",
@@ -28,7 +30,8 @@
             "location": "",
             "description": "",
             "image": "./models/Models/Leo/DSCF2445.jpg",
-            "profileLink": "individual.html?id=model-3"
+            "profileLink": "individual.html?id=model-3",
+            "gender":"m"
         },
         {
             "id":"model-4",
@@ -38,7 +41,8 @@
             "location": "",
             "description": "Thayanda approaches modeling as a creative collaboration, becoming the canvas with her appearance, energy.",
             "image": "./models/Models/Thayanda/Profile Pic.jpg",
-            "profileLink": "individual.html?id=model-4"
+            "profileLink": "individual.html?id=model-4",
+            "gender":"w"
         },
         {
             "id":"model-5",
@@ -48,7 +52,8 @@
             "location": "Cape Town",
             "description": "Gia Paulse, an artist dedicated to pushing boundaries in modeling. She brings beauty, creativity, and expression to every project.",
             "image": "./models/Models/Gia Paulse/IMG_7140.jpeg",
-            "profileLink": "individual.html?id=model-5"
+            "profileLink": "individual.html?id=model-5",
+            "gender":"w"
         },
         {
             "id":"model-6",
@@ -58,7 +63,8 @@
             "location": "",
             "description": "",
             "image": "./models/Models/Hussein/profile.jpg",
-            "profileLink": "individual.html?id=model-6"
+            "profileLink": "individual.html?id=model-6",
+            "gender":"m"
         },
         {
             "id":"model-7",
@@ -68,7 +74,8 @@
             "location": "Worcester",
             "description": "Logan Kirby, a model specializing in editorial, commercial, and fashion work. Passionate about blending creativity with commercial appeal.",
             "image": "./models/Models/Logan Kirby/-5875053784328160068_121.jpg",
-            "profileLink": "individual.html?id=model-7"
+            "profileLink": "individual.html?id=model-7",
+            "gender":"w"
         },
         {
             "id": "model-8",
@@ -78,7 +85,8 @@
             "location": "",
             "description": "",
             "image": "./models/Models/Lona Ngwenze/Profile_.jpg",
-            "profileLink": "individual.html?id=model-8"
+            "profileLink": "individual.html?id=model-8",
+            "gender":"w"
         },
         {
             "id": "model-9",
@@ -88,7 +96,8 @@
             "location": "Cape Town",
             "description": "Lwazi Goniwe, a model who has appeared in Heineken, 4th Street, The Street FW24, and Khayelitsha Fashion Week.",
             "image": "./models/Models/Lwazi Goniwe/ZFullSizeRender.jpg",
-            "profileLink": "individual.html?id=model-9"
+            "profileLink": "individual.html?id=model-9",
+            "gender":"m"
         },
         {
             "id":"model-10",
@@ -98,7 +107,8 @@
             "location": "Cape Town",
             "description": "Meegan Williams, a model specializing in erotic photography, body part modeling, and fit modeling.",
             "image": "./models/Models/Meagan Williams/profile_.jpg",
-            "profileLink": "individual.html?id=model-10"
+            "profileLink": "individual.html?id=model-10",
+            "gender":"w"
         },
         {
             "id":"model-11",
@@ -108,7 +118,8 @@
             "location": "",
             "description": "Ryan Sihamba, a model specializing in commercial and fashion work. He has showcased local fashion brands.",
             "image": "./models/Models/Mpho Ryan Sihamba/Profile_.jpg",
-            "profileLink": "individual.html?id=model-11"
+            "profileLink": "individual.html?id=model-11",
+            "gender":"m"
         },
         {
             "id":"model-12",
@@ -118,7 +129,8 @@
             "location": "",
             "description": "",
             "image": "./models/Models/Nande Maxawula/FullSizeRender.jpeg",
-            "profileLink": "individual.html?id=model-12"
+            "profileLink": "individual.html?id=model-12",
+            "gender":"w"
         },
         {
             "id":"model-13",
@@ -128,7 +140,8 @@
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
             "image": "./models/Models/Ontari/IMG_0437.jpeg",
-            "profileLink": "individual.html?id=model-13"
+            "profileLink": "individual.html?id=model-13",
+            "gender":"m"
         },
         {
             "id":"model-14",
@@ -138,7 +151,8 @@
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
             "image": "./models/Models/Sam/Profile_.jpg",
-            "profileLink": "individual.html?id=model-14"
+            "profileLink": "individual.html?id=model-14",
+            "gender":"m"
         },
         {
             "id":"model-15",
@@ -148,7 +162,8 @@
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
             "image": "./models/Models/Sam/Profile_.jpg",
-            "profileLink": "individual.html?id=model-15"
+            "profileLink": "individual.html?id=model-15",
+            "gender":"m"
         }
     ],
     "editors": [

@@ -31,9 +31,10 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./models/Models/Leo/DSCF2445.jpg",
+            "image": "./models/Models/Leo/Profile_.jpg",
             "profileLink": "individual.html?id=model-3",
-            "gender":"m"
+            "gender":"m",
+            "images":["./models/Models/Leo/1.jpg","./models/Models/Leo/2.jpg","./models/Models/Leo/3.jpg","./models/Models/Leo/4.jpg","./models/Models/Leo/5.jpg","./models/Models/Leo/6.jpg","./models/Models/Leo/Profile_.jpg"]
         },
         {
             "id":"model-4",
@@ -67,7 +68,8 @@
             "description": "",
             "image": "./models/Models/Hussein/profile.jpg",
             "profileLink": "individual.html?id=model-6",
-            "gender":"m"
+            "gender":"m",
+            "images":["./models/Models/Hussein/1.png","./models/Models/Hussein/2.jpeg","./models/Models/Hussein/3.jpeg","./models/Models/Hussein/4.jpeg","./models/Models/Hussein/5.jpeg","./models/Models/Hussein/6.jpeg","./models/Models/Hussein/7.png","./models/Models/Hussein/8.png","./models/Models/Hussein/profile.jpg"]
         },
         {
             "id":"model-7",
@@ -125,7 +127,8 @@
             "description": "Ryan Sihamba, a model specializing in commercial and fashion work. He has showcased local fashion brands.",
             "image": "./models/Models/Mpho Ryan Sihamba/Profile_.jpg",
             "profileLink": "individual.html?id=model-11",
-            "gender":"m"
+            "gender":"m",
+            "images":["./models/Models/Mpho Ryan Sihamba/1.jpg","./models/Models/Mpho Ryan Sihamba/2.jpeg","./models/Models/Mpho Ryan Sihamba/3.jpeg","./models/Models/Mpho Ryan Sihamba/4.jpeg","./models/Models/Mpho Ryan Sihamba/Profile_.jpg"]
         },
         {
             "id":"model-12",
@@ -146,9 +149,10 @@
             "waist": "",
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
-            "image": "./models/Models/Ontari/IMG_0437.jpeg",
+            "image": "./models/Models/Ontari/2.jpeg",
             "profileLink": "individual.html?id=model-13",
-            "gender":"m"
+            "gender":"m",
+            "images":["./models/Models/Ontari/1.jpeg","./models/Models/Ontari/2.jpeg","./models/Models/Ontari/3.jpeg","./models/Models/Ontari/4.jpeg"]
         },
         {
             "id":"model-14",
@@ -159,18 +163,8 @@
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
             "image": "./models/Models/Sam/Profile_.jpg",
             "profileLink": "individual.html?id=model-14",
-            "gender":"m"
-        },
-        {
-            "id":"model-15",
-            "name": "uju",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
-            "image": "./models/Models/Sam/Profile_.jpg",
-            "profileLink": "individual.html?id=model-15",
-            "gender":"m"
+            "gender":"m",
+            "images":["./models/Models/Sam/1.jpeg","./models/Models/Sam/2.jpg","./models/Models/Sam/3.jpg","./models/Models/Sam/4.jpg","./models/Models/Sam/5.jpg","./models/Models/Sam/Profile_.jpg"]
         }
     ],
     "editors": [

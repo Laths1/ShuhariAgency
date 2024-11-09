@@ -15,10 +15,10 @@ fetch('cardData.json')
                         <h3>location: ${photographer.location || 'N/A'}</h3>
                     </div>
                    <!-- <div class="talent-sub-text"><p>${photographer.description || ''}</p></div> -->
-                    <div class="btn person-btn" id="person-btn"><a href="${photographer.profileLink}" target="_blank"> view</a></div>
+                    <div class="btn person-btn" id="person-btn"><a href="${photographer.profileLink}" > view</a></div>
                 </div>
                 <div class="talent-img">
-                    <a href="${photographer.profileLink}" target="_blank"><img src="${photographer.image}" alt="${photographer.name}"></a>
+                    <a href="${photographer.profileLink}" ><img src="${photographer.image}" alt="${photographer.name}"></a>
                 </div>
             `;
 

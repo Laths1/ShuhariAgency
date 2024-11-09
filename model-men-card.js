@@ -16,10 +16,10 @@ fetch('cardData.json')
                         <h3>location: ${model.location || 'N/A'}</h3>
                     </div>
                     <!-- <div class="talent-sub-text"><p>${model.description || ''}</p></div> -->
-                    <div class="btn person-btn" id="person-btn"><a href="${model.profileLink}" target="_blank"> view</a></div>
+                    <div class="btn person-btn" id="person-btn"><a href="${model.profileLink}"> view</a></div>
                 </div>
                 <div class="talent-img">
-                    <a href="${model.profileLink}" target="_blank"><img src="${model.image}" alt="${model.name}"></a>
+                    <a href="${model.profileLink}"><img src="${model.image}" alt="${model.name}"></a>
                 </div>
             `;
             container.appendChild(card);

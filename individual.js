@@ -45,7 +45,7 @@ fetch('cardData.json')
                 const imgElement = document.createElement('img');
                 imgElement.src = image;
                 imgElement.alt = `${person.name}`;
-                imgElement.style.width = "100%"; // Adjust the size as needed
+                // imgElement.style.width = "100%"; // Adjust the size as needed
                 imagesContainer.appendChild(imgElement);
             });
             }

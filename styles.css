@@ -1497,6 +1497,23 @@ individual page
 }
 .details{
     display: flex;
+    gap: 2rem;
+}
+.images-container{
+    width: 100%;
+    /* background: black; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    gap: .35rem;
+}
+.images-container img{
+    width: 33%;
+}
+.bio{
+    text-align: justify;
+    padding-top: 2rem ;
+    max-width: 50%;
 }
 .name{
     color: var(--primary-color-3);
@@ -1521,6 +1538,9 @@ individual page
     }
     .name{
         font-weight: 300;
+    }
+    .images-container img{
+        width: 100%;
     }
 }
  /* ==========

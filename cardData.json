@@ -176,7 +176,8 @@
             "location": "East London",
             "description": "",
             "image": "./editors/Blake Crankshaw/",
-            "profileLink": "individual.html?id=editor-1"
+            "profileLink": "individual.html?id=editor-1",
+            "videos":["https://www.youtube.com/embed/kbml9dOg7w8?si=eewHUGMDRliLc5LA"]
         },
         {
             "id":"editor-2",
@@ -216,7 +217,8 @@
             "location": "East London",
             "description": "",
             "image": "./editors/Thandiwe Dhlamini/",
-            "profileLink": "individual.html?id=editor-5"
+            "profileLink": "individual.html?id=editor-5",
+            "videos":["https://www.youtube.com/embed/5NR7PNyXw7k?si=qVQY3immsKrn_gWh"]
         },
         {
             "id":"editor-6",
@@ -226,7 +228,8 @@
             "location": "Cape Town",
             "description": "",
             "image": "./editors/Dylan Mohlala/",
-            "profileLink": "individual.html?id=editor-6"
+            "profileLink": "individual.html?id=editor-6",
+            "videos":["https://www.youtube.com/embed/3iQTgqWTA-w?si=O8qry6k-lfOSKnJT"]
         },
         {
             "id":"editor-7",
@@ -236,7 +239,8 @@
             "location": "Cape Town",
             "description": "",
             "image": "./editors/Herschelle Adams/",
-            "profileLink": "individual.html?id=editor-7"
+            "profileLink": "individual.html?id=editor-7",
+            "videos":["https://www.youtube.com/embed/co__7Qn0EoI?si=EH4L2KdoLHe80Ksd"]
         },
         {
             "id":"editor-8",
@@ -246,7 +250,8 @@
             "location": "",
             "description": "",
             "image": "./editors/Imran Goga/",
-            "profileLink": "individual.html?id=editor-8"
+            "profileLink": "individual.html?id=editor-8",
+            "videos":["https://www.youtube.com/embed/HfJN42JkbQY?si=HDU7LKwshg9hjniT"]
         },
         {
             "id":"editor-9",
@@ -256,7 +261,8 @@
             "location": "",
             "description": "",
             "image": "./editors/Kai Trull/",
-            "profileLink": "individual.html?id=editor-9"
+            "profileLink": "individual.html?id=editor-9",
+            "videos":["https://www.youtube.com/embed/SVWfbEx9h1I?si=ekQ0uRIUITVwdi3r"]
         },
         {
             "id":"editor-10",
@@ -266,7 +272,8 @@
             "location": "",
             "description": "",
             "image": "./editors/Kesavan Govender/",
-            "profileLink": "individual.html?id=editor-10"
+            "profileLink": "individual.html?id=editor-10",
+            "videos":["https://www.youtube.com/embed/GZKJhdDYn2A?si=qIgIlRWRNksFAquM"]
         },
         {
             "id":"editor-11",
@@ -276,7 +283,8 @@
             "location": "",
             "description": "",
             "image": "./editors/Kuluyolo Hansie/",
-            "profileLink": "individual.html?id=editor-11"
+            "profileLink": "individual.html?id=editor-11",
+            "videos":["https://www.youtube.com/embed/MIR1zg1AS5M?si=i36581QkKelHJKAm"]
         },
         {
             "id":"editor-12",
@@ -306,7 +314,8 @@
             "location": "",
             "description": "",
             "image": "./editors/Sandile Mosimane/",
-            "profileLink": "individual.html?id=editor-14"
+            "profileLink": "individual.html?id=editor-14",
+            "videos":["https://www.youtube.com/embed/0-eQHXBQXBU?si=1unwpR0tvbgwc9nQ"]
         },
         {
             "id":"editor-15",
@@ -540,7 +549,8 @@
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-1"
+            "profileLink": "individual.html?id=videographer-1",
+            "videos":["https://www.youtube.com/embed/MpT8IipcPLU?si=LL-MCsbejfYgOf8Q"]
         },
         {
             "id":"videographer-2",
@@ -570,7 +580,8 @@
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-4"
+            "profileLink": "individual.html?id=videographer-4",
+            "videos":["https://www.youtube.com/embed/UKTXlRBP9xg?si=RdPVZP9KHwsIIVJv"]
         },
         {
             "id":"videographer-5",
@@ -590,27 +601,30 @@
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-6"
+            "profileLink": "individual.html?id=videographer-6",
+            "videos":["https://www.youtube.com/embed/Kt7DWiMVDtE?si=29NSf9FIwbUdwvR2"]
         },
         {
             "id":"videographer-7",
-            "name": "nyibo khoza",
+            "name": "nyiko khoza",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-7"
+            "profileLink": "individual.html?id=videographer-7",
+            "videos":["https://www.youtube.com/embed/GMHC6W73LbI?si=nkUb3HdL2t7gwDz1"]
         },
         {
             "id":"videographer-8",
-            "name": "sansile mosimane",
+            "name": "sandile mosimane",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-8"
+            "profileLink": "individual.html?id=videographer-8",
+            "videos":["https://www.youtube.com/embed/0-eQHXBQXBU?si=1unwpR0tvbgwc9nQ"]
         },
         {
             "id":"videographer-9",
@@ -620,7 +634,8 @@
             "location": "",
             "description": "",
             "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-9"
+            "profileLink": "individual.html?id=videographer-9",
+            "videos":["https://www.youtube.com/embed/6wWCGGNpsP4?si=yOJCcc3D3D2G_Vfz"]
         }
     ]
 }

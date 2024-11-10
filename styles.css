@@ -155,11 +155,12 @@ img{
      color: var(--primary-color-4);
      font-size: 1rem;
      line-height: 1.5rem;
-     font-weight: 200;
+     font-weight: 300;
  }
  @media screen and (max-width:576px){
     p{
         font-size: 1rem;
+        font-weight: 200;
     }
  }
  .content-divider{
@@ -870,8 +871,7 @@ gallery
   
   .carousel-item img {
     width: 100%;
-    height: 100%;
-
+    /* height: 100%; */
     object-fit: cover;
   }
   

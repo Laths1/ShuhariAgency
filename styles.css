@@ -145,7 +145,7 @@ img{
  h3{
      font-family: var(--ff-primary-1);
      text-transform: capitalize;
-     /* font-weight: 300; */
+     font-weight: 400;
      font-size: 1.25rem;
      color: var(--primary-color-4);
  }
@@ -155,7 +155,7 @@ img{
      color: var(--primary-color-4);
      font-size: 1rem;
      line-height: 1.5rem;
-     /* font-weight: 300; */
+     font-weight: 200;
  }
  @media screen and (max-width:576px){
     p{
@@ -254,7 +254,7 @@ hero
 @media screen and (max-width:576px){
     .home-page-container{
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-        url(./models/Models/Thayanda/image00068.JPG);
+        url(./models/Models/Thayanda/2.JPG);
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
@@ -295,7 +295,7 @@ hero
 @media screen and (max-width:1000px){
     .home-page-container{
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-        url(./models/Models/Thayanda/image00068.JPG);
+        url(./models/Models/Thayanda/2.JPG);
         display: flex;
         flex-direction: column;
     }

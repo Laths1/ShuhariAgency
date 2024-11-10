@@ -287,7 +287,7 @@ hero
         display: none;
     }
     .hero-sub-text p{
-        text-align: center;
+        text-align: justify;
         width: 65vw;
         position: relative;
         bottom: -5rem;
@@ -326,7 +326,7 @@ hero
         text-align: center;
     }
     .hero-sub-text p{
-        text-align: center;
+        text-align: justify;
         width: 65vw;
         position: relative;
         bottom: -5rem;
@@ -663,6 +663,7 @@ about
 }
 .about-text-container{
     max-width: 50%;
+    text-align: justify;
 }
 .about-main-text{
     padding-top: 1rem;
@@ -686,7 +687,7 @@ about
 @media screen and (max-width:576px){
     .about-text-container{
         max-width: 100%;
-        text-align: center;
+        text-align: justify;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -732,6 +733,7 @@ about
     .about-sub-text p{
         max-width: 90vw;
         font-size: 1rem;
+        text-align: justify;
     }
 }
 /* ==========
@@ -1149,8 +1151,11 @@ contributions
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: justify;
         max-height: fit-content;
+    }
+    .contributions-text p{
+        text-align:justify;
     }
     .contributions-img{
         align-items: center;
@@ -1196,8 +1201,11 @@ contributions
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: justify;
         max-height: fit-content;
+    }
+    .contributions-text p{
+        text-align:justify;
     }
     .contributions-img{
         align-items: center;
@@ -1479,6 +1487,43 @@ model page
 }
 
  /* ==========
+individual page
+========== */
+.profile{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details{
+    display: flex;
+}
+.name{
+    color: var(--primary-color-3);
+}
+@media screen and (max-width: 992px) {
+    .details{
+        gap: 2rem;
+    }
+    .details p, .location p{
+        font-weight: 100;
+    }
+    .bio{
+        padding: 1rem;
+        padding-top: 2.5rem;
+        text-align: justify;
+    }
+    .images-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .name{
+        font-weight: 300;
+    }
+}
+ /* ==========
 talentshe
 ========== */
 .talent-container{
@@ -1519,7 +1564,7 @@ talentshe
     height: 50%;
     margin: 1rem 0; /* Adjust the margin to have spacing between cards */
     transition: var(--transition);
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     /* padding: 1rem; */
     text-align: center;
 }
@@ -1535,8 +1580,8 @@ talentshe
     width: 50%;
 }
 .talent-img img{
-    border-top-right-radius: var(--radius);
-    border-bottom-right-radius: var(--radius);
+    /* border-top-right-radius: var(--radius); */
+    /* border-bottom-right-radius: var(--radius); */
     width:100%;
     height: 25rem;
     object-fit: cover;
@@ -1558,7 +1603,7 @@ talentshe
 
 .manifesto-card {
     margin: 2rem auto;
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     box-shadow: 0 5px 15px var(--primary-color-7);
     transition: var(--transition);
     width: 30%;
@@ -1572,8 +1617,8 @@ talentshe
 .manifesto-img {
     height: 17rem;
     object-fit: cover;
-    border-top-left-radius: var(--radius);
-    border-top-right-radius: var(--radius);
+    /* border-top-left-radius: var(--radius); */
+    /* border-top-right-radius: var(--radius); */
 }
 
 .manifesto-info {

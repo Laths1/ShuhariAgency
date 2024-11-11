@@ -57,7 +57,8 @@
             "description": "Gia Paulse, an artist dedicated to pushing boundaries in modeling. She brings beauty, creativity, and expression to every project.",
             "image": "./models/Models/Gia Paulse/IMG_7140.jpeg",
             "profileLink": "individual.html?id=model-5",
-            "gender":"w"
+            "gender":"w",
+            "images":["./models/Models/Gia Paulse/2.jpg","./models/Models/Gia Paulse/IMG_7140.jpeg"]
         },
         {
             "id":"model-6",
@@ -81,7 +82,7 @@
             "image": "./models/Models/Logan Kirby/1.jpg",
             "profileLink": "individual.html?id=model-7",
             "gender":"w",
-            "images":["./models/Models/Logan Kirby/3.jpg","./models/Models/Logan Kirby/2.jpg","./models/Models/Logan Kirby/1.jpg"]
+            "images":["./models/Models/Logan Kirby/3.jpg","./models/Models/Logan Kirby/2.jpg","./models/Models/Logan Kirby/4.jpg","./models/Models/Logan Kirby/5.jpg","./models/Models/Logan Kirby/1.jpg"]
         },
         {
             "id": "model-8",
@@ -164,7 +165,43 @@
             "image": "./models/Models/Sam/Profile_.jpg",
             "profileLink": "individual.html?id=model-14",
             "gender":"m",
-            "images":["./models/Models/Sam/1.jpeg","./models/Models/Sam/2.jpg","./models/Models/Sam/3.jpg","./models/Models/Sam/4.jpg","./models/Models/Sam/5.jpg","./models/Models/Sam/Profile_.jpg"]
+            "images":["./models/Models/Sam/1.jpeg","./models/Models/Sam/2.jpg","./models/Models/Sam/3.jpg","./models/Models/Sam/4.jpg","./models/Models/Sam/5.jpg","./models/Models/Sam/6.jpg","./models/Models/Sam/Profile_.jpg"]
+        },
+        {
+            "id":"model-15",
+            "name": "daniel kassy",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
+            "image": "./models/Models/Daniel Kassy/1.jpg",
+            "profileLink": "individual.html?id=model-15",
+            "gender":"m",
+            "images":["./models/Models/Daniel Kassy/2.jpg","./models/Models/Daniel Kassy/3.jpg","./models/Models/Daniel Kassy/4.jpg","./models/Models/Daniel Kassy/5.jpg","./models/Models/Daniel Kassy/1.jpg"]
+        },
+        {
+            "id":"model-16",
+            "name": "Kasim Aishakiye",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
+            "image": "./models/Models/Kasim Aishakiye/1.jpg",
+            "profileLink": "individual.html?id=model-16",
+            "gender":"m",
+            "images":["./models/Models/Kasim Aishakiye/1.jpg","./models/Models/Kasim Aishakiye/2.jpg"]
+        },
+        {
+            "id":"model-17",
+            "name": "Uju",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
+            "image": "./models/Models/Uju/1.jpg",
+            "profileLink": "individual.html?id=model-17",
+            "gender":"w",
+            "images":["./models/Models/Uju/1.jpg","./models/Models/Uju/2.jpg"]
         }
     ],
     "editors": [
@@ -304,7 +341,8 @@
             "location": "",
             "description": "",
             "image": "./editors/Rudolf Wohner/",
-            "profileLink": "individual.html?id=editor-13"
+            "profileLink": "individual.html?id=editor-13",
+            "videos":["https://www.youtube.com/embed/i8ksBbN8ZR0?si=hZ_MDXrh_LDuphDE"]
         },
         {
             "id":"'editor-14",
@@ -325,7 +363,19 @@
             "location": "",
             "description": "",
             "image": "./editors/Sharon Mnisi/",
-            "profileLink": "individual.html?id=editor-15"
+            "profileLink": "individual.html?id=editor-15",
+            "videos":["https://www.youtube.com/embed/7ehN-XTJw5k?si=Godgim0a9q9GlUOd"]
+        },
+        {
+            "id":"editor-16",
+            "name": "malope le roux",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "",
+            "image": "./editors/Malope Le Roux/",
+            "profileLink": "individual.html?id=editor-16",
+            "videos":["https://www.youtube.com/embed/ON1uaCbPSFU?si=7pEevT-Ub8CyNczf"]    
         }
     ],
     "photographers": [
@@ -342,14 +392,14 @@
         },
         {
             "id":"photographer-3",
-            "name": "Chante Joubert",
+            "name": "agmat achmad",
             "height": "5'8\"",
             "waist": "26\"",
             "location": "East London",
             "description": "",
-            "image": "./photographers/Photographers/Chante Joubert/Profile Pic_.jpg",
+            "image": "./photographers/Photographers/Agmat Achmad/",
             "profileLink": "individual.html?id=photographer-3",
-            "images":["./photographers/Photographers/Chante Joubert/1.jpg","./photographers/Photographers/Chante Joubert/2.jpg","./photographers/Photographers/Chante Joubert/3.jpg","./photographers/Photographers/Chante Joubert/4.jpg","./photographers/Photographers/Chante Joubert/Profile Pic_.jpg"]
+            "images":["./photographers/Photographers/Agmat Achmad"]
         },
         {
             "id":"photographer-4",
@@ -437,6 +487,39 @@
             "image": "./photographers/Photographers/Wessy/Profile Pic_.jpg",
             "profileLink": "individual.html?id=photographer-11",
             "images":["./photographers/Photographers/Wessy/1.jpg","./photographers/Photographers/Wessy/2.jpg","./photographers/Photographers/Wessy/3.jpg","./photographers/Photographers/Wessy/4.jpg","./photographers/Photographers/Wessy/5.jpg","./photographers/Photographers/Wessy/Profile Pic.jpg"]
+        },
+        {
+            "id":"photographer-12",
+            "name": "Gift Mathunjwa",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "",
+            "image": "./photographers/Photographers/Gift Mathunjwa/",
+            "profileLink": "individual.html?id=photographer-12",
+            "images":["./photographers/Photographers/Gift Mathunjwa"]
+        },
+        {
+            "id":"photographer-13",
+            "name": "Katlego Khumalo",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "",
+            "image": "./photographers/Photographers/Katlego Khumalo",
+            "profileLink": "individual.html?id=photographer-13",
+            "images":["./photographers/Photographers/Katlego Khumalo"]
+        },
+        {
+            "id":"photographer-14",
+            "name": "Minenhle Sithebe",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "",
+            "image": "./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/1.jpg",
+            "profileLink": "individual.html?id=photographer-14",
+            "images":["./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/2.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/3.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/4.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/5.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/6.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/1.jpg"]
         }
     ],
     "designers":[
@@ -538,6 +621,28 @@
             "image": "./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png",
             "profileLink": "individual.html?id=designer-9",
             "images":["./graphic designers/Graphic Design/Tshepang Bapela/1.png","./graphic designers/Graphic Design/Tshepang Bapela/2.png","./graphic designers/Graphic Design/Tshepang Bapela/3.png","./graphic designers/Graphic Design/Tshepang Bapela/4.png","./graphic designers/Graphic Design/Tshepang Bapela/7.png","./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png"]
+        },
+        {
+            "id":"designer-10",
+            "name": "Naledi Shange",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "",
+            "image": "./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/1.jpeg",
+            "profileLink": "individual.html?id=designer-10",
+            "images":["./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/2.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/3.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/4.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/5.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/1.jpeg"]
+        },
+        {
+            "id":"designer-11",
+            "name": "Tshepang Ramokoplwa",
+            "height": "",
+            "waist": "",
+            "location": "",
+            "description": "",
+            "image": "./graphic designers/Graphic Design/Tshepang Ramokoplwa/profile pic.png",
+            "profileLink": "individual.html?id=designer-11",
+            "images":["./graphic designers/Graphic Design/Tshepang Ramokoplwa/1.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/2.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/3.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/4.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/7.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/profile pic.png"]
         }
     ],
     "videographers":[

@@ -1518,6 +1518,7 @@ individual page
         padding: 1rem;
         padding-top: 2.5rem;
         text-align: justify;
+        max-width: 100%;
     }
     .images-container{
         display: flex;

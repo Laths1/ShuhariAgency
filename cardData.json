@@ -10,7 +10,7 @@
             "image": "./models/Models/Azukiwe Gwentshe/profile_.jpg",
             "profileLink": "individual.html?id=model-1",
             "gender":"w",
-            "images":["./models/Models/Azukiwe Gwentshe/image0.jpeg","./models/Models/Azukiwe Gwentshe/ImG_3533.jpg","./models/Models/Azukiwe Gwentshe/Photo from Odwa Nonyati.jpg","models/Models/Azukiwe Gwentshe/profile_.jpg"]
+            "images":["./models/Models/Azukiwe Gwentshe/image0.jpeg","./models/Models/Azukiwe Gwentshe/IMG_3533.jpg","./models/Models/Azukiwe Gwentshe/Photo from Odwa Nonyati.jpg","models/Models/Azukiwe Gwentshe/profile_.jpg"]
         },
         {
             "id":"model-2",
@@ -46,7 +46,7 @@
             "image": "./models/Models/Thayanda/Profile Pic.jpg",
             "profileLink": "individual.html?id=model-4",
             "gender":"w",
-            "images":["./models/Models/Thayanda/1.jpg","./models/Models/Thayanda/2.jpg","./models/Models/Thayanda/3.jpeg","./models/Models/Thayanda/4.jpeg","./models/Models/Thayanda/Profile Pic.jpg"]
+            "images":["./models/Models/Thayanda/1.jpg","./models/Models/Thayanda/2.JPG","./models/Models/Thayanda/3.jpeg","./models/Models/Thayanda/4.jpeg","./models/Models/Thayanda/Profile Pic.jpg"]
         },
         {
             "id":"model-5",
@@ -94,7 +94,7 @@
             "image": "./models/Models/Lona Ngwenze/Profile_.jpg",
             "profileLink": "individual.html?id=model-8",
             "gender":"w",
-            "images":["./models/Models/Lona Ngwenze/1.jpg","./models/Models/Lona Ngwenze/2.jpg","./models/Models/Lona Ngwenze/3.jpg","./models/Models/Lona Ngwenze/Profile_.jpg"]
+            "images":["./models/Models/Lona Ngwenze/1.JPG","./models/Models/Lona Ngwenze/2.JPG","./models/Models/Lona Ngwenze/3.JPG","./models/Models/Lona Ngwenze/Profile_.jpg"]
         },
         {
             "id": "model-9",
@@ -117,7 +117,7 @@
             "image": "./models/Models/Meagan Williams/profile_.jpg",
             "profileLink": "individual.html?id=model-10",
             "gender":"w",
-            "images":["./models/Models/Meagan Williams/1.jpg","./models/Models/Meagan Williams/2.jpg","./models/Models/Mea2gan Williams/profile_.jpg"]
+            "images":["./models/Models/Meagan Williams/1.jpg","./models/Models/Meagan Williams/2.jpg","./models/Models/Meagan Williams/profile_.jpg"]
         },
         {
             "id":"model-11",
@@ -165,7 +165,7 @@
             "image": "./models/Models/Sam/Profile_.jpg",
             "profileLink": "individual.html?id=model-14",
             "gender":"m",
-            "images":["./models/Models/Sam/1.jpeg","./models/Models/Sam/2.jpg","./models/Models/Sam/3.jpg","./models/Models/Sam/4.jpg","./models/Models/Sam/5.jpg","./models/Models/Sam/6.jpg","./models/Models/Sam/Profile_.jpg"]
+            "images":["./models/Models/Sam/1.jpeg","./models/Models/Sam/2.JPG","./models/Models/Sam/3.JPG","./models/Models/Sam/4.JPG","./models/Models/Sam/5.JPG","./models/Models/Sam/6.jpeg","./models/Models/Sam/Profile_.jpg"]
         },
         {
             "id":"model-15",
@@ -177,7 +177,7 @@
             "image": "./models/Models/Daniel Kassy/1.jpg",
             "profileLink": "individual.html?id=model-15",
             "gender":"m",
-            "images":["./models/Models/Daniel Kassy/2.jpg","./models/Models/Daniel Kassy/3.jpg","./models/Models/Daniel Kassy/4.jpg","./models/Models/Daniel Kassy/5.jpg","./models/Models/Daniel Kassy/1.jpg"]
+            "images":["./models/Models/Daniel Kassy/2.JPG","./models/Models/Daniel Kassy/3.jpg","./models/Models/Daniel Kassy/4.jpg","./models/Models/Daniel Kassy/5.jpg","./models/Models/Daniel Kassy/1.jpg"]
         },
         {
             "id":"model-16",
@@ -186,10 +186,10 @@
             "waist": "",
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
-            "image": "./models/Models/Kasim Aishakiye/1.jpg",
+            "image": "./models/Models/Kasim Aishakiye/1.JPG",
             "profileLink": "individual.html?id=model-16",
             "gender":"m",
-            "images":["./models/Models/Kasim Aishakiye/1.jpg","./models/Models/Kasim Aishakiye/2.jpg"]
+            "images":["./models/Models/Kasim Aishakiye/1.JPG","./models/Models/Kasim Aishakiye/2.JPG"]
         },
         {
             "id":"model-17",
@@ -198,10 +198,10 @@
             "waist": "",
             "location": "",
             "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
-            "image": "./models/Models/Uju/1.jpg",
+            "image": "./models/Models/Uju/1.JPG",
             "profileLink": "individual.html?id=model-17",
             "gender":"w",
-            "images":["./models/Models/Uju/1.jpg","./models/Models/Uju/2.jpg"]
+            "images":["./models/Models/Uju/1.JPG","./models/Models/Uju/2.JPG"]
         }
     ],
     "editors": [
@@ -431,7 +431,7 @@
             "description": "",
             "image": "./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg",
             "profileLink": "individual.html?id=photographer-6",
-            "images":["./photographers/Photographers/Itumeleng Khutso/1.jpg","./photographers/Photographers/Itumeleng Khutso/2.jpg","./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg"]
+            "images":["./photographers/Photographers/Itumeleng Khutso/1.JPG","./photographers/Photographers/Itumeleng Khutso/2.JPG","./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg"]
         },
         {
             "id":"photographer-7",
@@ -486,7 +486,7 @@
             "description": "",
             "image": "./photographers/Photographers/Wessy/Profile Pic_.jpg",
             "profileLink": "individual.html?id=photographer-11",
-            "images":["./photographers/Photographers/Wessy/1.jpg","./photographers/Photographers/Wessy/2.jpg","./photographers/Photographers/Wessy/3.jpg","./photographers/Photographers/Wessy/4.jpg","./photographers/Photographers/Wessy/5.jpg","./photographers/Photographers/Wessy/Profile Pic.jpg"]
+            "images":["./photographers/Photographers/Wessy/1.jpg","./photographers/Photographers/Wessy/2.JPG","./photographers/Photographers/Wessy/3.JPG","./photographers/Photographers/Wessy/4.JPG","./photographers/Photographers/Wessy/5.JPG","./photographers/Photographers/Wessy/Profile Pic.jpg"]
         },
         {
             "id":"photographer-12",
@@ -532,7 +532,7 @@
             "description": "",
             "image": "./graphic designers/Graphic Design/Inganawe Mayedwa/Profile pic.png",
             "profileLink": "individual.html?id=designer-1",
-            "images":["./graphic designers/Graphic Design/Inganawe Mayedwa/1.png","./graphic designers/Graphic Design/Inganawe Mayedwa/2.jpg","./graphic designers/Graphic Design/Inganawe Mayedwa/3.jpg","./graphic designers/Graphic Design/Inganawe Mayedwa/4.png","./graphic designers/Graphic Design/Inganawe Mayedwa/Profile pic.png"]
+            "images":["./graphic designers/Graphic Design/Inganawe Mayedwa/1.PNG","./graphic designers/Graphic Design/Inganawe Mayedwa/2.jpg","./graphic designers/Graphic Design/Inganawe Mayedwa/3.jpg","./graphic designers/Graphic Design/Inganawe Mayedwa/4.PNG","./graphic designers/Graphic Design/Inganawe Mayedwa/Profile pic.png"]
         },
         {
             "id":"designer-2",
@@ -541,9 +541,9 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./graphic designers/Graphic Design/Kasim/1.jpg",
+            "image": "./graphic designers/Graphic Design/Kasim/1.JPG",
             "profileLink": "individual.html?id=designer-2",
-            "images":["./graphic designers/Graphic Design/Kasim/1.jpg","./graphic designers/Graphic Design/Kasim/2.png","./graphic designers/Graphic Design/Kasim/3.jpg","./graphic designers/Graphic Design/Kasim/4.jpg","./graphic designers/Graphic Design/Kasim/5.jpg","./graphic designers/Graphic Design/Kasim/6.png"]
+            "images":["./graphic designers/Graphic Design/Kasim/1.JPG","./graphic designers/Graphic Design/Kasim/2.PNG","./graphic designers/Graphic Design/Kasim/3.JPG","./graphic designers/Graphic Design/Kasim/4.JPG","./graphic designers/Graphic Design/Kasim/5.JPG","./graphic designers/Graphic Design/Kasim/6.PMG"]
         },
         {
             "id":"designer-3",

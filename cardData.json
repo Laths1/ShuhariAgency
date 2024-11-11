@@ -486,7 +486,7 @@
             "description": "",
             "image": "./photographers/Photographers/Wessy/Profile Pic_.jpg",
             "profileLink": "individual.html?id=photographer-11",
-            "images":["./photographers/Photographers/Wessy/1.jpg","./photographers/Photographers/Wessy/2.JPG","./photographers/Photographers/Wessy/3.JPG","./photographers/Photographers/Wessy/4.JPG","./photographers/Photographers/Wessy/5.JPG","./photographers/Photographers/Wessy/Profile Pic.jpg"]
+            "images":["./photographers/Photographers/Wessy/1.JPG","./photographers/Photographers/Wessy/2.JPG","./photographers/Photographers/Wessy/3.JPG","./photographers/Photographers/Wessy/4.JPG","./photographers/Photographers/Wessy/5.JPG","./photographers/Photographers/Wessy/Profile Pic_.jpg"]
         },
         {
             "id":"photographer-12",
@@ -543,7 +543,7 @@
             "description": "",
             "image": "./graphic designers/Graphic Design/Kasim/1.JPG",
             "profileLink": "individual.html?id=designer-2",
-            "images":["./graphic designers/Graphic Design/Kasim/1.JPG","./graphic designers/Graphic Design/Kasim/2.PNG","./graphic designers/Graphic Design/Kasim/3.JPG","./graphic designers/Graphic Design/Kasim/4.JPG","./graphic designers/Graphic Design/Kasim/5.JPG","./graphic designers/Graphic Design/Kasim/6.PMG"]
+            "images":["./graphic designers/Graphic Design/Kasim/1.JPG","./graphic designers/Graphic Design/Kasim/2.PNG","./graphic designers/Graphic Design/Kasim/3.JPG","./graphic designers/Graphic Design/Kasim/4.JPG","./graphic designers/Graphic Design/Kasim/5.JPG","./graphic designers/Graphic Design/Kasim/6.PNG"]
         },
         {
             "id":"designer-3",

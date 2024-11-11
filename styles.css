@@ -810,8 +810,8 @@ features
         max-width: 100vw;
         text-align: center;
         height: fit-content;
-        padding: 0;
-        padding-bottom:  4rem;
+        padding: 2rem 0;
+        /* padding-bottom:  4rem; */
         display:flex;
         align-items: center;
        

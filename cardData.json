@@ -43,10 +43,10 @@
             "waist": "",
             "location": "",
             "description": "Thayanda approaches modeling as a creative collaboration, becoming the canvas with her appearance, energy.",
-            "image": "./models/Models/Thayanda/Profile Pic.jpg",
+            "image": "./models/Models/Thayanda/4.jpg",
             "profileLink": "individual.html?id=model-4",
             "gender":"w",
-            "images":["./models/Models/Thayanda/1.jpg","./models/Models/Thayanda/2.JPG","./models/Models/Thayanda/3.jpeg","./models/Models/Thayanda/4.jpeg","./models/Models/Thayanda/Profile Pic.jpg"]
+            "images":["./models/Models/Thayanda/1.jpg","./models/Models/Thayanda/2.JPG","./models/Models/Thayanda/3.jpeg","./models/Models/Thayanda/4.jpeg","./models/Models/Thayanda/Profile Pic.jpg","./models/Models/Thayanda/4.jpg"]
         },
         {
             "id":"model-5",
@@ -409,7 +409,8 @@
             "location": "East London",
             "description": "",
             "image": "./photographers/Photographers/Dylan Mohlala/img.jpg",
-            "profileLink": "individual.html?id=photographer-4"
+            "profileLink": "individual.html?id=photographer-4",
+            "images":["./photographers/Photographers/Dylan Mohlala/1.jpg","./photographers/Photographers/Dylan Mohlala/2.jpg","./photographers/Photographers/Dylan Mohlala/8.jpg","./photographers/Photographers/Dylan Mohlala/4.jpg","./photographers/Photographers/Dylan Mohlala/5.jpg","./photographers/Photographers/Dylan Mohlala/6.jpg","./photographers/Photographers/Dylan Mohlala/8.jpg"]
         },
         {
             "id":"photographer-5",
@@ -420,7 +421,7 @@
             "description": "",
             "image": "./photographers/Photographers/Gabriella Lynn/Profile image_.jpg",
             "profileLink": "individual.html?id=photographer-5",
-            "images":["./photographers/Photographers/Gabriella Lynn/1.jpg","./photographers/Photographers/Gabriella Lynn/2.jpg","./photographers/Photographers/Gabriella Lynn/3.jpg","./photographers/Photographers/Gabriella Lynn/4.jpg","./photographers/Photographers/Gabriella Lynn/Profile image_.jpg"]
+            "images":["./photographers/Photographers/Gabriella Lynn/1.jpg","./photographers/Photographers/Gabriella Lynn/2.jpg","./photographers/Photographers/Gabriella Lynn/3.jpg","./photographers/Photographers/Gabriella Lynn/4.jpg","./photographers/Photographers/Gabriella Lynn/5.jpg","./photographers/Photographers/Gabriella Lynn/6.jpg","./photographers/Photographers/Gabriella Lynn/7.jpg","./photographers/Photographers/Gabriella Lynn/Profile image_.jpg"]
         },
         {
             "id":"photographer-6",
@@ -635,14 +636,14 @@
         },
         {
             "id":"designer-11",
-            "name": "Tshepang Ramokoplwa",
+            "name": "Tshepang Ramokopelwa",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./graphic designers/Graphic Design/Tshepang Ramokoplwa/profile pic.png",
+            "image": "./graphic designers/Graphic Design/Tshepang Ramokopelwa/1.png",
             "profileLink": "individual.html?id=designer-11",
-            "images":["./graphic designers/Graphic Design/Tshepang Ramokoplwa/1.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/2.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/3.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/4.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/7.png","./graphic designers/Graphic Design/Tshepang Ramokoplwa/profile pic.png"]
+            "images":["./graphic designers/Graphic Design/Tshepang Ramokopelwa/1.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/2.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/3.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/4.png"]
         }
     ],
     "videographers":[

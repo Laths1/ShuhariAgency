@@ -1244,7 +1244,7 @@ individual page
 }
 .details{
     display: flex;
-    gap: 2rem;
+    gap: 0rem;
 }
 .images-container{
     width: 100%;
@@ -1267,7 +1267,8 @@ individual page
 }
 @media screen and (max-width: 700px) {
     .details{
-        gap: 2rem;
+        padding: 1rem;
+        gap: 0.75rem;
     }
     .details p, .location p{
         font-weight: 100;

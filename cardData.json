@@ -204,11 +204,23 @@
             "height": "",
             "waist": "",
             "location": "Cape Town",
-            "description": "“Uju Ali was born in Port Elizabeth and raised in Johannesburg. Currently residing in Cape Town, Uju is pursuing studies in **Interior design**, driven by a **creative mindset** and a passion for transforming spaces. Inspired by peers who follow the ways of God, Uju aims to reflect the grace of God through her work, believing that her abilities stem from divine will. She resonates with the scripture, 'I can do all things through Christ who strengthens me' (Philippians 4:13), embodying the belief that faith empowers her creative journey.",
+            "description": "Uju Ali was born in Port Elizabeth and raised in Johannesburg. Currently residing in Cape Town, Uju is pursuing studies in Interior design, driven by a creative mindset and a passion for transforming spaces. Inspired by peers who follow the ways of God, Uju aims to reflect the grace of God through her work, believing that her abilities stem from divine will. She resonates with the scripture, 'I can do all things through Christ who strengthens me' (Philippians 4:13), embodying the belief that faith empowers her creative journey.",
             "image": "./models/Models/Uju/1.JPG",
             "profileLink": "individual.html?id=model-17",
             "gender":"w",
-            "images":["./models/Models/Uju/1.JPG","./models/Models/Uju/2.JPG"]
+            "images":["./models/Models/Uju/1.JPG","./models/Models/Uju/3.JPG","./models/Models/Uju/2.jpg"]
+        },
+        {
+            "id":"model-18",
+            "name": "Atero",
+            "height": "",
+            "waist": "",
+            "location": "Cape Town",
+            "description": "",
+            "image": "./models/Models/Atero/Atero/1.jpg",
+            "profileLink": "individual.html?id=model-18",
+            "gender":"m",
+            "images":["./models/Models/Atero/Atero/2.JPG","./models/Models/Atero/Atero/1.jpg"]
         }
     ],
     "editors": [
@@ -404,9 +416,9 @@
             "waist": "26\"",
             "location": "Cape Town",
             "description": "Introducing Agmat Achmad, an experienced photographer, videographer, and video editor proficient in Adobe Suite tools like Premiere Pro, Photoshop, Lightroom, Illustrator, and Audition. Agmat's journey began at a community radio station, Radio 786, where he captured footage for news packages and covered events like protests. He later expanded his focus to corporate clients and weddings but remains open to exploring a variety of creative projects.",
-            "image": "./photographers/Photographers/Agmat Achmad/",
+            "image": "./photographers/Photographers/Agmat Achmad/Agmat Achmad/7.jpeg",
             "profileLink": "individual.html?id=photographer-3",
-            "images":["./photographers/Photographers/Agmat Achmad"]
+            "images":["./photographers/Photographers/Agmat Achmad/Agmat Achmad/1.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/2.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/3.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/4.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/5.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/6.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/8.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/7.jpeg"]
         },
         {
             "id":"photographer-4",
@@ -503,9 +515,9 @@
             "waist": "",
             "location": "Johannesburg",
             "description": "Gift is an innovative, creative and a professional photographer who's based in the east of Johannesburg. After obtaining his Diploma in Commercial Photography at the Tshwane University of Technology, with four years of experience, he has attained the necessary skills and expertise to generate creative concepts to achieve visually pleasing results. He's inspired by beautiful people, places and different personalities and uses a Nikon Z5 mirrorless camera as a tool to express myself. He uses photography as a tool to express himself.",
-            "image": "./photographers/Photographers/Gift Mathunjwa/",
+            "image": "./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/1.jpg",
             "profileLink": "individual.html?id=photographer-12",
-            "images":["./photographers/Photographers/Gift Mathunjwa"]
+            "images":["./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/2.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/3.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/4.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/5.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/7.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/8.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/9.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/10.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/11.jpg"]
         },
         {
             "id":"photographer-13",
@@ -514,9 +526,9 @@
             "waist": "",
             "location": "Johannesburg",
             "description": "Katlego is a skilled photographer specializing in fashion, commercial, editorial, corporate, product, and lifestyle photography. With a background in Media Studies and Television Production, he combines storytelling with technical precision to create striking visuals that resonate.",
-            "image": "./photographers/Photographers/Katlego Khumalo",
+            "image": "./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpeg",
             "profileLink": "individual.html?id=photographer-13",
-            "images":["./photographers/Photographers/Katlego Khumalo"]
+            "images":["./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/2.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/3.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/4.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/5.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/6.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/7.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpeg"]
         },
         {
             "id":"photographer-14",
@@ -531,17 +543,6 @@
         }
     ],
     "designers":[
-        {
-            "id":"1",
-            "name": "Inganawe Mayedwa",
-            "height": "6'0\"",
-            "waist": "32\"",
-            "location": "Cape Town",
-            "description": "",
-            "image": "./graphic designers/Graphic Design/Inganawe Mayedwa/Profile pic.png",
-            "profileLink": "individual.html?id=designer-1",
-            "images":["./graphic designers/Graphic Design/Inganawe Mayedwa/1.PNG","./graphic designers/Graphic Design/Inganawe Mayedwa/2.jpg","./graphic designers/Graphic Design/Inganawe Mayedwa/3.jpg","./graphic designers/Graphic Design/Inganawe Mayedwa/4.PNG","./graphic designers/Graphic Design/Inganawe Mayedwa/Profile pic.png"]
-        },
         {
             "id":"designer-2",
             "name": "Kasim",

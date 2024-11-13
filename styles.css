@@ -583,12 +583,14 @@ facts
     align-items: center;
     display: flex;
     padding: 0 1rem;
+    margin: auto;
 }
 .icon .material-symbols-outlined{
     font-size: 5rem;
     display: flex;
     justify-items: center;
     align-items: center;
+    margin: auto;
     transition: var(--transition);
 }
 .icon .material-symbols-outlined:hover{

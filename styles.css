@@ -253,10 +253,15 @@ hero
     background: none;
     border-bottom: 3px solid var(--primary-color-2);
 }
+
 @media screen and (max-width:576px){
     .home-page-container{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
         url(./models/Models/Thayanda/2.JPG);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         overflow-x: hidden;

@@ -303,7 +303,7 @@ hero
 @media screen and (max-width:770px){
     .home-page-container{
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-        url(./models/Models/Thayanda/2.JPG);
+        url(./models/Models/Thayanda/1.jpg);
         display: flex;
         flex-direction: column;
         background-attachment: fixed;
@@ -977,7 +977,7 @@ contributions
     max-width: 50%;
 }
 .contributions-img{
-    background: url(./models/Models/Thayanda/1.jpg);
+    background: url(./models/Models/Thayanda/2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1218,7 +1218,7 @@ model page
 }
 .men-container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url(./models/Models/Hussein/profile.jpg);
+    url(./models/Models/Sam/Profile_.jpg);
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;

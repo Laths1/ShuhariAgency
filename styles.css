@@ -257,7 +257,7 @@ hero
 @media screen and (max-width:576px){
     .home-page-container{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url(./models/Models/Thayanda/2.JPG);
+        url(./models/Models/Thayanda/1.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -272,8 +272,7 @@ hero
 
         display: flex;
         justify-content: center;
-        align-items: center
-        ;
+        align-items: center;
         flex-direction: column;
         /* gap: 2rem; */
         /* border: 2px solid #030201; */
@@ -302,10 +301,8 @@ hero
 }
 @media screen and (max-width:770px){
     .home-page-container{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
         url(./models/Models/Thayanda/1.jpg);
-        display: flex;
-        flex-direction: column;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -1218,7 +1215,7 @@ model page
 }
 .men-container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url(./models/Models/Sam/Profile_.jpg);
+    url(./models/Models/Atero/Atero/1.jpg);
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;

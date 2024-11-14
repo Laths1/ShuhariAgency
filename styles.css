@@ -1219,6 +1219,9 @@ individual page
 .images-container img{
     width: 32%;
 }
+.videos-container{
+    width: 50%;
+}
 .bio{
     text-align: justify;
     padding-top: 2rem ;

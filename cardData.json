@@ -15,10 +15,10 @@
         {
             "id":"model-2",
             "name": "Elisa Mahloane",
-            "height": "",
-            "waist": "",
+            "height": "167 cm",
+            "waist": "58 cm",
             "location": "Cape Town",
-            "description": "Meet Elisa Mahloane, a versatile model with a keen interest in promotional, runway, and commercial modeling. Currently residing in East London, she offers a dynamic presence and professional experience.",
+            "description": "Elisa Mahloane is a dedicated fashion and commercial model. She is passionate about showcasing her creativity and energy in every project. Elisa thrives in diverse environments, effortlessly adapting her look for various styles, from high fashion to lifestyle shoots. Her ability to convey emotion through her poses makes her a valuable assest on any set.",
             "image": "./models/Models/Elisa Mahloane/Profile_.jpg",
             "profileLink": "individual.html?id=model-2",
             "gender":"w",
@@ -208,7 +208,7 @@
             "image": "./models/Models/Uju/1.JPG",
             "profileLink": "individual.html?id=model-17",
             "gender":"w",
-            "images":["./models/Models/Uju/1.JPG","./models/Models/Uju/3.JPG","./models/Models/Uju/2.jpg"]
+            "images":["./models/Models/Uju/1.JPG","./models/Models/Uju/3.jpg","./models/Models/Uju/2.JPG"]
         },
         {
             "id":"model-18",
@@ -243,7 +243,8 @@
             "location": "Cape Town",
             "description": "Bill Kongolo is a versatile video editor with expertise in crafting dynamic music videos, impactful social media content, and cinematic short films. He is proficient in using CapCut PC, Adobe Premiere Pro, and DaVinci Resolve to deliver polished, high-quality visuals.",
             "image": "./editors/Bill Kongolo/",
-            "profileLink": "individual.html?id=editor-2"
+            "profileLink": "individual.html?id=editor-2",
+            "videos":["https://www.youtube.com/embed/_tLX5SiS8Xc?si=yoq5pfm-h3HR2JM-"]
         },
         {
             "id":"editor-3",

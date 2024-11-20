@@ -1015,6 +1015,7 @@ apply
     flex-direction:column;
     gap:2rem;
     text-align: center;
+    overflow-x: hidden;
   }
   .application{
     height:100rem;
@@ -1095,6 +1096,11 @@ apply
 
   .apply-form button:hover {
     background-color: #0056b3;
+  }
+  @media screen and (max-width: 992px) {
+    .outlines{
+        flex-direction: column;
+    }
   }
 /* ==========
 contact

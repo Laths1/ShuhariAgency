@@ -24,33 +24,3 @@ function prevSlide() {
   showSlide(currentIndex - 1);
 }
 
-// contact us
-function sendContactMail(){
-  let param = {
-    from_name : document.getElementById("contact-name").value,
-    message : document.getElementById("contact-message").value,
-    from_email : document.getElementById("contact-email").value,
-  }
-  emailjs.send("service_3ix5u63", "template_bsc94np", param).then(alert("Message has been sent successfully from: " + param.from_name));
-}
-// application
-function getSelectedOption() {
-  const options = document.getElementsByName("option");
-  for (let i = 0; i < options.length; i++) {
-    if (options[i].checked) {
-      return options[i].value; // Get the value of the selected radio button
-    }
-  }
-  return null; // Return null if no option is selected
-}
-function sendApplyMail(){
-  let param = {
-    from_name : document.getElementById("apply-name").value,
-    message : document.getElementById("apply-message").value,
-    from_email : document.getElementById("apply-email").value,
-    category : getSelectedOption(),
-
-  }
-  emailjs.send("service_3ix5u63", "template_4sgz0wt", param).then(alert("Application has been sent successfully from: " + param.from_name));
- 
-}

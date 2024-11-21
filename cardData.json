@@ -10,7 +10,7 @@
             "image": "./models/Models/Azukiwe Gwentshe/profile_.jpg",
             "profileLink": "individual.html?id=model-1",
             "gender":"w",
-            "images":["./models/Models/Azukiwe Gwentshe/image0.jpeg","./models/Models/Azukiwe Gwentshe/IMG_3533.jpg","./models/Models/Azukiwe Gwentshe/Photo from Odwa Nonyati.jpg","models/Models/Azukiwe Gwentshe/profile_.jpg"]
+            "images":["./models/Models/Azukiwe Gwentshe/image0.jpg","./models/Models/Azukiwe Gwentshe/IMG_3533.jpg","./models/Models/Azukiwe Gwentshe/Photo from Odwa Nonyati.jpg","models/Models/Azukiwe Gwentshe/profile_.jpg"]
         },
         {
             "id":"model-2",
@@ -74,7 +74,7 @@
             "image": "./models/Models/Hussein/profile.jpg",
             "profileLink": "individual.html?id=model-6",
             "gender":"m",
-            "images":["./models/Models/Hussein/1.png","./models/Models/Hussein/2.jpeg","./models/Models/Hussein/3.jpeg","./models/Models/Hussein/4.jpeg","./models/Models/Hussein/5.jpeg","./models/Models/Hussein/6.jpeg","./models/Models/Hussein/7.png","./models/Models/Hussein/8.png","./models/Models/Hussein/profile.jpg"]
+            "images":["./models/Models/Hussein/1.png","./models/Models/Hussein/2.jpg","./models/Models/Hussein/3.jpg","./models/Models/Hussein/4.jpeg","./models/Models/Hussein/5.jpeg","./models/Models/Hussein/6.jpg","./models/Models/Hussein/7.png","./models/Models/Hussein/8.png","./models/Models/Hussein/profile.jpg"]
         },
         {
             "id":"model-7",
@@ -111,18 +111,6 @@
             "image": "./models/Models/Lwazi Goniwe/ZFullSizeRender.jpg",
             "profileLink": "individual.html?id=model-9",
             "gender":"m"
-        },
-        {
-            "id":"model-10",
-            "name": "Meegan Williams",
-            "height": "",
-            "waist": "",
-            "location": "Cape Town",
-            "description": "Specializing in Erotic Photography, Body Part Modeling, and Fit Modeling, Meagan brings a blend of artistry and professionalism to each project. Known for her versatility and collaboration. Based in Cape Town.",
-            "image": "./models/Models/Meagan Williams/profile_.jpg",
-            "profileLink": "individual.html?id=model-10",
-            "gender":"w",
-            "images":["./models/Models/Meagan Williams/1.jpg","./models/Models/Meagan Williams/2.jpg","./models/Models/Meagan Williams/profile_.jpg"]
         },
         {
             "id":"model-11",
@@ -172,7 +160,7 @@
             "image": "./models/Models/Sam/Profile_.jpg",
             "profileLink": "individual.html?id=model-14",
             "gender":"m",
-            "images":["./models/Models/Sam/1.jpeg","./models/Models/Sam/2.JPG","./models/Models/Sam/3.JPG","./models/Models/Sam/4.JPG","./models/Models/Sam/5.JPG","./models/Models/Sam/6.jpeg","./models/Models/Sam/Profile_.jpg"]
+            "images":["./models/Models/Sam/1.jpeg","./models/Models/Sam/2.JPG","./models/Models/Sam/3.JPG","./models/Models/Sam/4.JPG","./models/Models/Sam/5.JPG","./models/Models/Sam/6.jpg","./models/Models/Sam/Profile_.jpg"]
         },
         {
             "id":"model-15",
@@ -497,7 +485,7 @@
             "description": "",
             "image": "./photographers/Photographers/Uriel Dombo/5.jpeg",
             "profileLink": "individual.html?id=photographer-10",
-            "images":["./photographers/Photographers/Uriel Dombo/1.jpeg","./photographers/Photographers/Uriel Dombo/2.jpeg","./photographers/Photographers/Uriel Dombo/3.jpeg","./photographers/Photographers/Uriel Dombo/4.jpeg","./photographers/Photographers/Uriel Dombo/5.jpeg"]
+            "images":["./photographers/Photographers/Uriel Dombo/1.jpeg","./photographers/Photographers/Uriel Dombo/2.jpeg","./photographers/Photographers/Uriel Dombo/3.jpeg","./photographers/Photographers/Uriel Dombo/4.jpg","./photographers/Photographers/Uriel Dombo/5.jpeg"]
         },
         {
             "id":"photographer-11",
@@ -528,9 +516,9 @@
             "waist": "",
             "location": "Johannesburg",
             "description": "Katlego is a skilled photographer specializing in fashion, commercial, editorial, corporate, product, and lifestyle photography. With a background in Media Studies and Television Production, he combines storytelling with technical precision to create striking visuals that resonate.",
-            "image": "./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpeg",
+            "image": "./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpg",
             "profileLink": "individual.html?id=photographer-13",
-            "images":["./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/2.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/3.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/4.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/5.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/6.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/7.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpeg"]
+            "images":["./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/2.jpg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/3.jpg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/4.jpg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/5.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/6.jpg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpg"]
         },
         {
             "id":"photographer-14",
@@ -613,7 +601,7 @@
         },
         {
             "id":"designer-8",
-            "name": "Tiffinay Naku",
+            "name": "Tiffany Naku",
             "height": "",
             "waist": "",
             "location": "",

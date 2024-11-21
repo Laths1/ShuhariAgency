@@ -364,6 +364,11 @@ nav
     font-family: var(--ff-primary-1);
     text-transform: capitalize;
 }
+#menu{
+    font-size: 2.5rem;
+    color: var(--primary-color-6);
+    cursor: pointer;
+}
 .dropdown-content li a:hover {
     background-color: var(--primary-color-6); /* Hover background color */
 }

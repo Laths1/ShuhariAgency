@@ -1,18 +1,6 @@
 {
     "models": [
         {
-            "id": "model-1",
-            "name": "Azukiwe Gwentshe",
-            "height": "5'8\"",
-            "waist": "26\"",
-            "location": "East London",
-            "description": "",
-            "image": "./models/Models/Azukiwe Gwentshe/profile_.jpg",
-            "profileLink": "individual.html?id=model-1",
-            "gender":"w",
-            "images":["./models/Models/Azukiwe Gwentshe/image0.jpg","./models/Models/Azukiwe Gwentshe/IMG_3533.jpg","./models/Models/Azukiwe Gwentshe/Photo from Odwa Nonyati.jpg","models/Models/Azukiwe Gwentshe/profile_.jpg"]
-        },
-        {
             "id":"model-2",
             "name": "Elisa Mahloane",
             "height": "167 cm",
@@ -65,18 +53,6 @@
             "images":["./models/Models/Gia Paulse/2.jpg","./models/Models/Gia Paulse/IMG_7140.jpeg"]
         },
         {
-            "id":"model-6",
-            "name": "Hussein",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./models/Models/Hussein/profile.jpg",
-            "profileLink": "individual.html?id=model-6",
-            "gender":"m",
-            "images":["./models/Models/Hussein/1.png","./models/Models/Hussein/2.jpg","./models/Models/Hussein/3.jpg","./models/Models/Hussein/4.jpeg","./models/Models/Hussein/5.jpeg","./models/Models/Hussein/6.jpg","./models/Models/Hussein/7.png","./models/Models/Hussein/8.png","./models/Models/Hussein/profile.jpg"]
-        },
-        {
             "id":"model-7",
             "name": "Logan Kirby",
             "height": "",
@@ -123,18 +99,6 @@
             "profileLink": "individual.html?id=model-11",
             "gender":"m",
             "images":["./models/Models/Mpho Ryan Sihamba/1.jpg","./models/Models/Mpho Ryan Sihamba/2.jpeg","./models/Models/Mpho Ryan Sihamba/3.jpeg","./models/Models/Mpho Ryan Sihamba/4.jpeg","./models/Models/Mpho Ryan Sihamba/Profile_.jpg"]
-        },
-        {
-            "id":"model-12",
-            "name": "Nande Maxawula",
-            "height": "",
-            "waist": "",
-            "location": "Johannesburg",
-            "description": "Introducing Thayanda, a dynamic art piece in constant evolution. With a deep appreciation for art, Thayanda approaches modeling as a creative collaboration, becoming the canvas with her appearance, energy, and demeanor as the mediums. Embracing her ever-changing nature, Thayanda embodies both muse and artist, adapting to various characters and aesthetics. Through modeling, she invites others to create unique and captivating art, showcasing the beauty of self-expression and transformation.",
-            "image": "./models/Models/Nande Maxawula/FullSizeRender.jpeg",
-            "profileLink": "individual.html?id=model-12",
-            "gender":"w",
-            "images":["./models/Models/Nande Maxawula/1.jpeg","./models/Models/Nande Maxawula/2.jpeg","./models/Models/Nande Maxawula/3.jpeg","./models/Models/Nande Maxawula/4.jpeg","./models/Models/Nande Maxawula/FullSizeRender.jpeg"]
         },
         {
             "id":"model-13",
@@ -254,17 +218,6 @@
             "description": "Tad Mazhanga is a versatile creative specializing in advertising, music videos, short films, YouTube videos, and TikTok content. With a strong skill set in industry-leading tools like Blender, Premiere Pro, DaVinci Resolve, CapCut, and Adobe After Effects, Tad brings a unique and polished touch to every project he undertakes.",
             "image": "./editors/Tad Mazhanga/",
             "profileLink": "individual.html?id=editor-4"
-        },
-        {
-            "id":"editor-5",
-            "name": "Thandiwe Dhlamini",
-            "height": "5'8\"",
-            "waist": "26\"",
-            "location": "Cape Town",
-            "description": "",
-            "image": "./editors/Thandiwe Dhlamini/",
-            "profileLink": "individual.html?id=editor-5",
-            "videos":["https://www.youtube.com/embed/5NR7PNyXw7k?si=qVQY3immsKrn_gWh"]
         },
         {
             "id":"editor-6",
@@ -534,17 +487,6 @@
     ],
     "designers":[
         {
-            "id":"designer-2",
-            "name": "Kasim",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./graphic designers/Graphic Design/Kasim/1.JPG",
-            "profileLink": "individual.html?id=designer-2",
-            "images":["./graphic designers/Graphic Design/Kasim/1.JPG","./graphic designers/Graphic Design/Kasim/2.PNG","./graphic designers/Graphic Design/Kasim/3.JPG","./graphic designers/Graphic Design/Kasim/4.JPG","./graphic designers/Graphic Design/Kasim/5.JPG","./graphic designers/Graphic Design/Kasim/6.PNG"]
-        },
-        {
             "id":"designer-3",
             "name": "Khanyiso Booi",
             "height": "",
@@ -645,17 +587,6 @@
         }
     ],
     "videographers":[
-        {
-            "id":"videographer-1",
-            "name": "Alex Finch",
-            "height": "",
-            "waist": "",
-            "location": "Cape Town",
-            "description": "The Seventy Five Percent is a creative production company dedicated to cultivating community through impactful videography. We bring your vision to life with a focus on storytelling, creativity, and precision.",
-            "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-1",
-            "videos":["https://www.youtube.com/embed/MpT8IipcPLU?si=ZkNT7FeNvpZD6WaL"]
-        },
         {
             "id":"videographer-2",
             "name": "agmat achmad",

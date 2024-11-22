@@ -140,18 +140,6 @@
             "images":["./models/Models/Daniel Kassy/2.JPG","./models/Models/Daniel Kassy/3.jpg","./models/Models/Daniel Kassy/4.jpg","./models/Models/Daniel Kassy/5.jpg","./models/Models/Daniel Kassy/1.jpg"]
         },
         {
-            "id":"model-16",
-            "name": "Kasim Aishakiye",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "Sigqibo Malambile, a model who is a 'Jack of all trades'.",
-            "image": "./models/Models/Kasim Aishakiye/1.JPG",
-            "profileLink": "individual.html?id=model-16",
-            "gender":"m",
-            "images":["./models/Models/Kasim Aishakiye/1.JPG","./models/Models/Kasim Aishakiye/2.JPG"]
-        },
-        {
             "id":"model-17",
             "name": "Uju",
             "height": "",

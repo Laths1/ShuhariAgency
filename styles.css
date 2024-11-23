@@ -175,8 +175,8 @@ hero
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url(./models/Models/Hussein/3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), 
+        url(./models/Models/1.JPG);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -796,9 +796,9 @@ gallery
   }
   
   .carousel-item img {
-    width: 100%;
-    /* height: 100%; */
-    object-fit: cover;
+    /* width: 100%; */
+    height: 100%;
+    /* object-fit: cover; */
   }
   
   .carousel-caption {
@@ -849,8 +849,11 @@ gallery
   }
   @media screen and (max-width:576px){
     .carousel{
-        height: 60vh;
+        height: 70vh;
         width: 100vw;
+    }
+    .carousel-item img{
+        height: 70%;
     }
     .gallery-container{
         padding: 0;
@@ -1235,7 +1238,7 @@ individual page
 }
 .details{
     display: flex;
-    gap: 0rem;
+    gap: 1rem;
 }
 .images-container{
     width: 100%;

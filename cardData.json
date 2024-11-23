@@ -7,11 +7,11 @@
             "waist": "58 cm",
             "shoeSize":"5 UK",
             "location": "Cape Town",
-            "description": "Elisa Mahloane is a dedicated fashion and commercial model. She is passionate about showcasing her creativity and energy in every project. Elisa thrives in diverse environments, effortlessly adapting her look for various styles, from high fashion to lifestyle shoots. Her ability to convey emotion through her poses makes her a valuable assest on any set.",
+            "description": "My name is Elisa and my surname is Mahloane. I was born in the Eastern Cape to South African parents. I currently reside in Cape Town. I’m 5’6 tall, my waist is 58cm and my bust is 78.6cm .I find interest in being a fashion and commercial model to showcase my creativity and energy on any project I get. I thrive in diverse environments, adapting my look for various styles ranging from high fashion to lifestyle shoots. I have an ability to convey emotion through poses which makes me a valuable asset on every set.",
             "image": "./models/Models/Elisa Mahloane/Profile_.jpg",
             "profileLink": "individual.html?id=model-2",
             "gender":"w",
-            "images": ["./models/Models/Elisa Mahloane/1.jpeg","./models/Models/Elisa Mahloane/2.jpeg","./models/Models/Elisa Mahloane/3.jpeg","./models/Models/Elisa Mahloane/4.jpeg","./models/Models/Elisa Mahloane/Profile_.jpg"]
+            "images": ["./models/Models/Elisa Mahloane/1.jpeg","./models/Models/Elisa Mahloane/2.jpeg","./models/Models/Elisa Mahloane/3.jpeg","./models/Models/Elisa Mahloane/4.jpeg","./models/Models/Elisa Mahloane/5.jpeg","./models/Models/Elisa Mahloane/6.jpeg","./models/Models/Elisa Mahloane/7.jpeg","./models/Models/Elisa Mahloane/Profile_.jpg"]
         },
         {
             "id":"model-3",
@@ -93,6 +93,7 @@
             "name": "Mpho Ryan Sihamba",
             "height": "168 cm",
             "waist": "56 cm",
+            "shoeSize":"7 UK",
             "location": "Cape Town",
             "description": "Introducing Ryan Sihamba, an experienced model with over two years in the commercial and fashion industry. With a passion for collaboration and creativity, Ryan excels in commercial modeling, serving as a blank canvas to bring clients' ideas to life through wardrobe, themes, and props. He has showcased local fashion brands through both stills and videography. Ryan is also looking to expand his talents into acting in the near future.",
             "image": "./models/Models/Mpho Ryan Sihamba/Profile_.jpg",
@@ -116,10 +117,10 @@
         {
             "id":"model-14",
             "name": "Sam",
-            "height": "165 cm",
+            "height": "178 cm",
             "waist": "30 cm",
             "shoeSize":"7 UK",
-            "location": "Johannesburg",
+            "location": "Port Elizabeth",
             "description": "Meet Sigqibo, Sam, Malambile, born and raised in the Eastern Cape and now based in Gauteng. When it comes to modeling styles, Sam is truly a jack of all trades. He lives by the quote, 'You never know when, so take your chance when it comes.'",
             "image": "./models/Models/Sam/Profile_.jpg",
             "profileLink": "individual.html?id=model-14",
@@ -130,7 +131,7 @@
             "id":"model-15",
             "name": "daniel kassy",
             "height": "174 cm",
-            "waist": "",
+            "waist": "32 cm",
             "shoeSize":"9 UK",
             "location": "Cape Town",
             "description": "Daniel Kassy, originally from the Democratic Republic of Congo and raised in Bloemfontein, South Africa, currently resides in Cape Town. He specializes in commercial and fashion modeling. A creative individual who typically works behind the camera, Daniel now feels inspired to explore his creativity further and showcase God’s work of art through modeling",
@@ -142,8 +143,9 @@
         {
             "id":"model-17",
             "name": "Uju",
-            "height": "",
-            "waist": "",
+            "height": "170 cm",
+            "waist": "71 cm",
+            "shoeSize":"6 UK",
             "location": "Cape Town",
             "description": "Uju Ali was born in Port Elizabeth and raised in Johannesburg. Currently residing in Cape Town, Uju is pursuing studies in Interior design, driven by a creative mindset and a passion for transforming spaces. Inspired by peers who follow the ways of God, Uju aims to reflect the grace of God through her work, believing that her abilities stem from divine will. She resonates with the scripture, 'I can do all things through Christ who strengthens me' (Philippians 4:13), embodying the belief that faith empowers her creative journey.",
             "image": "./models/Models/Uju/1.JPG",
@@ -183,7 +185,7 @@
             "waist": "",
             "location": "Cape Town",
             "description": "Bill Kongolo is a versatile video editor with expertise in crafting dynamic music videos, impactful social media content, and cinematic short films. He is proficient in using CapCut PC, Adobe Premiere Pro, and DaVinci Resolve to deliver polished, high-quality visuals.",
-            "image": "./editors/Bill Kongolo/",
+            "image": "./editors/Bill k.jpeg",
             "profileLink": "individual.html?id=editor-2",
             "videos":["https://www.youtube.com/embed/_tLX5SiS8Xc?si=yoq5pfm-h3HR2JM-"]
         },
@@ -204,7 +206,7 @@
             "waist": "26\"",
             "location": "Cape Town",
             "description": "Tad Mazhanga is a versatile creative specializing in advertising, music videos, short films, YouTube videos, and TikTok content. With a strong skill set in industry-leading tools like Blender, Premiere Pro, DaVinci Resolve, CapCut, and Adobe After Effects, Tad brings a unique and polished touch to every project he undertakes.",
-            "image": "./editors/Tad Mazhanga/",
+            "image": "./editors/tad m.jpeg",
             "profileLink": "individual.html?id=editor-4"
         },
         {
@@ -247,7 +249,7 @@
             "waist": "",
             "location": "",
             "description": "Kai Trull is a skilled professional with five years of experience in advertising and documentary film editing. As a graduate of AFDA, he has further enhanced his expertise by acquiring skills in sound design, visual effects, and color grading. Kai has a strong passion for 3D animation, and he is proficient in industry-standard software, including Adobe Creative Suite, DaVinci Resolve, Avid Media Composer, and Blender. His eagerness to learn and adaptability allow him to excel when tackling new projects. Known for his exceptional troubleshooting abilities, Kai combines creativity with technical proficiency to deliver innovative solutions.",
-            "image": "./editors/Kai Trull/",
+            "image": "./editors/kai.jpeg",
             "profileLink": "individual.html?id=editor-9",
             "videos":["https://www.youtube.com/embed/SVWfbEx9h1I?si=ekQ0uRIUITVwdi3r"]
         },
@@ -258,7 +260,7 @@
             "waist": "",
             "location": "",
             "description": "Probular is a skilled video editor who has refined their abilities with industry experience as both a Director of Photography and Editor within film. They specialise in creating impactful and narrative driven films, engaging social media content and attention grabbing commercials. Whether it's Youtube videos, Tiktok content or even corporate infomercials, Probular is proficient in the leading editing softwares such as Premier Pro and DaVinci Resolve allowing him to produce the highest quality content incorporating sound design, VFX all the way to color grading. Their work blends creativity and precision, bringing each project to life with fresh storytelling and visual flair that resonates with audiences. Whether you're looking to elevate your brand or tell a story. Probular is here to craft videos that leave a lasting impression.",
-            "image": "./editors/Kesavan Govender/",
+            "image": "./editors/kesavan.jpg",
             "profileLink": "individual.html?id=editor-10",
             "videos":["https://www.youtube.com/embed/GZKJhdDYn2A?si=qIgIlRWRNksFAquM"]
         },
@@ -269,7 +271,7 @@
             "waist": "",
             "location": "",
             "description": "Kuluyolo Hanise is a vibrant and passionate individual with a knack for storytelling. With skills in editing, color grading, sound design, and visual effects, he is able to create incredible pieces of work with any source material at his disposal. With nearly a decade of experience, he guarantees high-quality results with every project he works on. Having worked on a wide range of projects—including music videos, clothing brand campaigns, commercials, short films, social media content, and corporate videos—he brings a diverse set of skills to the table.",
-            "image": "./editors/Kuluyolo Hansie/",
+            "image": "./editors/kuluyolo.jpg",
             "profileLink": "individual.html?id=editor-11",
             "videos":["https://www.youtube.com/embed/MIR1zg1AS5M?si=i36581QkKelHJKAm"]
         },
@@ -301,7 +303,7 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./editors/Sandile Mosimane/",
+            "image": "./videographers/Sandile Headshot.jpg",
             "profileLink": "individual.html?id=editor-14",
             "videos":["https://www.youtube.com/embed/0-eQHXBQXBU?si=1unwpR0tvbgwc9nQ"]
         },
@@ -312,7 +314,7 @@
             "waist": "",
             "location": "",
             "description": "Sharon Mnisi is a multifaceted media professional with a passion for storytelling and creative expression. With her experience in video editing, television, social and digital marketing. She brings a unique blend of technical skills and artistic vision to every project. Sharon specializes in short films, commercial advertising, Documentaries, YouTube videos, Tiktok and Instagram reels. With using industry leading tools like Adobe Premiere Pro, Final Cut, Blender and Capcut.She brings stories to life, one frame at a time.",
-            "image": "./editors/Sharon Mnisi/",
+            "image": "./editors/SHARON MNISI PROFILE.jpg",
             "profileLink": "individual.html?id=editor-15",
             "videos":["https://www.youtube.com/embed/7ehN-XTJw5k?si=Godgim0a9q9GlUOd"]
         },
@@ -323,7 +325,7 @@
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./editors/Malope Le Roux/",
+            "image": "./videographers/malope.jpeg",
             "profileLink": "individual.html?id=editor-16",
             "videos":["https://www.youtube.com/embed/ON1uaCbPSFU?si=7pEevT-Ub8CyNczf"]    
         }
@@ -364,7 +366,7 @@
         },
         {
             "id":"photographer-5",
-            "name": "Gabriella Lynn",
+            "name": "Gabriella De Oliveira",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
@@ -375,7 +377,7 @@
         },
         {
             "id":"photographer-6",
-            "name": "Itumeleng Khutso",
+            "name": "Itumeleng Golele",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "Cape Town",
@@ -480,7 +482,7 @@
             "height": "",
             "waist": "",
             "location": "",
-            "description": "",
+            "description": "A multi-functional creative born in Cape Town, South Africa, with over 4 years of experience as a creative designer. My diverse background has cultivated a diverse style with specific attention to detail, enabling me to produce work that is both exciting and relatable.",
             "image": "./graphic designers/Graphic Design/Khanyiso Booi/7.jpg",
             "profileLink": "individual.html?id=designer-3",
             "images":["./graphic designers/Graphic Design/Khanyiso Booi/1.jpg","./graphic designers/Graphic Design/Khanyiso Booi/2.jpg","./graphic designers/Graphic Design/Khanyiso Booi/3.jpg","./graphic designers/Graphic Design/Khanyiso Booi/4.jpg","./graphic designers/Graphic Design/Khanyiso Booi/5.jpg","./graphic designers/Graphic Design/Khanyiso Booi/6.jpg","./graphic designers/Graphic Design/Khanyiso Booi/8.jpg","./graphic designers/Graphic Design/Khanyiso Booi/9.png","./graphic designers/Graphic Design/Khanyiso Booi/7.jpg"]
@@ -490,8 +492,8 @@
             "name": "Andisiwe Matha",
             "height": "6'0\"",
             "waist": "32\"",
-            "location": "Cape Town",
-            "description": "Andisiwe is a self taught artist who has hosted a succesful event in East London, collaborated with DJ Twists and collaborated with the rapper 'Flash'.",
+            "location": "King Williams Town",
+            "description": "Andisiwe Matha is a visionary graphic designer-visual artist - Illustrator ,dedicated to crafting captivating visual experiences. With a keen eye for detail and a passion for storytelling.South Africa.I.G : @andisiwe_matha, Facebook : ThegirlwithGlasses",
             "image": "./graphic designers/Graphic Design/Andisiwe Matha/Profile pic.png",
             "profileLink": "individual.html?id=designer-4",
             "images":["./graphic designers/Graphic Design/Andisiwe Matha/1.jpg","./graphic designers/Graphic Design/Andisiwe Matha/2.jpg","./graphic designers/Graphic Design/Andisiwe Matha/3.png","./graphic designers/Graphic Design/Andisiwe Matha/4.png","./graphic designers/Graphic Design/Andisiwe Matha/5.jpg","./graphic designers/Graphic Design/Andisiwe Matha/6.jpg","./graphic designers/Graphic Design/Andisiwe Matha/Profile pic.png"]
@@ -503,7 +505,7 @@
             "waist": "",
             "location": "",
             "description": "Daniel has experience with Adobe Photoshop,Illustrator and InDesign. Daniel crafts logos, event posters and social media graphics.",
-            "image": "./graphic designers/Graphic Design/Daniel Makhado/2.jpg",
+            "image": "./graphic designers/Graphic Design/Daniel Makhado/profile.JPG",
             "profileLink": "individual.html?id=designer-5",
             "images":["./graphic designers/Graphic Design/Daniel Makhado/1.png","./graphic designers/Graphic Design/Daniel Makhado/3.jpg","./graphic designers/Graphic Design/Daniel Makhado/4.png","./graphic designers/Graphic Design/Daniel Makhado/5.png","./graphic designers/Graphic Design/Daniel Makhado/6.png","./graphic designers/Graphic Design/Daniel Makhado/7.png","./graphic designers/Graphic Design/Daniel Makhado/2.jpg"]
         },
@@ -546,7 +548,7 @@
             "height": "",
             "waist": "",
             "location": "",
-            "description": "",
+            "description": "The Founder of Ninth Nexus. Tshepang Bapela. An Artist exploring the boundaries of creativity, fully capturing thoughts and emotions in all my works. I specialize in drawing, graphic designing, portrait art and designing, custom art and custom designs, featuring rich Afrofuturism and futuristic aesthetics with my own personal artistic touch. Constantly seeking new ways to expand my range and skill across multiple art forms.",
             "image": "./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png",
             "profileLink": "individual.html?id=designer-9",
             "images":["./graphic designers/Graphic Design/Tshepang Bapela/1.png","./graphic designers/Graphic Design/Tshepang Bapela/2.png","./graphic designers/Graphic Design/Tshepang Bapela/3.png","./graphic designers/Graphic Design/Tshepang Bapela/4.png","./graphic designers/Graphic Design/Tshepang Bapela/7.png","./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png"]
@@ -568,8 +570,8 @@
             "height": "",
             "waist": "",
             "location": "",
-            "description": "",
-            "image": "./graphic designers/Graphic Design/Tshepang Ramokopelwa/1.png",
+            "description": "Tshepang Gerald Ramokopelwa, Graphic Designer & Illustrator, With over 4 years of freelancing experience and a year working with creative agencies like Simboti Digital and Phinem Graphix, he brings a unique blend of expertise in Brand Identity, Social Media Graphics, and Illustrations. Tshepang is passionate about crafting visuals that tell compelling stories, helping brands resonate with their audiences through thoughtful design and innovative visuals. Let’s collaborate to bring your brand’s vision to life.",
+            "image": "./graphic designers/Graphic Design/Tshepang Ramokopelwa/profile.jpg",
             "profileLink": "individual.html?id=designer-11",
             "images":["./graphic designers/Graphic Design/Tshepang Ramokopelwa/1.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/2.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/3.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/4.png"]
         }
@@ -656,7 +658,7 @@
             "waist": "",
             "location": "Johannesburg",
             "description": "Introducing Shaun Nkosi, a skilled video editor, content creator, and videographer proficient in Adobe Suite programs like Premiere Pro, After Effects, Illustrator, and Photoshop. Shaun's creative storytelling has been central to projects such as the Orlando Pirates TV Show 'Up The Bucs,' the World Cup Championship featuring the Springboks, and growing Sunday World News' YouTube channel, 'Engage.' Passionate about live events, interviews, and brand activations, he's now exploring documentary filmmaking. Shaun is also planning to study digital marketing to enhance his ability to create trend-aligned, engaging content.",
-            "image": "./videographers/",
+            "image": "./videographers/shaun.jpg",
             "profileLink": "individual.html?id=videographer-9",
             "videos":["https://www.youtube.com/embed/6wWCGGNpsP4?si=yOJCcc3D3D2G_Vfz"]
         }

@@ -849,11 +849,11 @@ gallery
   }
   @media screen and (max-width:576px){
     .carousel{
-        height: 70vh;
+        height: 80vh;
         width: 100vw;
     }
     .carousel-item img{
-        height: 70%;
+        height: 80%;
     }
     .gallery-container{
         padding: 0;

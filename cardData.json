@@ -84,9 +84,10 @@
             "shoeSize":"7.5 UK",
             "location": "Cape Town",
             "description": "Meet Lwazi Goniwe, a talented commercial model based in Cape Town, Observatory. Lwazi has appeared in notable commercials for brands such as Heineken and 4th Street as a featured model. His runway work includes appearances at Runway On The Street FW 2024 and Khayelitsha Fashion Week. In addition to his modeling career, Lwazi has studied acting and performed in theatre productions at Artscape and Baxter Theatre.",
-            "image": "./models/Models/Lwazi Goniwe/ZFullSizeRender.jpg",
+            "image": "./models/Models/Lwazi Goniwe/profile.JPEG",
             "profileLink": "individual.html?id=model-9",
-            "gender":"m"
+            "gender":"m",
+            "images":["./models/Models/Lwazi Goniwe/1.JPEG","./models/Models/Lwazi Goniwe/2.JPEG","./models/Models/Lwazi Goniwe/3.JPEG","./models/Models/Lwazi Goniwe/ZFullSizeRender.jpg","./models/Models/Lwazi Goniwe/profile.JPEG"]
         },
         {
             "id":"model-11",
@@ -112,7 +113,7 @@
             "image": "./models/Models/Ontari/2.jpeg",
             "profileLink": "individual.html?id=model-13",
             "gender":"m",
-            "images":["./models/Models/Ontari/1.jpeg","./models/Models/Ontari/2.jpeg","./models/Models/Ontari/3.jpeg","./models/Models/Ontari/4.jpeg"]
+            "images":["./models/Models/Ontari/1.jpeg","./models/Models/Ontari/2.jpeg","./models/Models/Ontari/3.jpeg","./models/Models/Ontari/4.jpeg","./models/Models/Ontari/5.jpeg"]
         },
         {
             "id":"model-14",
@@ -164,6 +165,58 @@
             "profileLink": "individual.html?id=model-18",
             "gender":"m",
             "images":["./models/Models/Atero/Atero/2.JPG","./models/Models/Atero/Atero/1.jpg"]
+        },
+        {
+            "id":"model-19",
+            "name": "Chineme Dara",
+            "height": "193 cm",
+            "waist": "97 cm",
+            "shoeSize":"11 UK",
+            "location": "Cape Town",
+            "description": "Chineme Dara, born in Durban to Nigerian and South African parents, currently resides in Cape Town. He has a rich cultural background and a passion for self-expression, which serve as the foundation for his modeling career. Chineme seeks to specialize in both commercial and fashion modeling. A natural in front of the camera, he aims to channel his creativity and charisma into every shot. Always ready to push his creative boundaries, he views modeling as a powerful way to share his story and showcase his individuality.",
+            "image": "./models/Models/Chineme Dara/Chineme Dara ( N )/1.jpeg",
+            "profileLink": "individual.html?id=model-19",
+            "gender":"m",
+            "images":["./models/Models/Chineme Dara/Chineme Dara ( N )/2.jpeg","./models/Models/Chineme Dara/Chineme Dara ( N )/1.jpeg"]
+        },
+        {
+            "id":"model-20",
+            "name": "Hlombe Mgudlwa",
+            "height": "",
+            "waist": "",
+            "shoeSize":"",
+            "location": "Cape Town",
+            "description": "Hlombe Mgudlwa, a native of South Africa, was born and raised in East London and now lives in Cape Town. His areas of expertise are fashion modeling and streetwear. Hlombe now feels compelled to further explore his artistic abilities and share his perceptions of art on the pedestal of modeling thanks to his distint combination of poise, confidence, and an undeniable presence.",
+            "image": "./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/1.jpeg",
+            "profileLink": "individual.html?id=model-20",
+            "gender":"m",
+            "images":["./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/2.jpeg","./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/1.jpeg"]
+        },
+        {
+            "id":"model-21",
+            "name": "Marlon Dzingwa",
+            "height": "183 cm",
+            "waist": "85 cm",
+            "shoeSize":"10 UK",
+            "location": "Cape Town",
+            "description": "",
+            "image": "./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg",
+            "profileLink": "individual.html?id=model-21",
+            "gender":"m",
+            "images":["./models/Models/Marlon Dzingwa/Marlon Dzingwa/2.jpeg","./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg"]
+        },
+        {
+            "id":"model-22",
+            "name": "Tyrone Smith",
+            "height": "170 cm",
+            "waist": "32 cm",
+            "shoeSize":"9 UK",
+            "location": "Cape Town",
+            "description": "",
+            "image": "./models/Models/Tyrone Smith/Tyrone Smith/2.jpg",
+            "profileLink": "individual.html?id=model-22",
+            "gender":"m",
+            "images":["./models/Models/Tyrone Smith/Tyrone Smith/1.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/3.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/4.jpg","./models/Models/Tyrone Smith/Tyrone Smith/2.jpg"]
         }
     ],
     "editors": [
@@ -297,14 +350,14 @@
             "videos":["https://www.youtube.com/embed/i8ksBbN8ZR0?si=hZ_MDXrh_LDuphDE"]
         },
         {
-            "id":"'editor-14",
+            "id":"videographer-8",
             "name": "sandile mosimane",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
             "image": "./videographers/Sandile Headshot.jpg",
-            "profileLink": "individual.html?id=editor-14",
+            "profileLink": "individual.html?id=videographer-8",
             "videos":["https://www.youtube.com/embed/0-eQHXBQXBU?si=1unwpR0tvbgwc9nQ"]
         },
         {
@@ -609,14 +662,14 @@
             "videos":["https://www.youtube.com/embed/UKTXlRBP9xg?si=RdPVZP9KHwsIIVJv"]
         },
         {
-            "id":"videographer-5",
+            "id":"editor-16",
             "name": "malope le roux",
             "height": "",
             "waist": "",
             "location": "",
             "description": "",
-            "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-5"
+            "image": "./videographers/malope.jpeg",
+            "profileLink": "individual.html?id=editor-16"
         },
         {
             "id":"videographer-6",
@@ -647,7 +700,7 @@
             "waist": "",
             "location": "Johannesburg",
             "description": "Sandile Mosimane is a skilled video editor and videographer with over seven years of industry experience. He combines creativity with meticulous attention to detail in every project. Sandile is dedicated to providing exceptional service, ensuring clients not only receive high-quality work but also experience a collaborative process tailored to their vision. His commitment to excellence and hard work has made him a highly sought-after professional.",
-            "image": "./videographers/",
+            "image": "./videographers/Sandile Headshot.jpg",
             "profileLink": "individual.html?id=videographer-8",
             "videos":["https://www.youtube.com/embed/0-eQHXBQXBU?si=1unwpR0tvbgwc9nQ"]
         },

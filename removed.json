@@ -220,3 +220,40 @@
     "profileLink": "individual.html?id=videographer-7",
     "videos":["https://www.youtube.com/embed/GMHC6W73LbI?si=nkUb3HdL2t7gwDz1"]
 }
+{
+    "id":"model-3",
+    "name": "Leo",
+    "height": "",
+    "waist": "",
+    "location": "",
+    "description": "",
+    "image": "./models/Models/Leo/Profile_.jpg",
+    "profileLink": "individual.html?id=model-3",
+    "gender":"m",
+    "images":["./models/Models/Leo/1.jpg","./models/Models/Leo/2.jpg","./models/Models/Leo/3.jpg","./models/Models/Leo/4.jpg","./models/Models/Leo/5.jpg","./models/Models/Leo/6.jpg","./models/Models/Leo/Profile_.jpg"]
+}
+{
+    "id":"model-7",
+    "name": "Logan Kirby",
+    "height": "",
+    "waist": "",
+    "location": "Cape Town",
+    "description": "Logan Summer Kirby, from Worcester, South Africa, is a versatile model specializing in editorial, commercial, and fashion work. Passionate about blending creativity with commercial appeal, Logan aims to push boundaries and collaborate with innovative brands to create impactful visuals.",
+    "image": "./models/Models/Logan Kirby/1.jpg",
+    "profileLink": "individual.html?id=model-7",
+    "gender":"w",
+    "images":["./models/Models/Logan Kirby/3.jpg","./models/Models/Logan Kirby/2.jpg","./models/Models/Logan Kirby/4.jpg","./models/Models/Logan Kirby/5.jpg","./models/Models/Logan Kirby/1.jpg"]
+}
+
+{
+    "id": "model-8",
+    "name": "Lona Ngwenze",
+    "height": "",
+    "waist": "",
+    "location": "Cape Town",
+    "description": "",
+    "image": "./models/Models/Lona Ngwenze/Profile_.jpg",
+    "profileLink": "individual.html?id=model-8",
+    "gender":"w",
+    "images":["./models/Models/Lona Ngwenze/1.JPG","./models/Models/Lona Ngwenze/2.JPG","./models/Models/Lona Ngwenze/3.JPG","./models/Models/Lona Ngwenze/Profile_.jpg"]
+}

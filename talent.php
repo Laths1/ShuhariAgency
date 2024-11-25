@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,7 @@
             <p>
               Discover top-tier models and talent with Shuhari Agency, where we connect brands with the best professionals for fashion, lifestyle, and commercial projects. Let us bring your vision to life with unparalleled expertise and creativity.
             </p>
-            <a href="models.html" class="btn manifesto-btn">see more</a>
+            <a href="models.php" class="btn manifesto-btn">see more</a>
           </div>
         </article>
         <article class="manifesto-card">
@@ -50,7 +50,7 @@
             <p>
               Explore a diverse portfolio of professional photographers at Shuhari Agency, perfect for creative shoots, events, and commercial photography. Capture every moment with expert precision and artistry tailored to your project’s needs.
             </p>
-            <a href="photographers.html" class="btn manifesto-btn">see more</a>
+            <a href="photographers.php" class="btn manifesto-btn">see more</a>
           </div>
         </article>
         <article class="manifesto-card">
@@ -63,7 +63,7 @@
             <p>
               Find talented videographers at Shuhari Agency, specialising in capturing high-quality visuals for films, events, and promotional video projects. Let us bring your story to life with compelling and cinematic content
             </p>
-            <a href="videosgrapher.html" class="btn manifesto-btn">see more</a>
+            <a href="videosgrapher.php" class="btn manifesto-btn">see more</a>
           </div>
         </article>
     </div>
@@ -77,7 +77,7 @@
             <p>
               Discover skilled graphic designers at Shuhari Agency, specialising in brand identity, digital art, and creative visual solutions. Elevate your brand with designs that captivate and inspire.
             </p>
-            <a href="graphicDesigner.html" class="btn manifesto-btn">see more</a>
+            <a href="graphicDesigner.php" class="btn manifesto-btn">see more</a>
           </div>
         </article>
         <article class="manifesto-card">
@@ -90,7 +90,7 @@
             <p>
               Connect with expert editors at Shuhari Agency for seamless video, photo, and content editing. We bring your vision to life with precision and creativity, ensuring polished, professional results.
             </p>
-            <a href="editors.html" class="btn manifesto-btn">see more</a>
+            <a href="editors.php" class="btn manifesto-btn">see more</a>
           </div>
       </article>
         
@@ -103,4 +103,4 @@
   </section>
     
 </body>
-</html>
+</php>

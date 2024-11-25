@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
     <head>
     <meta charset="UTF-8">
@@ -51,4 +51,4 @@
     <script src="footer.js"></script>
     <!-- end of footer -->
 </body>
-</html>
+</php>

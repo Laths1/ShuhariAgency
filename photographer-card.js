@@ -7,7 +7,7 @@ fetch('cardData.json')
             const card = document.createElement('section');
             card.classList.add('talent-container2');
             
-            card.innerHTML = `
+            card.innerphp = `
                 <div class="talent-text-container">
                     <div class="talent-title"><h2>${photographer.name}</h2></div>
                     <div class="talent-main-text">

@@ -9,7 +9,7 @@
             "location": "Cape Town",
             "description": "My name is Elisa and my surname is Mahloane. I was born in the Eastern Cape to South African parents. I currently reside in Cape Town. I’m 5’6 tall, my waist is 58cm and my bust is 78.6cm .I find interest in being a fashion and commercial model to showcase my creativity and energy on any project I get. I thrive in diverse environments, adapting my look for various styles ranging from high fashion to lifestyle shoots. I have an ability to convey emotion through poses which makes me a valuable asset on every set.",
             "image": "./models/Models/Elisa Mahloane/Profile_.jpg",
-            "profileLink": "individual.html?id=model-2",
+            "profileLink": "individual.php?id=model-2",
             "gender":"w",
             "images": ["./models/Models/Elisa Mahloane/2.jpeg","./models/Models/Elisa Mahloane/4.jpeg","./models/Models/Elisa Mahloane/5.jpeg","./models/Models/Elisa Mahloane/6.jpeg","./models/Models/Elisa Mahloane/7.jpeg","./models/Models/Elisa Mahloane/Profile_.jpg"]
         },
@@ -24,7 +24,7 @@
             "location": "Cape Town",
             "description": "Introducing Thayanda, a dynamic art piece in constant evolution. With a deep appreciation for art, Thayanda approaches modeling as a creative collaboration, becoming the canvas with her appearance, energy, and demeanor as the mediums. Embracing her ever-changing nature, Thayanda embodies both muse and artist, adapting to various characters and aesthetics. Through modeling, she invites others to create unique and captivating art, showcasing the beauty of self-expression and transformation.",
             "image": "./models/Models/Thayanda/4.jpg",
-            "profileLink": "individual.html?id=model-4",
+            "profileLink": "individual.php?id=model-4",
             "gender":"w",
             "images":["./models/Models/Thayanda/1.jpg","./models/Models/Thayanda/2.JPG","./models/Models/Thayanda/3.jpeg","./models/Models/Thayanda/4.jpeg","./models/Models/Thayanda/Profile Pic.jpg","./models/Models/Thayanda/4.jpg"]
         },
@@ -37,7 +37,7 @@
             "location": "Cape Town",
             "description": "From Cape Town, South Africa, Gia Alana Paulse is an artist dedicated to pushing boundaries in modeling. She brings beauty, creativity, and expression to every project, transforming editorial, commercial, and artistic modeling into visual masterpieces.",
             "image": "./models/Models/Gia Paulse/IMG_7140.jpeg",
-            "profileLink": "individual.html?id=model-5",
+            "profileLink": "individual.php?id=model-5",
             "gender":"w",
             "images":["./models/Models/Gia Paulse/2.jpg","./models/Models/Gia Paulse/3.jpeg","./models/Models/Gia Paulse/4.jpeg","./models/Models/Gia Paulse/IMG_7140.jpeg"]
         },
@@ -51,7 +51,7 @@
             "location": "Cape Town",
             "description": "Meet Lwazi Goniwe, a talented commercial model based in Cape Town, Observatory. Lwazi has appeared in notable commercials for brands such as Heineken and 4th Street as a featured model. His runway work includes appearances at Runway On The Street FW 2024 and Khayelitsha Fashion Week. In addition to his modeling career, Lwazi has studied acting and performed in theatre productions at Artscape and Baxter Theatre.",
             "image": "./models/Models/Lwazi Goniwe/profile.JPEG",
-            "profileLink": "individual.html?id=model-9",
+            "profileLink": "individual.php?id=model-9",
             "gender":"m",
             "images":["./models/Models/Lwazi Goniwe/1.JPEG","./models/Models/Lwazi Goniwe/2.JPEG","./models/Models/Lwazi Goniwe/3.JPEG","./models/Models/Lwazi Goniwe/ZFullSizeRender.jpg","./models/Models/Lwazi Goniwe/profile.JPEG"]
         },
@@ -64,7 +64,7 @@
             "location": "Cape Town",
             "description": "Introducing Ryan Sihamba, an experienced model with over two years in the commercial and fashion industry. With a passion for collaboration and creativity, Ryan excels in commercial modeling, serving as a blank canvas to bring clients' ideas to life through wardrobe, themes, and props. He has showcased local fashion brands through both stills and videography. Ryan is also looking to expand his talents into acting in the near future.",
             "image": "./models/Models/Mpho Ryan Sihamba/Profile_.jpg",
-            "profileLink": "individual.html?id=model-11",
+            "profileLink": "individual.php?id=model-11",
             "gender":"m",
             "images":["./models/Models/Mpho Ryan Sihamba/1.jpg","./models/Models/Mpho Ryan Sihamba/2.jpeg","./models/Models/Mpho Ryan Sihamba/3.jpeg","./models/Models/Mpho Ryan Sihamba/4.jpeg","./models/Models/Mpho Ryan Sihamba/Profile_.jpg"]
         },
@@ -77,7 +77,7 @@
             "location": "Cape Town",
             "description": "Ontari is a Cape Town-based fashion model and content creator with over 63,000 supporters across TikTok and Instagram. He creates impactful content in fashion, hair, and lifestyle and is driven to grow his influence and achieve significant success in modeling and content creation",
             "image": "./models/Models/Ontari/2.jpeg",
-            "profileLink": "individual.html?id=model-13",
+            "profileLink": "individual.php?id=model-13",
             "gender":"m",
             "images":["./models/Models/Ontari/1.jpeg","./models/Models/Ontari/2.jpeg","./models/Models/Ontari/3.jpeg","./models/Models/Ontari/4.jpeg","./models/Models/Ontari/5.jpeg"]
         },
@@ -90,7 +90,7 @@
             "location": "Port Elizabeth",
             "description": "Meet Sigqibo, Sam, Malambile, born and raised in the Eastern Cape and now based in Gauteng. When it comes to modeling styles, Sam is truly a jack of all trades. He lives by the quote, 'You never know when, so take your chance when it comes.'",
             "image": "./models/Models/Sam/Profile_.jpg",
-            "profileLink": "individual.html?id=model-14",
+            "profileLink": "individual.php?id=model-14",
             "gender":"m",
             "images":["./models/Models/Sam/1.jpeg","./models/Models/Sam/2.JPG","./models/Models/Sam/3.JPG","./models/Models/Sam/4.JPG","./models/Models/Sam/5.JPG","./models/Models/Sam/6.jpg","./models/Models/Sam/Profile_.jpg"]
         },
@@ -103,7 +103,7 @@
             "location": "Cape Town",
             "description": "Daniel Kassy, originally from the Democratic Republic of Congo and raised in Bloemfontein, South Africa, currently resides in Cape Town. He specializes in commercial and fashion modeling. A creative individual who typically works behind the camera, Daniel now feels inspired to explore his creativity further and showcase God’s work of art through modeling",
             "image": "./models/Models/Daniel Kassy/1.jpg",
-            "profileLink": "individual.html?id=model-15",
+            "profileLink": "individual.php?id=model-15",
             "gender":"m",
             "images":["./models/Models/Daniel Kassy/2.JPG","./models/Models/Daniel Kassy/3.jpg","./models/Models/Daniel Kassy/4.jpg","./models/Models/Daniel Kassy/5.jpg","./models/Models/Daniel Kassy/1.jpg"]
         },
@@ -116,7 +116,7 @@
             "location": "Cape Town",
             "description": "Uju Ali was born in Port Elizabeth and raised in Johannesburg. Currently residing in Cape Town, Uju is pursuing studies in Interior design, driven by a creative mindset and a passion for transforming spaces. Inspired by peers who follow the ways of God, Uju aims to reflect the grace of God through her work, believing that her abilities stem from divine will. She resonates with the scripture, 'I can do all things through Christ who strengthens me' (Philippians 4:13), embodying the belief that faith empowers her creative journey.",
             "image": "./models/Models/Uju/1.JPG",
-            "profileLink": "individual.html?id=model-17",
+            "profileLink": "individual.php?id=model-17",
             "gender":"w",
             "images":["./models/Models/Uju/2.JPG","./models/Models/Uju/3.jpg","./models/Models/Uju/1.JPG"]
         },
@@ -129,7 +129,7 @@
             "location": "Cape Town",
             "description": "Chineme Dara, born in Durban to Nigerian and South African parents, currently resides in Cape Town. He has a rich cultural background and a passion for self-expression, which serve as the foundation for his modeling career. Chineme seeks to specialize in both commercial and fashion modeling. A natural in front of the camera, he aims to channel his creativity and charisma into every shot. Always ready to push his creative boundaries, he views modeling as a powerful way to share his story and showcase his individuality.",
             "image": "./models/Models/Chineme Dara/Chineme Dara ( N )/1.jpeg",
-            "profileLink": "individual.html?id=model-19",
+            "profileLink": "individual.php?id=model-19",
             "gender":"m",
             "images":["./models/Models/Chineme Dara/Chineme Dara ( N )/2.jpeg","./models/Models/Chineme Dara/Chineme Dara ( N )/1.jpeg"]
         },
@@ -142,7 +142,7 @@
             "location": "Cape Town",
             "description": "Tacy Matutle, also known by his stage name TboneTyrone, is a 20 year old fashion model aswell as an upcoming artist hailing from Cape Town. With a growing presence, he is gaining recognition for his unique sound and creative expression through fashion as statement pieces and music.",
             "image": "./models/Models/Tyrone Smith/Tyrone Smith/2.jpg",
-            "profileLink": "individual.html?id=model-22",
+            "profileLink": "individual.php?id=model-22",
             "gender":"m",
             "images":["./models/Models/Tyrone Smith/Tyrone Smith/1.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/3.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/4.jpg","./models/Models/Tyrone Smith/Tyrone Smith/2.jpg"]
         },
@@ -155,7 +155,7 @@
             "location": "Cape Town",
             "description": "Marlon Dzingwa , 21 y/o male is an aspiring model based in Cape Town who after school stepped into the world of fashion and modeling. With a passion for streetwear ,apparel and self expression. He is eager to explore various modeling opportunities. Offering a mixture of versatile aesthetics with ambiguous ethnic features.",
             "image": "./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg",
-            "profileLink": "individual.html?id=model-21",
+            "profileLink": "individual.php?id=model-21",
             "gender":"m",
             "images":["./models/Models/Marlon Dzingwa/Marlon Dzingwa/2.jpeg","./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg"]
         }
@@ -170,7 +170,7 @@
             "location": "Cape Town",
             "description": "Bill Kongolo is a versatile video editor with expertise in crafting dynamic music videos, impactful social media content, and cinematic short films. He is proficient in using CapCut PC, Adobe Premiere Pro, and DaVinci Resolve to deliver polished, high-quality visuals.",
             "image": "./editors/kongolo.jpg",
-            "profileLink": "individual.html?id=editor-2",
+            "profileLink": "individual.php?id=editor-2",
             "videos":["https://www.youtube.com/embed/_tLX5SiS8Xc?si=yoq5pfm-h3HR2JM-"]
         },
         {
@@ -181,7 +181,7 @@
             "location": "",
             "description": "Dylan Mohlala is a 10+ year multimedia professional with extensive experience in content media management, marketing, and advertising. He has strong technical and theoretical knowledge of film, broadcasting, photography, editing, graphic design, and sound engineering. He has populated media for online publications in the news, tech, events management, and entertainment industries. He obtained a Diploma in Media Practices, and is proficient in all industry standard software. Dylan a rich has knowledge of current affairs, trends, search engine optimization, and industry best practices in multimedia.",
             "image": "./photographers/Photographers/Dylan Mohlala/2.jpg",
-            "profileLink": "individual.html?id=editor-6",
+            "profileLink": "individual.php?id=editor-6",
             "videos":["https://www.youtube.com/embed/3iQTgqWTA-w?si=O8qry6k-lfOSKnJT"]
         },
         {
@@ -192,7 +192,7 @@
             "location": "",
             "description": "Kai Trull is a skilled professional with five years of experience in advertising and documentary film editing. As a graduate of AFDA, he has further enhanced his expertise by acquiring skills in sound design, visual effects, and color grading. Kai has a strong passion for 3D animation, and he is proficient in industry-standard software, including Adobe Creative Suite, DaVinci Resolve, Avid Media Composer, and Blender. His eagerness to learn and adaptability allow him to excel when tackling new projects. Known for his exceptional troubleshooting abilities, Kai combines creativity with technical proficiency to deliver innovative solutions.",
             "image": "./editors/kai.jpeg",
-            "profileLink": "individual.html?id=editor-9",
+            "profileLink": "individual.php?id=editor-9",
             "videos":["https://www.youtube.com/embed/SVWfbEx9h1I?si=ekQ0uRIUITVwdi3r"]
         },
         {
@@ -203,7 +203,7 @@
             "location": "",
             "description": "Probular is a skilled video editor who has refined their abilities with industry experience as both a Director of Photography and Editor within film. They specialise in creating impactful and narrative driven films, engaging social media content and attention grabbing commercials. Whether it's Youtube videos, Tiktok content or even corporate infomercials, Probular is proficient in the leading editing softwares such as Premier Pro and DaVinci Resolve allowing him to produce the highest quality content incorporating sound design, VFX all the way to color grading. Their work blends creativity and precision, bringing each project to life with fresh storytelling and visual flair that resonates with audiences. Whether you're looking to elevate your brand or tell a story. Probular is here to craft videos that leave a lasting impression.",
             "image": "./editors/kesavan.jpg",
-            "profileLink": "individual.html?id=editor-10",
+            "profileLink": "individual.php?id=editor-10",
             "videos":["https://www.youtube.com/embed/GZKJhdDYn2A?si=qIgIlRWRNksFAquM"]
         },
         {
@@ -214,7 +214,7 @@
             "location": "",
             "description": "Kuluyolo Hanise is a vibrant and passionate individual with a knack for storytelling. With skills in editing, color grading, sound design, and visual effects, he is able to create incredible pieces of work with any source material at his disposal. With nearly a decade of experience, he guarantees high-quality results with every project he works on. Having worked on a wide range of projects—including music videos, clothing brand campaigns, commercials, short films, social media content, and corporate videos—he brings a diverse set of skills to the table.",
             "image": "./editors/kuluyolo.jpg",
-            "profileLink": "individual.html?id=editor-11",
+            "profileLink": "individual.php?id=editor-11",
             "videos":["https://www.youtube.com/embed/MIR1zg1AS5M?si=i36581QkKelHJKAm"]
         },
         
@@ -226,7 +226,7 @@
             "location": "",
             "description": "",
             "image": "./videographers/Sandile Headshot.jpg",
-            "profileLink": "individual.html?id=videographer-8",
+            "profileLink": "individual.php?id=videographer-8",
             "videos":["https://www.youtube.com/embed/0-eQHXBQXBU?si=1unwpR0tvbgwc9nQ"]
         },
         {
@@ -237,7 +237,7 @@
             "location": "",
             "description": "Sharon Mnisi is a multifaceted media professional with a passion for storytelling and creative expression. With her experience in video editing, television, social and digital marketing. She brings a unique blend of technical skills and artistic vision to every project. Sharon specializes in short films, commercial advertising, Documentaries, YouTube videos, Tiktok and Instagram reels. With using industry leading tools like Adobe Premiere Pro, Final Cut, Blender and Capcut.She brings stories to life, one frame at a time.",
             "image": "./editors/SHARON MNISI PROFILE.jpg",
-            "profileLink": "individual.html?id=editor-15",
+            "profileLink": "individual.php?id=editor-15",
             "videos":["https://www.youtube.com/embed/7ehN-XTJw5k?si=Godgim0a9q9GlUOd"]
         },
         {
@@ -248,7 +248,7 @@
             "location": "",
             "description": "Meet Malope Le Roux, a skilled video editor, videographer and content creator, Malope started his journey in to the instantly by completing a degree in “B.A Live Performance and motion picture at AFDA film school and was immediately hired to be a presenter on the SABC 1 educational show “Tomz”.He crossed over into Prost production by doing subtitles and voice overs for the very same show. During this time he acquired the skill of editing using Final Cut Pro And colour grading using davinci resolve. He also has and can operate his own drone. Since then he has worked with many corporate companies creating high quality content for them Companies like empowaworx, Tradeway, Tiger Brands, tv channels like SABC 1 and moja love.If you’re looking for great quality visuals that leave a lasting impression, look no further.",
             "image": "./videographers/malope.jpeg",
-            "profileLink": "individual.html?id=editor-16",
+            "profileLink": "individual.php?id=editor-16",
             "videos":["https://www.youtube.com/embed/ON1uaCbPSFU?si=7pEevT-Ub8CyNczf"]    
         },
         {
@@ -259,7 +259,7 @@
             "location": "Johannesburg",
             "description": "Tshepo is a detail-oriented and service-focused video editor and cinematographer who strives to provide the highest quality work for his clients with a keen eye for detail and a commitment to client satisfaction. Tshepo strives to create a compelling and visually stunning videos that exceed expectations. His passion for filmmaking and storytelling shines through in every project he takes on.",
             "image": "./editors/tshepo.jpg",
-            "profileLink": "individual.html?id=editor-17",
+            "profileLink": "individual.php?id=editor-17",
             "videos":["https://www.youtube.com/embed/jAz7O4fU3I4?si=atlHpVEnvfjKFMVv"]    
         }
     ],
@@ -272,7 +272,7 @@
             "location": "Cape Town",
             "description": "Introducing Agmat Achmad, an experienced photographer, videographer, and video editor proficient in Adobe Suite tools like Premiere Pro, Photoshop, Lightroom, Illustrator, and Audition. Agmat's journey began at a community radio station, Radio 786, where he captured footage for news packages and covered events like protests. He later expanded his focus to corporate clients and weddings but remains open to exploring a variety of creative projects.",
             "image": "./photographers/Photographers/Agmat Achmad/Agmat Achmad/7.jpeg",
-            "profileLink": "individual.html?id=photographer-3",
+            "profileLink": "individual.php?id=photographer-3",
             "images":["./photographers/Photographers/Agmat Achmad/Agmat Achmad/1.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/2.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/3.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/4.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/5.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/6.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/8.jpeg","./photographers/Photographers/Agmat Achmad/Agmat Achmad/7.jpeg"]
         },
         {
@@ -283,7 +283,7 @@
             "location": "Johannesburg",
             "description": "Dylan Mohlala is a 10+ year multimedia professional with extensive experience in content media management, marketing, and advertising. He has strong technical and theoretical knowledge of film, broadcasting, photography, editing, graphic design, and sound engineering. He has populated media for online publications in the news, tech, events management, and entertainment industries. He obtained a Diploma in Media Practices, and is proficient in all industry standard software. Dylan a rich has knowledge of current affairs, trends, search engine optimization, and industry best practices in multimedia.",
             "image": "./photographers/Photographers/Dylan Mohlala/img.jpg",
-            "profileLink": "individual.html?id=photographer-4",
+            "profileLink": "individual.php?id=photographer-4",
             "images":["./photographers/Photographers/Dylan Mohlala/1.jpg","./photographers/Photographers/Dylan Mohlala/2.jpg","./photographers/Photographers/Dylan Mohlala/8.jpg","./photographers/Photographers/Dylan Mohlala/4.jpg","./photographers/Photographers/Dylan Mohlala/5.jpg","./photographers/Photographers/Dylan Mohlala/6.jpg"]
         },
         {
@@ -294,7 +294,7 @@
             "location": "Cape Town",
             "description": "This is Gabriella De Oliveira, a talented freelance photographer currently studying at AFDA. Her work is all about storytelling, bringing whatever or whoever she captures to life through her lens.",
             "image": "./photographers/Photographers/Gabriella Lynn/Profile image_.jpg",
-            "profileLink": "individual.html?id=photographer-5",
+            "profileLink": "individual.php?id=photographer-5",
             "images":["./photographers/Photographers/Gabriella Lynn/1.jpg","./photographers/Photographers/Gabriella Lynn/2.jpg","./photographers/Photographers/Gabriella Lynn/3.jpg","./photographers/Photographers/Gabriella Lynn/4.jpg","./photographers/Photographers/Gabriella Lynn/5.jpg","./photographers/Photographers/Gabriella Lynn/6.jpg","./photographers/Photographers/Gabriella Lynn/7.jpg","./photographers/Photographers/Gabriella Lynn/Profile image_.jpg"]
         },
         {
@@ -305,7 +305,7 @@
             "location": "Cape Town",
             "description": "As a photographer with a unique perspective, Itu draws inspiration from experiences in two vibrant cities, Johannesburg and Cape Town. With a passion for capturing the beauty in a variety of people, places, and things, he uses his lens to tell stories that blend the rhythms of urban life with the beauty of the human experience. Itu's photography journey has taken him from the bustling streets of Joburg to the charming landscapes of Cape Town, and everywhere in between. He is constantly seeking new ways to frame the world around him and is excited to share his vision with you.",
             "image": "./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg",
-            "profileLink": "individual.html?id=photographer-6",
+            "profileLink": "individual.php?id=photographer-6",
             "images":["./photographers/Photographers/Itumeleng Khutso/1.JPG","./photographers/Photographers/Itumeleng Khutso/2.JPG","./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg"]
         },
         
@@ -317,7 +317,7 @@
             "location": "Cape Town",
             "description": "Meet Melo Bopape (melojpg). Melo Bopape is a skilled digital photographer specializing in fashion and portrait photography. With a Film and Media background from the University of Cape Town and mentorships from top institutions, Melo excels in using light and collaboration to craft powerful visual narratives.",
             "image": "./photographers/Photographers/Melo Bopape/profile p.jpg",
-            "profileLink": "individual.html?id=photographer-8",
+            "profileLink": "individual.php?id=photographer-8",
             "images":["./photographers/Photographers/Melo Bopape/1.jpeg","./photographers/Photographers/Melo Bopape/2.jpeg","./photographers/Photographers/Melo Bopape/3.jpeg","./photographers/Photographers/Melo Bopape/4.jpeg","./photographers/Photographers/Melo Bopape/5.jpeg","./photographers/Photographers/Melo Bopape/profile p.jpg"]
         },
         {
@@ -328,7 +328,7 @@
             "location": "Cape Town",
             "description": "Tinashe Chihwayi, the visionary behind Snazzy Studios, is a talented and innovative photographer based in Cape Town. With a passion for capturing authentic moments, Tinashe brings creativity and enthusiasm to every photoshoot. Specializing in events, birthday, maternity, beach, lifestyle photography, and other custom photography services, our goal is to provide exceptional service and unforgettable experiences.",
             "image": "./photographers/Photographers/Tinashe Chihwayi/Profile pic_.jpg",
-            "profileLink": "individual.html?id=photographer-9",
+            "profileLink": "individual.php?id=photographer-9",
             "images":["./photographers/Photographers/Tinashe Chihwayi/1.jpeg","./photographers/Photographers/Tinashe Chihwayi/2.jpeg","./photographers/Photographers/Tinashe Chihwayi/3.jpeg","./photographers/Photographers/Tinashe Chihwayi/4.jpeg","./photographers/Photographers/Tinashe Chihwayi/5.jpeg","./photographers/Photographers/Tinashe Chihwayi/Profile pic_.jpg"]
         },
         
@@ -340,7 +340,7 @@
             "location": "Johannesburg",
             "description": "Gift is an innovative, creative and a professional photographer who's based in the east of Johannesburg. After obtaining his Diploma in Commercial Photography at the Tshwane University of Technology, with four years of experience, he has attained the necessary skills and expertise to generate creative concepts to achieve visually pleasing results. He's inspired by beautiful people, places and different personalities and uses a Nikon Z5 mirrorless camera as a tool to express myself. He uses photography as a tool to express himself.",
             "image": "./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/1.jpg",
-            "profileLink": "individual.html?id=photographer-12",
+            "profileLink": "individual.php?id=photographer-12",
             "images":["./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/2.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/3.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/4.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/5.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/7.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/8.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/9.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/10.jpg","./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/11.jpg"]
         },
         {
@@ -351,7 +351,7 @@
             "location": "Johannesburg",
             "description": "Katlego is a skilled photographer specializing in fashion, commercial, editorial, corporate, product, and lifestyle photography. With a background in Media Studies and Television Production, he combines storytelling with technical precision to create striking visuals that resonate.",
             "image": "./editors/Bill k.jpeg",
-            "profileLink": "individual.html?id=photographer-13",
+            "profileLink": "individual.php?id=photographer-13",
             "images":["./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/2.jpg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/3.jpg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/4.jpg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/5.jpeg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/6.jpg","./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpg"]
         },
         {
@@ -362,7 +362,7 @@
             "location": "Cape Town",
             "description": "Minenhle Sithebe is a passionate and versatile photographer based in Cape Town, South Africa. Currently in his second year of photography studies, he has already collaborated with Shuhari Agency and Miresma Fragrances, as well as worked with emerging designers and brand owners. He is eager to work closely with clients to understand their vision and bring it to life through his photography. Minenhle looks forward to gaining more experience and honing his skills in the field. Let me know if you need anything else!",
             "image": "./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/1.jpg",
-            "profileLink": "individual.html?id=photographer-14",
+            "profileLink": "individual.php?id=photographer-14",
             "images":["./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/2.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/3.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/4.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/5.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/6.jpg","./photographers/Photographers/Minenhle Sithebe/Minenhle Sithebe/1.jpg"]
         }
     ],
@@ -375,7 +375,7 @@
             "location": "",
             "description": "A multi-functional creative born in Cape Town, South Africa, with over 4 years of experience as a creative designer. My diverse background has cultivated a diverse style with specific attention to detail, enabling me to produce work that is both exciting and relatable.",
             "image": "./graphic designers/Graphic Design/Khanyiso Booi/7.jpg",
-            "profileLink": "individual.html?id=designer-3",
+            "profileLink": "individual.php?id=designer-3",
             "images":["./graphic designers/Graphic Design/Khanyiso Booi/1.jpg","./graphic designers/Graphic Design/Khanyiso Booi/2.jpg","./graphic designers/Graphic Design/Khanyiso Booi/3.jpg","./graphic designers/Graphic Design/Khanyiso Booi/4.jpg","./graphic designers/Graphic Design/Khanyiso Booi/5.jpg","./graphic designers/Graphic Design/Khanyiso Booi/6.jpg","./graphic designers/Graphic Design/Khanyiso Booi/8.jpg","./graphic designers/Graphic Design/Khanyiso Booi/9.png","./graphic designers/Graphic Design/Khanyiso Booi/7.jpg"]
         },
         {
@@ -386,7 +386,7 @@
             "location": "King Williams Town",
             "description": "Andisiwe Matha is a visionary graphic designer-visual artist - Illustrator ,dedicated to crafting captivating visual experiences. With a keen eye for detail and a passion for storytelling.South Africa.I.G : @andisiwe_matha, Facebook : ThegirlwithGlasses",
             "image": "./graphic designers/Graphic Design/Andisiwe Matha/Profile pic.png",
-            "profileLink": "individual.html?id=designer-4",
+            "profileLink": "individual.php?id=designer-4",
             "images":["./graphic designers/Graphic Design/Andisiwe Matha/1.jpg","./graphic designers/Graphic Design/Andisiwe Matha/2.jpg","./graphic designers/Graphic Design/Andisiwe Matha/3.png","./graphic designers/Graphic Design/Andisiwe Matha/4.png","./graphic designers/Graphic Design/Andisiwe Matha/5.jpg","./graphic designers/Graphic Design/Andisiwe Matha/6.jpg","./graphic designers/Graphic Design/Andisiwe Matha/Profile pic.png"]
         },
         {
@@ -397,7 +397,7 @@
             "location": "",
             "description": "Daniel has experience with Adobe Photoshop,Illustrator and InDesign. Daniel crafts logos, event posters and social media graphics.",
             "image": "./graphic designers/Graphic Design/Daniel Makhado/profile.JPG",
-            "profileLink": "individual.html?id=designer-5",
+            "profileLink": "individual.php?id=designer-5",
             "images":["./graphic designers/Graphic Design/Daniel Makhado/1.png","./graphic designers/Graphic Design/Daniel Makhado/3.jpg","./graphic designers/Graphic Design/Daniel Makhado/4.png","./graphic designers/Graphic Design/Daniel Makhado/5.png","./graphic designers/Graphic Design/Daniel Makhado/6.png","./graphic designers/Graphic Design/Daniel Makhado/7.png","./graphic designers/Graphic Design/Daniel Makhado/2.jpg"]
         },
         {
@@ -408,7 +408,7 @@
             "location": "",
             "description": "Mabeka has 3 years of experience in the creative industry.His work includes digital illustration, typography and branding.",
             "image": "./graphic designers/Graphic Design/Mabeka Kola/3.png",
-            "profileLink": "individual.html?id=designer-6",
+            "profileLink": "individual.php?id=designer-6",
             "images":["./graphic designers/Graphic Design/Mabeka Kola/1.jpg","./graphic designers/Graphic Design/Mabeka Kola/2.png","./graphic designers/Graphic Design/Mabeka Kola/4.png","./graphic designers/Graphic Design/Mabeka Kola/5.png","./graphic designers/Graphic Design/Mabeka Kola/6.jpg","./graphic designers/Graphic Design/Mabeka Kola/7.jpg","./graphic designers/Graphic Design/Mabeka Kola/8.jpg","./graphic designers/Graphic Design/Mabeka Kola/9.png","./graphic designers/Graphic Design/Mabeka Kola/10.png","./graphic designers/Graphic Design/Mabeka Kola/11.jpg","./graphic designers/Graphic Design/Mabeka Kola/12.png","./graphic designers/Graphic Design/Mabeka Kola/13.png","./graphic designers/Graphic Design/Mabeka Kola/3.png"]
         },
         
@@ -420,7 +420,7 @@
             "location": "",
             "description": "Passionate about blending creativity and technology, Tiffany Naku is a versatile graphic designer, concept artist, and 3D designer. With a keen eye for detail and a love for storytelling, she creates captivating digital illustrations and animations that bring ideas to life. Whether working on branding projects or designing immersive environments, her goal is to transform visions into striking visuals that resonate with audiences. Let's collaborate and create something extraordinary!",
             "image": "./graphic designers/Graphic Design/Tiffany Naku/2.jpg",
-            "profileLink": "individual.html?id=designer-8",
+            "profileLink": "individual.php?id=designer-8",
             "images":["./graphic designers/Graphic Design/Tiffany Naku/1.jpg","./graphic designers/Graphic Design/Tiffany Naku/3.jpg","./graphic designers/Graphic Design/Tiffany Naku/4.jpg","./graphic designers/Graphic Design/Tiffany Naku/5.jpg","./graphic designers/Graphic Design/Tiffany Naku/6.jpg","./graphic designers/Graphic Design/Tiffany Naku/7.jpg","./graphic designers/Graphic Design/Tiffany Naku/8.jpg","./graphic designers/Graphic Design/Tiffany Naku/10.jpg","./graphic designers/Graphic Design/Tiffany Naku/2.jpg"]
         },
         {
@@ -431,7 +431,7 @@
             "location": "",
             "description": "The Founder of Ninth Nexus. Tshepang Bapela. An Artist exploring the boundaries of creativity, fully capturing thoughts and emotions in all my works. I specialize in drawing, graphic designing, portrait art and designing, custom art and custom designs, featuring rich Afrofuturism and futuristic aesthetics with my own personal artistic touch. Constantly seeking new ways to expand my range and skill across multiple art forms.",
             "image": "./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png",
-            "profileLink": "individual.html?id=designer-9",
+            "profileLink": "individual.php?id=designer-9",
             "images":["./graphic designers/Graphic Design/Tshepang Bapela/1.png","./graphic designers/Graphic Design/Tshepang Bapela/2.png","./graphic designers/Graphic Design/Tshepang Bapela/3.png","./graphic designers/Graphic Design/Tshepang Bapela/4.png","./graphic designers/Graphic Design/Tshepang Bapela/7.png","./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png"]
         },
         {
@@ -442,7 +442,7 @@
             "location": "",
             "description": "Tshepang Gerald Ramokopelwa, Graphic Designer & Illustrator, With over 4 years of freelancing experience and a year working with creative agencies like Simboti Digital and Phinem Graphix, he brings a unique blend of expertise in Brand Identity, Social Media Graphics, and Illustrations. Tshepang is passionate about crafting visuals that tell compelling stories, helping brands resonate with their audiences through thoughtful design and innovative visuals. Let’s collaborate to bring your brand’s vision to life.",
             "image": "./graphic designers/Graphic Design/Tshepang Ramokopelwa/profile.jpg",
-            "profileLink": "individual.html?id=designer-11",
+            "profileLink": "individual.php?id=designer-11",
             "images":["./graphic designers/Graphic Design/Tshepang Ramokopelwa/1.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/2.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/3.png","./graphic designers/Graphic Design/Tshepang Ramokopelwa/4.png"]
         }
     ],
@@ -455,7 +455,7 @@
             "location": "Cape Town",
             "description": "Jahem De Vos, born and raised in Cape Town, South Africa. I am passionate about using cinematography as a tool to share human stories. Studying Film and English Literature has improved my gift of storytelling. I am excited to partner to create visually stunning films and videos in order to achieve this. My interests are everything from documentaries, music videos to commercials, and short films.",
             "image": "./videographers/jahem.jpg",
-            "profileLink": "individual.html?id=videographer-4",
+            "profileLink": "individual.php?id=videographer-4",
             "videos":["https://www.youtube.com/embed/UKTXlRBP9xg?si=RdPVZP9KHwsIIVJv"]
         },
         {
@@ -466,7 +466,7 @@
             "location": "",
             "description": "",
             "image": "./videographers/malope.jpeg",
-            "profileLink": "individual.html?id=editor-16"
+            "profileLink": "individual.php?id=editor-16"
         },
         
         {
@@ -477,7 +477,7 @@
             "location": "Johannesburg",
             "description": "Sandile Mosimane is a skilled video editor and videographer with over seven years of industry experience. He combines creativity with meticulous attention to detail in every project. Sandile is dedicated to providing exceptional service, ensuring clients not only receive high-quality work but also experience a collaborative process tailored to their vision. His commitment to excellence and hard work has made him a highly sought-after professional.",
             "image": "./videographers/Sandile Headshot.jpg",
-            "profileLink": "individual.html?id=videographer-8",
+            "profileLink": "individual.php?id=videographer-8",
             "videos":["https://www.youtube.com/embed/0-eQHXBQXBU?si=1unwpR0tvbgwc9nQ"]
         },
         {
@@ -488,7 +488,7 @@
             "location": "Johannesburg",
             "description": "Introducing Shaun Nkosi, a skilled video editor, content creator, and videographer proficient in Adobe Suite programs like Premiere Pro, After Effects, Illustrator, and Photoshop. Shaun's creative storytelling has been central to projects such as the Orlando Pirates TV Show 'Up The Bucs,' the World Cup Championship featuring the Springboks, and growing Sunday World News' YouTube channel, 'Engage.' Passionate about live events, interviews, and brand activations, he's now exploring documentary filmmaking. Shaun is also planning to study digital marketing to enhance his ability to create trend-aligned, engaging content.",
             "image": "./videographers/shaun.jpg",
-            "profileLink": "individual.html?id=videographer-9",
+            "profileLink": "individual.php?id=videographer-9",
             "videos":["https://www.youtube.com/embed/6wWCGGNpsP4?si=yOJCcc3D3D2G_Vfz"]
         },
         {
@@ -499,7 +499,7 @@
             "location": "Johannesburg",
             "description": "Tshepo is a detail-oriented and service-focused video editor and cinematographer who strives to provide the highest quality work for his clients with a keen eye for detail and a commitment to client satisfaction. Tshepo strives to create a compelling and visually stunning videos that exceed expectations. His passion for filmmaking and storytelling shines through in every project he takes on.",
             "image": "./editors/tshepo.jpg",
-            "profileLink": "individual.html?id=videographer-10",
+            "profileLink": "individual.php?id=videographer-10",
             "videos":["https://www.youtube.com/embed/jAz7O4fU3I4?si=atlHpVEnvfjKFMVv"]    
         }
     ]

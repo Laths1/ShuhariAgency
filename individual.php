@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
     <head>
         <meta charset="UTF-8">
@@ -35,4 +35,4 @@
     <script src="footer.js" defer></script>
     <!-- end of footer -->
 </body>
-</html>
+</php>

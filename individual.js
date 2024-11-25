@@ -25,7 +25,7 @@ fetch('cardData.json')
             // If the person is a model, display extra details
             if (id.startsWith("model")) {
                 const detailsContainer = document.querySelector('.details');
-                detailsContainer.innerHTML = `
+                detailsContainer.innerphp = `
                     <p>Height: ${person.height || 'N/A'}</p>
                     <p>Waist: ${person.waist || 'N/A'}</p>
                     <p>Shoe Size: ${person.shoeSize || 'N/A'}</p>
@@ -35,7 +35,7 @@ fetch('cardData.json')
             // Display location for certain types
             if (id.startsWith("photographer") || id.startsWith("videographer") || id.startsWith("model")) {
                 const location = document.querySelector('.location');
-                location.innerHTML = `<p>Location: ${person.location || 'N/A'}</p>`;
+                location.innerphp = `<p>Location: ${person.location || 'N/A'}</p>`;
             }
 
             // Display each image in a simple list layout

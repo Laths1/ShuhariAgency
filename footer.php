@@ -40,11 +40,11 @@
                 <div class="footer-discover">
                     <ul class="discover-list">
                         <h3>discover</h3>
-                        <li><a href="index.html"><p>home</p></a></li>
-                        <li><a href="index.html#about"><p>about</p></a></li>
-                        <li><a href="talent.html"><p>talent </p></a></li>
-                        <li><a href="apply.html"><p>apply</p> </a></li>
-                        <li><a href="index.html#contact-us"><p>contact us</p></a></li>
+                        <li><a href="index.php"><p>home</p></a></li>
+                        <li><a href="index.php#about"><p>about</p></a></li>
+                        <li><a href="talent.php"><p>talent </p></a></li>
+                        <li><a href="apply.php"><p>apply</p> </a></li>
+                        <li><a href="index.php#contact-us"><p>contact us</p></a></li>
                     </ul>
                 </div>
                 <div class="footer-links">

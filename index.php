@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,8 +17,7 @@
     <!-- home page -->
     <section class="home-page-container">
     <!-- nav bar -->
-    <div id="nav-placeholder"></div>
-    <script src="nav.js" defer></script>
+    <?php include 'nav.php'; ?>
     <!-- end of nav bar -->
 
     <!-- hero -->
@@ -26,7 +25,7 @@
         <div class="hero-main-text"><h1>shuhari agency</h1></div>
         <div class="hero-sub-text"><p>Elevate your next project with Shuhari Agency, where innovation meets excellence. Let us craft bespoke solutions that deliver exceptional results and bring your vision to life.</p></div>
         <div class="call-to-action">
-            <div class="btn about-us-btn"><a href="./apply.html">apply</a></div>
+            <div class="btn about-us-btn"><a href="./apply.php">apply</a></div>
             <!-- <div class="btn contribute-btn"><a href="#contributions">apply</a></div> -->
         </div>
     </header>
@@ -43,33 +42,33 @@
     <section class="facts-container">
         <ul class="facts-items">
             
-            <li> <a href="models.html">
+            <li> <a href="models.php">
                 <div class="icon"><i class="fa-solid fa-person"></i></div>
                 <!-- <div class="number"><h2>20 +</h2></div> -->
                 <div class="fact-text"><p>models</p></div>
                 </a>
             </li>
-            <li> <a href="graphicDesigner.html">
+            <li> <a href="graphicDesigner.php">
                 <div class="icon"><i class="fa-solid fa-pen"></i></div>
                 <!-- <div class="number"><h2>10 +</h2></div> -->
                 <div class="fact-text"><p>graphic designers</p></div>
                 </a>
             </li>
             <li>
-            <a href="photographers.html">
+            <a href="photographers.php">
                 <div class="icon"><i class="fa-solid fa-camera"></i></div>
                 <!-- <div class="number"><h2>10 +</h2></div> -->
                 <div class="fact-text"><p>photographers</p></div>
                 </a>
             </li>
             <li> 
-                <a href="videosgrapher.html">
+                <a href="videosgrapher.php">
                 <div class="icon"><i class="fa-solid fa-video"></i></div>
                 <!-- <div class="number"><h2>10 +</h2></div> -->
                 <div class="fact-text"><p>videographers</p></div>
                 </a>
             </li>
-            <li> <a href="editors.html">
+            <li> <a href="editors.php">
                 <div class="icon"><i class="fa-solid fa-computer"></i></div>
                 <!-- <div class="number"><h2>10 +</h2></div> -->
                 <div class="fact-text"><p>editors</p></div>
@@ -126,7 +125,7 @@
             </div>
             
         </div>
-        <a href="reviews.html" id="reviews">See more testimonials</a>
+        <a href="reviews.php" id="reviews">See more testimonials</a>
     </section>
     <!-- end of features -->
 
@@ -138,74 +137,74 @@
             <img src="./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/4.jpg" alt="Gift Mathunjwa">
             <div class="carousel-caption">
                 <p>Photographer: Gift Mathunjwa</p>
-                <div class="btn"><a href="apply.html">apply</a></div>
+                <div class="btn"><a href="apply.php">apply</a></div>
             </div>
           </div>
         <div class="carousel-item">
             <img src="./models/Models/Logan Kirby/2.jpg" alt="Logan Kirby">
             <div class="carousel-caption">
                 <p>Model: Logan Kirby</p>
-                <div class="btn"><a href="apply.html">apply</a></div>
+                <div class="btn"><a href="apply.php">apply</a></div>
             </div>
           </div>
       <div class="carousel-item">
         <img src="./photographers/Photographers/Melo Bopape/profile p.jpg" alt="Melo Bopape">
         <div class="carousel-caption">
             <p>Photographer: Melo Bopape</p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./graphic designers/Graphic Design/Khanyiso Booi/3.jpg" alt="Khanyiso Booi">
         <div class="carousel-caption">
             <p>Graphic designer: Khanyiso Booi</p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./graphic designers/Graphic Design/Mabeka Kola/4.png" alt="Mabeka Kola">
         <div class="carousel-caption">
             <p>Graphic designer: Mabeka Kola</p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpg" alt="Katlego Khumalo">
         <div class="carousel-caption">
             <p>Photographer: Katlego Khumalo </p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/3.jpg" alt="Gift Mathunjwa">
         <div class="carousel-caption">
             <p>Photographer : Gift Mathunjwa</p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
     <div class="carousel-item">
         <img src="./graphic designers/Graphic Design/Khanyiso Booi/9.png" alt="Khanyiso Booi">
         <div class="carousel-caption">
             <p>Graphic designer: Khanyiso Booi</p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div><div class="carousel-item">
         <img src="./photographers/Photographers/Wessy/6.jpg" alt="Wessy">
         <div class="carousel-caption">
             <p>Photographer : Wessy</p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div><div class="carousel-item">
         <img src="./graphic designers/Graphic Design/Tshepang Bapela/4.png" alt="Tshepang Bapela">
         <div class="carousel-caption">
             <p>Graphic designer: Tshepang Bapela</p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div><div class="carousel-item">
         <img src="./models/Models/Mpho Ryan Sihamba/Profile_.jpg" alt="Ryan Sihamba">
         <div class="carousel-caption">
             <p>Model: Ryan Sihamba</p>
-            <div class="btn"><a href="apply.html">apply</a></div>
+            <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>     
     </div>
@@ -240,12 +239,7 @@
         </div>
     </section>
     <!-- end of contact -->
-
-    <!-- footer -->
-    <div id="footer"></div>
-    <script src="footer.js" defer></script>
-    <!-- end of footer -->
-    
+<?php include 'footer.php'; ?>    
     
 </body>
-</html>
+</php>

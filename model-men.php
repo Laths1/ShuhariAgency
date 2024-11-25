@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +8,11 @@
         <!-- styles -->
         <link rel="stylesheet" href="styles.css"></link>
         <!-- icons -->
+    
         <link rel="icon" href="favicon_io/favicon-16x16.png" type="image/x-icon">
-        
+    
         <!-- js -->
-        <script src="model-card.js" defer></script>
+        <script src="model-men-card.js" defer></script>
     </head>
 <body>
     <!-- home page -->
@@ -25,21 +26,9 @@
     <!-- end of home page -->
 
      <!-- models -->
-      <h1 id="model-title"> models</h1>
-      <section class="model-container">
-        
-        <!-- men -->
-         <div class="men-container">
-            <a href="model-men.html">
-                <h3>men</h3>
-            </a>
-         </div>
-        <!-- women -->
-         <div class="women-container">
-            <a href="model-women.html">
-                <h3>women</h3>
-            </a>
-         </div>
+      <section class="person-container">
+        <h1> men</h1>
+           <section class="talent-container"></section>
       </section>
      <!-- end of models -->
 
@@ -48,4 +37,4 @@
     <script src="footer.js" defer></script>
     <!-- end of footer -->
 </body>
-</html>
+</php>

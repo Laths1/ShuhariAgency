@@ -35,7 +35,7 @@ variables
 /* ==========
 global styles
 ========== */
-html{
+php{
     scroll-behavior: smooth;
 }
 body::-webkit-scrollbar{

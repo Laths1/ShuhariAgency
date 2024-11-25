@@ -6,7 +6,7 @@
     "location": "Cape Town",
     "description": "",
     "image": "./models/Models/Atero/Atero/1.jpg",
-    "profileLink": "individual.html?id=model-18",
+    "profileLink": "individual.php?id=model-18",
     "gender":"m",
     "images":["./models/Models/Atero/Atero/2.JPG","./models/Models/Atero/Atero/1.jpg"]
 }
@@ -19,7 +19,7 @@
     "location": "Cape Town",
     "description": "Hlombe Mgudlwa, a native of South Africa, was born and raised in East London and now lives in Cape Town. His areas of expertise are fashion modeling and streetwear. Hlombe now feels compelled to further explore his artistic abilities and share his perceptions of art on the pedestal of modeling thanks to his distint combination of poise, confidence, and an undeniable presence.",
     "image": "./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/1.jpeg",
-    "profileLink": "individual.html?id=model-20",
+    "profileLink": "individual.php?id=model-20",
     "gender":"m",
     "images":["./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/2.jpeg","./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/1.jpeg"]
 }
@@ -32,7 +32,7 @@
     "location": "Cape Town",
     "description": "",
     "image": "./editors/Kwanda Molefe/",
-    "profileLink": "individual.html?id=editor-3"
+    "profileLink": "individual.php?id=editor-3"
 }
 {
     "id": "editor-1",
@@ -42,7 +42,7 @@
     "location": "",
     "description": "Blake Crankshaw is a professional video editor with four years of experience, specializing in DaVinci Resolve. Renowned for his ability to capture emotion and essence in editing, Blake delivers high-quality content that resonates with audiences. Whether working on short films, promotional videos, or personal projects, he transforms raw footage into compelling narratives. With a passion for the art of editing, Blake continually seeks innovative ways to enhance the viewer's experience.",
     "image": "./editors/Blake Crankshaw/",
-    "profileLink": "individual.html?id=editor-1",
+    "profileLink": "individual.php?id=editor-1",
     "videos":["https://www.youtube.com/embed/kbml9dOg7w8?si=eewHUGMDRliLc5LA"]
 }
 {
@@ -53,7 +53,7 @@
     "location": "Cape Town",
     "description": "Tad Mazhanga is a versatile creative specializing in advertising, music videos, short films, YouTube videos, and TikTok content. With a strong skill set in industry-leading tools like Blender, Premiere Pro, DaVinci Resolve, CapCut, and Adobe After Effects, Tad brings a unique and polished touch to every project he undertakes.",
     "image": "./editors/tad m.jpeg",
-    "profileLink": "individual.html?id=editor-4"
+    "profileLink": "individual.php?id=editor-4"
 }
 {
     "id":"editor-7",
@@ -63,7 +63,7 @@
     "location": "",
     "description": "Herschelle Adams is a dynamic video editor with a passion for storytelling. He specialises in high-paced, engaging content, from trendy music-driven edits to cinematic shots. With skills ranging from logo animations to complex sequences, ensuring every project is uniquely crafted.",
     "image": "./editors/Herschelle Adams/",
-    "profileLink": "individual.html?id=editor-7",
+    "profileLink": "individual.php?id=editor-7",
     "videos":["https://www.youtube.com/embed/co__7Qn0EoI?si=EH4L2KdoLHe80Ksd"]
 }
 {
@@ -74,7 +74,7 @@
     "location": "",
     "description": "Imran is a skilled Video Producer and Editor with extensive experience across social media, commercials, and live broadcasts for TV and digital platforms. He has contributed to major events like Ultra Johannesburg, KDay Cape Town, and Oh Ship Durban, and has created content for Cosmopolitan as well as billboards for Primedia. Imran is passionate about producing high-quality video content and consistently strives for excellence in every project.",
     "image": "./editors/Imran Goga/",
-    "profileLink": "individual.html?id=editor-8",
+    "profileLink": "individual.php?id=editor-8",
     "videos":["https://www.youtube.com/embed/HfJN42JkbQY?si=HDU7LKwshg9hjniT"]
 }
 {
@@ -85,7 +85,7 @@
     "location": "",
     "description": "Mli Dube is a highly skilled filmmaker, videographer, and photographer with over a decade of experience creating impactful visual stories for a wide array of clients. a strong track record in producing high-quality content for social media campaigns and digital platforms. With over a decade of experience, he has honed his skills in shooting, editing, and delivering visually compelling content across various industries, ensuring his clients' messages resonate with their target audiences. In addition to his videography expertise, Mli excels in post-production editing, where he brings stories to life through dynamic visuals, seamless transitions, and carefully curated soundscapes, making him a sought-after collaborator for social media campaigns. His background in journalism and documentary filmmaking further enhances his ability to tell authentic, relatable stories that capture the audience's attention.",
     "image": "./editors/Mlingane Dube/",
-    "profileLink": "individual.html?id=editor-12"
+    "profileLink": "individual.php?id=editor-12"
 }
 {
     "id":"editor-13",
@@ -95,7 +95,7 @@
     "location": "",
     "description": "Rudolf Wohner expertise includes editing, color correction, motion graphics, visual effects & green screen. He has extensive experience working with Adobe Premiere Pro & After Effects creating high-quality content for all types of media. Proficient in corporate, social, conference, testimonial, explainer, promotional, brand, educational & sales videos. He has worked over 10 years with a wide variety of clients and projects in high quality, and he always strive to deliver excellent results on time.",
     "image": "./editors/Rudolf Wohner/",
-    "profileLink": "individual.html?id=editor-13",
+    "profileLink": "individual.php?id=editor-13",
     "videos":["https://www.youtube.com/embed/i8ksBbN8ZR0?si=hZ_MDXrh_LDuphDE"]
 }
 {
@@ -106,7 +106,7 @@
     "location": "Cape Town",
     "description": "",
     "image": "./photographers/Photographers/Aviona/2.jpg",
-    "profileLink": "individual.html?id=photographer-2",
+    "profileLink": "individual.php?id=photographer-2",
     "images":["./photographers/Photographers/Aviona/1.jpg","./photographers/Photographers/Aviona/3.jpg","./photographers/Photographers/Aviona/4.jpg","./photographers/Photographers/Aviona/5.jpg","./photographers/Photographers/Aviona/2.jpg"]
 }
 {
@@ -117,7 +117,7 @@
     "location": "Cape Town",
     "description": "Specializing in weddings, events, and portraits, Juvani captures people at their happiest with their loved ones. His work reflects cherished memories, and he adapts effortlessly—whether being a fly on the wall or the life of the party, always focusing on the client's needs.",
     "image": "./photographers/Photographers/Juvan Aaron/1.jpg",
-    "profileLink": "individual.html?id=photographer-7",
+    "profileLink": "individual.php?id=photographer-7",
     "images":["./photographers/Photographers/Juvani Aaron/1.jpg","./photographers/Photographers/Juvani Aaron/2.jpg"]
 }
 {
@@ -128,7 +128,7 @@
     "location": "",
     "description": "",
     "image": "./photographers/Photographers/Uriel Dombo/5.jpeg",
-    "profileLink": "individual.html?id=photographer-10",
+    "profileLink": "individual.php?id=photographer-10",
     "images":["./photographers/Photographers/Uriel Dombo/1.jpeg","./photographers/Photographers/Uriel Dombo/2.jpeg","./photographers/Photographers/Uriel Dombo/3.jpeg","./photographers/Photographers/Uriel Dombo/4.jpg","./photographers/Photographers/Uriel Dombo/5.jpeg"]
 }
 {
@@ -139,7 +139,7 @@
     "location": "",
     "description": "",
     "image": "./photographers/Photographers/Wessy/Profile Pic_.jpg",
-    "profileLink": "individual.html?id=photographer-11",
+    "profileLink": "individual.php?id=photographer-11",
     "images":["./photographers/Photographers/Wessy/1.JPG","./photographers/Photographers/Wessy/2.JPG","./photographers/Photographers/Wessy/3.JPG","./photographers/Photographers/Wessy/4.JPG","./photographers/Photographers/Wessy/5.JPG","./photographers/Photographers/Wessy/6.jpg","./photographers/Photographers/Wessy/Profile Pic_.jpg"]
 }
 {
@@ -150,7 +150,7 @@
     "location": "Cape Town",
     "description": "",
     "image": "./graphic designers/Graphic Design/Solomon Modiadie/img.jpg",
-    "profileLink": "individual.html?id=designer-7",
+    "profileLink": "individual.php?id=designer-7",
     "images":["./graphic designers/Graphic Design/Solomon Modiadie/1.jpg","./graphic designers/Graphic Design/Solomon Modiadie/2.jpg","./graphic designers/Graphic Design/Solomon Modiadie/3.jpg","./graphic designers/Graphic Design/Solomon Modiadie/4.jpg","./graphic designers/Graphic Design/Solomon Modiadie/img.jpg"]
 }
 {
@@ -161,7 +161,7 @@
     "location": "",
     "description": "",
     "image": "./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/1.jpeg",
-    "profileLink": "individual.html?id=designer-10",
+    "profileLink": "individual.php?id=designer-10",
     "images":["./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/2.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/3.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/4.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/5.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/1.jpeg"]
 }
 {
@@ -172,7 +172,7 @@
     "location": "Cape Town",
     "description": "Introducing Agmat Achmad, an experienced photographer, videographer, and video editor proficient in Adobe Suite tools like Premiere Pro, Photoshop, Lightroom, Illustrator, and Audition. Agmat's journey began at a community radio station, Radio 786, where he captured footage for news packages and covered events like protests. He later expanded his focus to corporate clients and weddings but remains open to exploring a variety of creative projects.",
     "image": "./videographers/",
-    "profileLink": "individual.html?id=videographer-2"
+    "profileLink": "individual.php?id=videographer-2"
 }
 {
     "id":"videographer-3",
@@ -182,7 +182,7 @@
     "location": "",
     "description": "",
     "image": "./videographers/",
-    "profileLink": "individual.html?id=videographer-3"
+    "profileLink": "individual.php?id=videographer-3"
 }
 {
     "id":"videographer-7",
@@ -192,7 +192,7 @@
     "location": "",
     "description": "",
     "image": "./videographers/",
-    "profileLink": "individual.html?id=videographer-7",
+    "profileLink": "individual.php?id=videographer-7",
     "videos":["https://www.youtube.com/embed/GMHC6W73LbI?si=nkUb3HdL2t7gwDz1"]
 }
 {
@@ -203,7 +203,7 @@
     "location": "",
     "description": "",
     "image": "./models/Models/Leo/Profile_.jpg",
-    "profileLink": "individual.html?id=model-3",
+    "profileLink": "individual.php?id=model-3",
     "gender":"m",
     "images":["./models/Models/Leo/1.jpg","./models/Models/Leo/2.jpg","./models/Models/Leo/3.jpg","./models/Models/Leo/4.jpg","./models/Models/Leo/5.jpg","./models/Models/Leo/6.jpg","./models/Models/Leo/Profile_.jpg"]
 }
@@ -215,7 +215,7 @@
     "location": "Cape Town",
     "description": "Logan Summer Kirby, from Worcester, South Africa, is a versatile model specializing in editorial, commercial, and fashion work. Passionate about blending creativity with commercial appeal, Logan aims to push boundaries and collaborate with innovative brands to create impactful visuals.",
     "image": "./models/Models/Logan Kirby/1.jpg",
-    "profileLink": "individual.html?id=model-7",
+    "profileLink": "individual.php?id=model-7",
     "gender":"w",
     "images":["./models/Models/Logan Kirby/3.jpg","./models/Models/Logan Kirby/2.jpg","./models/Models/Logan Kirby/4.jpg","./models/Models/Logan Kirby/5.jpg","./models/Models/Logan Kirby/1.jpg"]
 }
@@ -228,7 +228,7 @@
     "location": "Cape Town",
     "description": "",
     "image": "./models/Models/Lona Ngwenze/Profile_.jpg",
-    "profileLink": "individual.html?id=model-8",
+    "profileLink": "individual.php?id=model-8",
     "gender":"w",
     "images":["./models/Models/Lona Ngwenze/1.JPG","./models/Models/Lona Ngwenze/2.JPG","./models/Models/Lona Ngwenze/3.JPG","./models/Models/Lona Ngwenze/Profile_.jpg"]
 }
@@ -240,6 +240,6 @@
     "location": "Cape Town",
     "description": "Ndyebo Sibam, a skilled videographer from Khayelitsha, Cape Town, thrives on storytelling through the lens. Focused on live performances, events, film, and documentaries, he captures moments and emotions that resonate with audiences.",
     "image": "./videographers/",
-    "profileLink": "individual.html?id=videographer-6",
+    "profileLink": "individual.php?id=videographer-6",
     "videos":["https://www.youtube.com/embed/Kt7DWiMVDtE?si=29NSf9FIwbUdwvR2"]
 }

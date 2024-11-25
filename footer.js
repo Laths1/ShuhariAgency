@@ -1,9 +1,9 @@
 //footer.js
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("footer.html")
+    fetch("footer.php")
         .then(response => response.text())
         .then(data => {
-            document.getElementById("footer").innerHTML = data;
+            document.getElementById("footer").innerphp = data;
         })
         .catch(error => console.error("Error loading navbar:", error));
 });

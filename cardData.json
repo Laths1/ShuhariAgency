@@ -11,7 +11,7 @@
             "image": "./models/Models/Elisa Mahloane/Profile_.jpg",
             "profileLink": "individual.html?id=model-2",
             "gender":"w",
-            "images": ["./models/Models/Elisa Mahloane/1.jpeg","./models/Models/Elisa Mahloane/2.jpeg","./models/Models/Elisa Mahloane/3.jpeg","./models/Models/Elisa Mahloane/4.jpeg","./models/Models/Elisa Mahloane/5.jpeg","./models/Models/Elisa Mahloane/6.jpeg","./models/Models/Elisa Mahloane/7.jpeg","./models/Models/Elisa Mahloane/Profile_.jpg"]
+            "images": ["./models/Models/Elisa Mahloane/2.jpeg","./models/Models/Elisa Mahloane/4.jpeg","./models/Models/Elisa Mahloane/5.jpeg","./models/Models/Elisa Mahloane/6.jpeg","./models/Models/Elisa Mahloane/7.jpeg","./models/Models/Elisa Mahloane/Profile_.jpg"]
         },
         
         {
@@ -83,9 +83,9 @@
         },
         {
             "id":"model-14",
-            "name": "Sam",
+            "name": "Sigqibo Malambile",
             "height": "178 cm",
-            "waist": "30 cm",
+            "waist": "67 cm",
             "shoeSize":"7 UK",
             "location": "Port Elizabeth",
             "description": "Meet Sigqibo, Sam, Malambile, born and raised in the Eastern Cape and now based in Gauteng. When it comes to modeling styles, Sam is truly a jack of all trades. He lives by the quote, 'You never know when, so take your chance when it comes.'",
@@ -109,7 +109,7 @@
         },
         {
             "id":"model-17",
-            "name": "Uju",
+            "name": "Uju Ali",
             "height": "170 cm",
             "waist": "71 cm",
             "shoeSize":"6 UK",
@@ -118,7 +118,7 @@
             "image": "./models/Models/Uju/1.JPG",
             "profileLink": "individual.html?id=model-17",
             "gender":"w",
-            "images":["./models/Models/Uju/1.JPG","./models/Models/Uju/3.jpg","./models/Models/Uju/2.JPG"]
+            "images":["./models/Models/Uju/2.JPG","./models/Models/Uju/3.jpg","./models/Models/Uju/1.JPG"]
         },
         {
             "id":"model-19",
@@ -132,6 +132,19 @@
             "profileLink": "individual.html?id=model-19",
             "gender":"m",
             "images":["./models/Models/Chineme Dara/Chineme Dara ( N )/2.jpeg","./models/Models/Chineme Dara/Chineme Dara ( N )/1.jpeg"]
+        },
+        {
+            "id":"model-22",
+            "name": "Tacy Matutle",
+            "height": "170 cm",
+            "waist": "91 cm",
+            "shoeSize":"9 UK",
+            "location": "Cape Town",
+            "description": "Tacy Matutle, also known by his stage name TboneTyrone, is a 20 year old fashion model aswell as an upcoming artist hailing from Cape Town. With a growing presence, he is gaining recognition for his unique sound and creative expression through fashion as statement pieces and music.",
+            "image": "./models/Models/Tyrone Smith/Tyrone Smith/2.jpg",
+            "profileLink": "individual.html?id=model-22",
+            "gender":"m",
+            "images":["./models/Models/Tyrone Smith/Tyrone Smith/1.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/3.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/4.jpg","./models/Models/Tyrone Smith/Tyrone Smith/2.jpg"]
         }
     ],
     "editors": [
@@ -224,6 +237,17 @@
             "image": "./videographers/malope.jpeg",
             "profileLink": "individual.html?id=editor-16",
             "videos":["https://www.youtube.com/embed/ON1uaCbPSFU?si=7pEevT-Ub8CyNczf"]    
+        },
+        {
+            "id":"editor-17",
+            "name": "Tshepo Selepe",
+            "height": "",
+            "waist": "",
+            "location": "Johannesburg",
+            "description": "Tshepo is a detail-oriented and service-focused video editor and cinematographer who strives to provide the highest quality work for his clients with a keen eye for detail and a commitment to client satisfaction. Tshepo strives to create a compelling and visually stunning videos that exceed expectations. His passion for filmmaking and storytelling shines through in every project he takes on.",
+            "image": "./editors/tshepo.jpg",
+            "profileLink": "individual.html?id=editor-17",
+            "videos":["https://www.youtube.com/embed/jAz7O4fU3I4?si=atlHpVEnvfjKFMVv"]    
         }
     ],
     "photographers": [
@@ -417,7 +441,7 @@
             "waist": "",
             "location": "Cape Town",
             "description": "Jahem De Vos, born and raised in Cape Town, South Africa. I am passionate about using cinematography as a tool to share human stories. Studying Film and English Literature has improved my gift of storytelling. I am excited to partner to create visually stunning films and videos in order to achieve this. My interests are everything from documentaries, music videos to commercials, and short films.",
-            "image": "./videographers/",
+            "image": "./videographers/jahem.jpg",
             "profileLink": "individual.html?id=videographer-4",
             "videos":["https://www.youtube.com/embed/UKTXlRBP9xg?si=RdPVZP9KHwsIIVJv"]
         },
@@ -431,17 +455,7 @@
             "image": "./videographers/malope.jpeg",
             "profileLink": "individual.html?id=editor-16"
         },
-        {
-            "id":"videographer-6",
-            "name": "ndyebo sibam",
-            "height": "",
-            "waist": "",
-            "location": "Cape Town",
-            "description": "Ndyebo Sibam, a skilled videographer from Khayelitsha, Cape Town, thrives on storytelling through the lens. Focused on live performances, events, film, and documentaries, he captures moments and emotions that resonate with audiences.",
-            "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-6",
-            "videos":["https://www.youtube.com/embed/Kt7DWiMVDtE?si=29NSf9FIwbUdwvR2"]
-        },
+        
         {
             "id":"videographer-8",
             "name": "sandile mosimane",
@@ -463,6 +477,17 @@
             "image": "./videographers/shaun.jpg",
             "profileLink": "individual.html?id=videographer-9",
             "videos":["https://www.youtube.com/embed/6wWCGGNpsP4?si=yOJCcc3D3D2G_Vfz"]
+        },
+        {
+            "id":"videographer-10",
+            "name": "Tshepo Selepe",
+            "height": "",
+            "waist": "",
+            "location": "Johannesburg",
+            "description": "Tshepo is a detail-oriented and service-focused video editor and cinematographer who strives to provide the highest quality work for his clients with a keen eye for detail and a commitment to client satisfaction. Tshepo strives to create a compelling and visually stunning videos that exceed expectations. His passion for filmmaking and storytelling shines through in every project he takes on.",
+            "image": "./editors/tshepo.jpg",
+            "profileLink": "individual.html?id=videographer-10",
+            "videos":["https://www.youtube.com/embed/jAz7O4fU3I4?si=atlHpVEnvfjKFMVv"]    
         }
     ]
 }

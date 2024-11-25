@@ -265,10 +265,12 @@ hero
     }
 
     .hero-sub-text p {
+        /* background: black; */
         width: 65vw;
         text-align: justify;
-        position: relative;
-        bottom: -100%;
+        min-height: 30rem;
+        display: flex;
+        align-items: center;
         font-size: 1rem;
     }
 }

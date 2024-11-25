@@ -37,19 +37,6 @@
     "images":["./models/Models/Marlon Dzingwa/Marlon Dzingwa/2.jpeg","./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg"]
 }
 {
-    "id":"model-22",
-    "name": "Tyrone Smith",
-    "height": "170 cm",
-    "waist": "32 cm",
-    "shoeSize":"9 UK",
-    "location": "Cape Town",
-    "description": "",
-    "image": "./models/Models/Tyrone Smith/Tyrone Smith/2.jpg",
-    "profileLink": "individual.html?id=model-22",
-    "gender":"m",
-    "images":["./models/Models/Tyrone Smith/Tyrone Smith/1.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/3.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/4.jpg","./models/Models/Tyrone Smith/Tyrone Smith/2.jpg"]
-}
-{
     "id":"editor-3",
     "name": "kwanda molefe",
     "height": "5'8\"",
@@ -86,7 +73,7 @@
     "height": "6'0\"",
     "waist": "32\"",
     "location": "",
-    "description": "Herschelle Adams is a dynamic video editor with a passion for storytelling. I specialize in high-paced, engaging content, from trendy music-driven edits to cinematic shots. My skills range from logo animations to complex sequences, ensuring every project is uniquely crafted.",
+    "description": "Herschelle Adams is a dynamic video editor with a passion for storytelling. He specialises in high-paced, engaging content, from trendy music-driven edits to cinematic shots. With skills ranging from logo animations to complex sequences, ensuring every project is uniquely crafted.",
     "image": "./editors/Herschelle Adams/",
     "profileLink": "individual.html?id=editor-7",
     "videos":["https://www.youtube.com/embed/co__7Qn0EoI?si=EH4L2KdoLHe80Ksd"]
@@ -256,4 +243,15 @@
     "profileLink": "individual.html?id=model-8",
     "gender":"w",
     "images":["./models/Models/Lona Ngwenze/1.JPG","./models/Models/Lona Ngwenze/2.JPG","./models/Models/Lona Ngwenze/3.JPG","./models/Models/Lona Ngwenze/Profile_.jpg"]
+}
+{
+    "id":"videographer-6",
+    "name": "ndyebo sibam",
+    "height": "",
+    "waist": "",
+    "location": "Cape Town",
+    "description": "Ndyebo Sibam, a skilled videographer from Khayelitsha, Cape Town, thrives on storytelling through the lens. Focused on live performances, events, film, and documentaries, he captures moments and emotions that resonate with audiences.",
+    "image": "./videographers/",
+    "profileLink": "individual.html?id=videographer-6",
+    "videos":["https://www.youtube.com/embed/Kt7DWiMVDtE?si=29NSf9FIwbUdwvR2"]
 }

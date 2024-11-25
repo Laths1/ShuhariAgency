@@ -145,6 +145,19 @@
             "profileLink": "individual.html?id=model-22",
             "gender":"m",
             "images":["./models/Models/Tyrone Smith/Tyrone Smith/1.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/3.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/4.jpg","./models/Models/Tyrone Smith/Tyrone Smith/2.jpg"]
+        },
+        {
+            "id":"model-21",
+            "name": "Marlon Dzingwa",
+            "height": "183 cm",
+            "waist": "85 cm",
+            "shoeSize":"10 UK",
+            "location": "Cape Town",
+            "description": "Marlon Dzingwa , 21 y/o male is an aspiring model based in Cape Town who after school stepped into the world of fashion and modeling. With a passion for streetwear ,apparel and self expression. He is eager to explore various modeling opportunities. Offering a mixture of versatile aesthetics with ambiguous ethnic features.",
+            "image": "./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg",
+            "profileLink": "individual.html?id=model-21",
+            "gender":"m",
+            "images":["./models/Models/Marlon Dzingwa/Marlon Dzingwa/2.jpeg","./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg"]
         }
     ],
     "editors": [

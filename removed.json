@@ -23,19 +23,7 @@
     "gender":"m",
     "images":["./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/2.jpeg","./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/1.jpeg"]
 }
-{
-    "id":"model-21",
-    "name": "Marlon Dzingwa",
-    "height": "183 cm",
-    "waist": "85 cm",
-    "shoeSize":"10 UK",
-    "location": "Cape Town",
-    "description": "",
-    "image": "./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg",
-    "profileLink": "individual.html?id=model-21",
-    "gender":"m",
-    "images":["./models/Models/Marlon Dzingwa/Marlon Dzingwa/2.jpeg","./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg"]
-}
+
 {
     "id":"editor-3",
     "name": "kwanda molefe",

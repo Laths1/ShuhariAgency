@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
     <head>
     <meta charset="UTF-8">
@@ -20,8 +20,7 @@
     <section class="home-page-container-apply">
         <section class="application-container">
            <!-- nav bar -->
-            <div id="nav-placeholder"></div>
-            <script src="nav.js"></script>
+            <?php include 'nav.php'; ?>
             <!-- end of nav bar -->
 
           <p>Please read the application outline for your chosen category.</p>
@@ -47,8 +46,7 @@
         <!-- end of hero -->
         </section>
          <!-- footer -->
-    <div id="footer"></div>
-    <script src="footer.js"></script>
+    <?php include 'footer.php'; ?>
     <!-- end of footer -->
 </body>
-</php>
+</html>

@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,8 +18,7 @@
     <section class="home-page-container-talents">
         <section class="random-img">
             <!-- nav bar -->
-            <div id="nav-placeholder"></div>
-            <script src="nav.js" defer></script>
+            <?php include 'nav.php'; ?>
             <!-- end of nav bar -->
     </section>
     <!-- end of home page -->
@@ -44,8 +43,7 @@
      <!-- end of models -->
 
     <!-- footer -->
-    <div id="footer"></div>
-    <script src="footer.js" defer></script>
+    <?php include 'footer.php'; ?>
     <!-- end of footer -->
 </body>
-</php>
+</html>

@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <head>
         <meta charset="UTF-8">
@@ -18,8 +18,7 @@
 </head>
 <body>
     <!-- nav bar -->
-    <div id="nav-placeholder"></div>
-    <script src="nav.js" defer></script>
+    <?php include 'nav.php'; ?>
     <!-- end of nav bar -->
 
     <section class="features-container">
@@ -87,8 +86,7 @@
     </section>
     
     <!-- footer -->
-    <div id="footer"></div>
-    <script src="footer.js" defer></script>
+    <?php include 'footer.php'; ?>
     <!-- end of footer -->
 </body>
-</php>
+</html>

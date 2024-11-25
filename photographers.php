@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,8 +19,7 @@
     <!-- home page -->
     <section class="home-page-container-talents">
         <!-- nav bar -->
-        <div id="nav-placeholder"></div>
-        <script src="nav.js"></script>
+        <?php include 'nav.php'; ?>
         <!-- end of nav bar -->
     </section>
     <!-- end of home page -->
@@ -31,8 +30,7 @@
     </section>
             
     <!-- footer -->
-    <div id="footer"></div>
-    <script src="footer.js"></script>
+    <?php include 'footer.php'; ?>
     <!-- end of footer -->
 </body>
-</php>
+</html>

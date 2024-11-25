@@ -155,18 +155,6 @@
             "images":["./models/Models/Uju/1.JPG","./models/Models/Uju/3.jpg","./models/Models/Uju/2.JPG"]
         },
         {
-            "id":"model-18",
-            "name": "Atero",
-            "height": "",
-            "waist": "",
-            "location": "Cape Town",
-            "description": "",
-            "image": "./models/Models/Atero/Atero/1.jpg",
-            "profileLink": "individual.html?id=model-18",
-            "gender":"m",
-            "images":["./models/Models/Atero/Atero/2.JPG","./models/Models/Atero/Atero/1.jpg"]
-        },
-        {
             "id":"model-19",
             "name": "Chineme Dara",
             "height": "193 cm",
@@ -178,59 +166,10 @@
             "profileLink": "individual.html?id=model-19",
             "gender":"m",
             "images":["./models/Models/Chineme Dara/Chineme Dara ( N )/2.jpeg","./models/Models/Chineme Dara/Chineme Dara ( N )/1.jpeg"]
-        },
-        {
-            "id":"model-20",
-            "name": "Hlombe Mgudlwa",
-            "height": "",
-            "waist": "",
-            "shoeSize":"",
-            "location": "Cape Town",
-            "description": "Hlombe Mgudlwa, a native of South Africa, was born and raised in East London and now lives in Cape Town. His areas of expertise are fashion modeling and streetwear. Hlombe now feels compelled to further explore his artistic abilities and share his perceptions of art on the pedestal of modeling thanks to his distint combination of poise, confidence, and an undeniable presence.",
-            "image": "./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/1.jpeg",
-            "profileLink": "individual.html?id=model-20",
-            "gender":"m",
-            "images":["./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/2.jpeg","./models/Models/Hlombe Mgudlwa/Hlombe Mgudlwa/1.jpeg"]
-        },
-        {
-            "id":"model-21",
-            "name": "Marlon Dzingwa",
-            "height": "183 cm",
-            "waist": "85 cm",
-            "shoeSize":"10 UK",
-            "location": "Cape Town",
-            "description": "",
-            "image": "./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg",
-            "profileLink": "individual.html?id=model-21",
-            "gender":"m",
-            "images":["./models/Models/Marlon Dzingwa/Marlon Dzingwa/2.jpeg","./models/Models/Marlon Dzingwa/Marlon Dzingwa/1.jpeg"]
-        },
-        {
-            "id":"model-22",
-            "name": "Tyrone Smith",
-            "height": "170 cm",
-            "waist": "32 cm",
-            "shoeSize":"9 UK",
-            "location": "Cape Town",
-            "description": "",
-            "image": "./models/Models/Tyrone Smith/Tyrone Smith/2.jpg",
-            "profileLink": "individual.html?id=model-22",
-            "gender":"m",
-            "images":["./models/Models/Tyrone Smith/Tyrone Smith/1.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/3.jpeg","./models/Models/Tyrone Smith/Tyrone Smith/4.jpg","./models/Models/Tyrone Smith/Tyrone Smith/2.jpg"]
         }
     ],
     "editors": [
-        {
-            "id": "editor-1",
-            "name": "Blake crankshaw",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "Blake Crankshaw is a professional video editor with four years of experience, specializing in DaVinci Resolve. Renowned for his ability to capture emotion and essence in editing, Blake delivers high-quality content that resonates with audiences. Whether working on short films, promotional videos, or personal projects, he transforms raw footage into compelling narratives. With a passion for the art of editing, Blake continually seeks innovative ways to enhance the viewer's experience.",
-            "image": "./editors/Blake Crankshaw/",
-            "profileLink": "individual.html?id=editor-1",
-            "videos":["https://www.youtube.com/embed/kbml9dOg7w8?si=eewHUGMDRliLc5LA"]
-        },
+        
         {
             "id":"editor-2",
             "name": "bill kongolo",
@@ -243,57 +182,15 @@
             "videos":["https://www.youtube.com/embed/_tLX5SiS8Xc?si=yoq5pfm-h3HR2JM-"]
         },
         {
-            "id":"editor-3",
-            "name": "kwanda molefe",
-            "height": "5'8\"",
-            "waist": "26\"",
-            "location": "Cape Town",
-            "description": "",
-            "image": "./editors/Kwanda Molefe/",
-            "profileLink": "individual.html?id=editor-3"
-        },
-        {
-            "id":"editor-4",
-            "name": "tad mazhanga",
-            "height": "5'8\"",
-            "waist": "26\"",
-            "location": "Cape Town",
-            "description": "Tad Mazhanga is a versatile creative specializing in advertising, music videos, short films, YouTube videos, and TikTok content. With a strong skill set in industry-leading tools like Blender, Premiere Pro, DaVinci Resolve, CapCut, and Adobe After Effects, Tad brings a unique and polished touch to every project he undertakes.",
-            "image": "./editors/tad m.jpeg",
-            "profileLink": "individual.html?id=editor-4"
-        },
-        {
             "id":"editor-6",
             "name": "Dylan Mohlala",
             "height": "6'0\"",
             "waist": "32\"",
             "location": "",
-            "description": "",
-            "image": "./editors/Dylan Mohlala/",
+            "description": "Dylan Mohlala is a 10+ year multimedia professional with extensive experience in content media management, marketing, and advertising. He has strong technical and theoretical knowledge of film, broadcasting, photography, editing, graphic design, and sound engineering. He has populated media for online publications in the news, tech, events management, and entertainment industries. He obtained a Diploma in Media Practices, and is proficient in all industry standard software. Dylan a rich has knowledge of current affairs, trends, search engine optimization, and industry best practices in multimedia.",
+            "image": "./photographers/Photographers/Dylan Mohlala/2.jpg",
             "profileLink": "individual.html?id=editor-6",
             "videos":["https://www.youtube.com/embed/3iQTgqWTA-w?si=O8qry6k-lfOSKnJT"]
-        },
-        {
-            "id":"editor-7",
-            "name": "Herschelle Adams",
-            "height": "6'0\"",
-            "waist": "32\"",
-            "location": "",
-            "description": "Herschelle Adams is a dynamic video editor with a passion for storytelling. I specialize in high-paced, engaging content, from trendy music-driven edits to cinematic shots. My skills range from logo animations to complex sequences, ensuring every project is uniquely crafted.",
-            "image": "./editors/Herschelle Adams/",
-            "profileLink": "individual.html?id=editor-7",
-            "videos":["https://www.youtube.com/embed/co__7Qn0EoI?si=EH4L2KdoLHe80Ksd"]
-        },
-        {
-            "id":"editor-8",
-            "name": "Imran goga",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "Imran is a skilled Video Producer and Editor with extensive experience across social media, commercials, and live broadcasts for TV and digital platforms. He has contributed to major events like Ultra Johannesburg, KDay Cape Town, and Oh Ship Durban, and has created content for Cosmopolitan as well as billboards for Primedia. Imran is passionate about producing high-quality video content and consistently strives for excellence in every project.",
-            "image": "./editors/Imran Goga/",
-            "profileLink": "individual.html?id=editor-8",
-            "videos":["https://www.youtube.com/embed/HfJN42JkbQY?si=HDU7LKwshg9hjniT"]
         },
         {
             "id":"editor-9",
@@ -328,27 +225,7 @@
             "profileLink": "individual.html?id=editor-11",
             "videos":["https://www.youtube.com/embed/MIR1zg1AS5M?si=i36581QkKelHJKAm"]
         },
-        {
-            "id":"editor-12",
-            "name": "mlingane dube",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "Mli Dube is a highly skilled filmmaker, videographer, and photographer with over a decade of experience creating impactful visual stories for a wide array of clients. a strong track record in producing high-quality content for social media campaigns and digital platforms. With over a decade of experience, he has honed his skills in shooting, editing, and delivering visually compelling content across various industries, ensuring his clients' messages resonate with their target audiences. In addition to his videography expertise, Mli excels in post-production editing, where he brings stories to life through dynamic visuals, seamless transitions, and carefully curated soundscapes, making him a sought-after collaborator for social media campaigns. His background in journalism and documentary filmmaking further enhances his ability to tell authentic, relatable stories that capture the audience's attention.",
-            "image": "./editors/Mlingane Dube/",
-            "profileLink": "individual.html?id=editor-12"
-        },
-        {
-            "id":"editor-13",
-            "name": "rudolf wohner",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "Rudolf Wohner expertise includes editing, color correction, motion graphics, visual effects & green screen. He has extensive experience working with Adobe Premiere Pro & After Effects creating high-quality content for all types of media. Proficient in corporate, social, conference, testimonial, explainer, promotional, brand, educational & sales videos. He has worked over 10 years with a wide variety of clients and projects in high quality, and he always strive to deliver excellent results on time.",
-            "image": "./editors/Rudolf Wohner/",
-            "profileLink": "individual.html?id=editor-13",
-            "videos":["https://www.youtube.com/embed/i8ksBbN8ZR0?si=hZ_MDXrh_LDuphDE"]
-        },
+        
         {
             "id":"videographer-8",
             "name": "sandile mosimane",
@@ -384,17 +261,6 @@
         }
     ],
     "photographers": [
-        {
-            "id":"photographer-2",
-            "name": "aviona",
-            "height": "5'8\"",
-            "waist": "26\"",
-            "location": "",
-            "description": "",
-            "image": "./photographers/Photographers/Aviona/2.jpg",
-            "profileLink": "individual.html?id=photographer-2",
-            "images":["./photographers/Photographers/Aviona/1.jpg","./photographers/Photographers/Aviona/3.jpg","./photographers/Photographers/Aviona/4.jpg","./photographers/Photographers/Aviona/5.jpg","./photographers/Photographers/Aviona/2.jpg"]
-        },
         {
             "id":"photographer-3",
             "name": "agmat achmad",
@@ -439,17 +305,7 @@
             "profileLink": "individual.html?id=photographer-6",
             "images":["./photographers/Photographers/Itumeleng Khutso/1.JPG","./photographers/Photographers/Itumeleng Khutso/2.JPG","./photographers/Photographers/Itumeleng Khutso/Profile pic_.jpg"]
         },
-        {
-            "id":"photographer-7",
-            "name": "Juvani Aaron",
-            "height": "",
-            "waist": "",
-            "location": "Cape Town",
-            "description": "Specializing in weddings, events, and portraits, Juvani captures people at their happiest with their loved ones. His work reflects cherished memories, and he adapts effortlessly—whether being a fly on the wall or the life of the party, always focusing on the client's needs.",
-            "image": "./photographers/Photographers/Juvan Aaron/1.jpg",
-            "profileLink": "individual.html?id=photographer-7",
-            "images":["./photographers/Photographers/Juvani Aaron/1.jpg","./photographers/Photographers/Juvani Aaron/2.jpg"]
-        },
+        
         {
             "id":"photographer-8",
             "name": "Melo Bopape",
@@ -472,28 +328,7 @@
             "profileLink": "individual.html?id=photographer-9",
             "images":["./photographers/Photographers/Tinashe Chihwayi/1.jpeg","./photographers/Photographers/Tinashe Chihwayi/2.jpeg","./photographers/Photographers/Tinashe Chihwayi/3.jpeg","./photographers/Photographers/Tinashe Chihwayi/4.jpeg","./photographers/Photographers/Tinashe Chihwayi/5.jpeg","./photographers/Photographers/Tinashe Chihwayi/Profile pic_.jpg"]
         },
-        {
-            "id":"photographer-10",
-            "name": "Uriel Dombo",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./photographers/Photographers/Uriel Dombo/5.jpeg",
-            "profileLink": "individual.html?id=photographer-10",
-            "images":["./photographers/Photographers/Uriel Dombo/1.jpeg","./photographers/Photographers/Uriel Dombo/2.jpeg","./photographers/Photographers/Uriel Dombo/3.jpeg","./photographers/Photographers/Uriel Dombo/4.jpg","./photographers/Photographers/Uriel Dombo/5.jpeg"]
-        },
-        {
-            "id":"photographer-11",
-            "name": "Wessy",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./photographers/Photographers/Wessy/Profile Pic_.jpg",
-            "profileLink": "individual.html?id=photographer-11",
-            "images":["./photographers/Photographers/Wessy/1.JPG","./photographers/Photographers/Wessy/2.JPG","./photographers/Photographers/Wessy/3.JPG","./photographers/Photographers/Wessy/4.JPG","./photographers/Photographers/Wessy/5.JPG","./photographers/Photographers/Wessy/6.jpg","./photographers/Photographers/Wessy/Profile Pic_.jpg"]
-        },
+        
         {
             "id":"photographer-12",
             "name": "Gift Mathunjwa",
@@ -573,17 +408,7 @@
             "profileLink": "individual.html?id=designer-6",
             "images":["./graphic designers/Graphic Design/Mabeka Kola/1.jpg","./graphic designers/Graphic Design/Mabeka Kola/2.png","./graphic designers/Graphic Design/Mabeka Kola/4.png","./graphic designers/Graphic Design/Mabeka Kola/5.png","./graphic designers/Graphic Design/Mabeka Kola/6.jpg","./graphic designers/Graphic Design/Mabeka Kola/7.jpg","./graphic designers/Graphic Design/Mabeka Kola/8.jpg","./graphic designers/Graphic Design/Mabeka Kola/9.png","./graphic designers/Graphic Design/Mabeka Kola/10.png","./graphic designers/Graphic Design/Mabeka Kola/11.jpg","./graphic designers/Graphic Design/Mabeka Kola/12.png","./graphic designers/Graphic Design/Mabeka Kola/13.png","./graphic designers/Graphic Design/Mabeka Kola/3.png"]
         },
-        {
-            "id":"designer-7",
-            "name": "Solomon Modiadie",
-            "height": "6'0\"",
-            "waist": "32\"",
-            "location": "Cape Town",
-            "description": "",
-            "image": "./graphic designers/Graphic Design/Solomon Modiadie/img.jpg",
-            "profileLink": "individual.html?id=designer-7",
-            "images":["./graphic designers/Graphic Design/Solomon Modiadie/1.jpg","./graphic designers/Graphic Design/Solomon Modiadie/2.jpg","./graphic designers/Graphic Design/Solomon Modiadie/3.jpg","./graphic designers/Graphic Design/Solomon Modiadie/4.jpg","./graphic designers/Graphic Design/Solomon Modiadie/img.jpg"]
-        },
+        
         {
             "id":"designer-8",
             "name": "Tiffany Naku",
@@ -607,17 +432,6 @@
             "images":["./graphic designers/Graphic Design/Tshepang Bapela/1.png","./graphic designers/Graphic Design/Tshepang Bapela/2.png","./graphic designers/Graphic Design/Tshepang Bapela/3.png","./graphic designers/Graphic Design/Tshepang Bapela/4.png","./graphic designers/Graphic Design/Tshepang Bapela/7.png","./graphic designers/Graphic Design/Tshepang Bapela/profile pic.png"]
         },
         {
-            "id":"designer-10",
-            "name": "Naledi Shange",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/1.jpeg",
-            "profileLink": "individual.html?id=designer-10",
-            "images":["./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/2.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/3.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/4.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/5.jpg","./graphic designers/Graphic Design/Naledi Shange/Naledi Shange/1.jpeg"]
-        },
-        {
             "id":"designer-11",
             "name": "Tshepang Ramokopelwa",
             "height": "",
@@ -630,26 +444,6 @@
         }
     ],
     "videographers":[
-        {
-            "id":"videographer-2",
-            "name": "agmat achmad",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-2"
-        },
-        {
-            "id":"videographer-3",
-            "name": "geotano kilian",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-3"
-        },
         {
             "id":"videographer-4",
             "name": "jahem de vos",
@@ -681,17 +475,6 @@
             "image": "./videographers/",
             "profileLink": "individual.html?id=videographer-6",
             "videos":["https://www.youtube.com/embed/Kt7DWiMVDtE?si=29NSf9FIwbUdwvR2"]
-        },
-        {
-            "id":"videographer-7",
-            "name": "nyiko khoza",
-            "height": "",
-            "waist": "",
-            "location": "",
-            "description": "",
-            "image": "./videographers/",
-            "profileLink": "individual.html?id=videographer-7",
-            "videos":["https://www.youtube.com/embed/GMHC6W73LbI?si=nkUb3HdL2t7gwDz1"]
         },
         {
             "id":"videographer-8",

@@ -100,17 +100,7 @@
     "profileLink": "individual.html?id=photographer-7",
     "images":["./photographers/Photographers/Juvani Aaron/1.jpg","./photographers/Photographers/Juvani Aaron/2.jpg"]
 }
-{
-    "id":"photographer-10",
-    "name": "Uriel Dombo",
-    "height": "",
-    "waist": "",
-    "location": "",
-    "description": "",
-    "image": "./photographers/Photographers/Uriel Dombo/5.jpeg",
-    "profileLink": "individual.html?id=photographer-10",
-    "images":["./photographers/Photographers/Uriel Dombo/1.jpeg","./photographers/Photographers/Uriel Dombo/2.jpeg","./photographers/Photographers/Uriel Dombo/3.jpeg","./photographers/Photographers/Uriel Dombo/4.jpg","./photographers/Photographers/Uriel Dombo/5.jpeg"]
-}
+
 
 
 
@@ -124,16 +114,7 @@
     "image": "./videographers/agmat.jpeg",
     "profileLink": "individual.html?id=videographer-2"
 }
-{
-    "id":"videographer-3",
-    "name": "geotano kilian",
-    "height": "",
-    "waist": "",
-    "location": "",
-    "description": "",
-    "image": "./videographers/",
-    "profileLink": "individual.html?id=videographer-3"
-}
+
 {
     "id":"videographer-7",
     "name": "nyiko khoza",

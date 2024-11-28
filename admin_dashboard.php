@@ -96,7 +96,3 @@
 </body>
 </html>
 <?php include 'footer.php'; ?>
-<?php
-    session_unset();
-    session_destroy();
-?>

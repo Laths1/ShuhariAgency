@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="styles.css"></link>
+    <title>admin</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <?php include 'nav.php'; ?>
-    <form id="login" action="login.php" method="POST" >
+    <form action="admin.php" method="POST" id="login">
         <p>Username</p>
         <input type="text" name="username">
         <p>Password</p>
@@ -39,7 +39,7 @@
 
         if (empty($usernameErr) && empty($passwordErr)) {
             // Use prepared statement to avoid SQL injection
-            $stmt = $conn->prepare("SELECT username, password FROM users WHERE username = ?");
+            $stmt = $conn->prepare("SELECT username, password_hash FROM admin WHERE username = ?");
             $stmt->bind_param("s", $username); // "s" indicates the type is string
             $stmt->execute();
             $result = $stmt->get_result();
@@ -47,10 +47,10 @@
             if ($result->num_rows > 0) {
                 // Username exists
                 $row = $result->fetch_assoc();
-                if (password_verify($password, $row["password"])) {
+                if (password_verify($password, $row["password_hash"])) {
                     $_SESSION["loggedIn"] = true;
                     $_SESSION["username"] = $row["username"];
-                    header("Location: talent_dashboard.php");
+                    header("Location: admin_dashboard.php");
                 } else {
                     echo "Incorrect password";
                 }

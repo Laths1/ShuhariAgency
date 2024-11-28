@@ -50,8 +50,10 @@
                 <div class="footer-links">
                     <ul class="links-list">
                         <h3>links</h3>
-                        <li><a href="#"><p>privacy & policy  us</p></a></li>
-                        <li><a href="#"><p>terms & conditions</p></a></li>
+                        <!-- <li><a href="#"><p>privacy & policy  us</p></a></li> -->
+                        <!-- <li><a href="#"><p>terms & conditions</p></a></li> -->
+                        <li><a href="login.php"><p>login</p></a></li>
+                        <li><a href="admin.php"><p>admin</p></a></li>
                     </ul>
                 </div>
                 <div class="footer-updates">

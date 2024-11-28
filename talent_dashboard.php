@@ -38,13 +38,10 @@ $stmt = $conn->prepare($sql);
 if ($stmt) {
     // Bind the session username to the query
     $stmt->bind_param("s", $username);
-
     // Execute the query
     $stmt->execute();
-
     // Get the result
     $result = $stmt->get_result();
-
     // Check if rows are returned
     if ($result->num_rows > 0) {
         // Output the rows

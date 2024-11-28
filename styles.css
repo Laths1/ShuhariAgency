@@ -1728,3 +1728,19 @@ footer
     background-color: var(--primary-color-6); /* Darker blue on hover */
 }
 
+/* admin */
+#admin-title{
+    margin: auto;
+}
+.admin-data{
+    border-collapse: collapse;
+    width: 100%;   
+}
+.admin-data th,.admin-data td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.admin-data th {
+    background-color: #f4f4f4;
+}

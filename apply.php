@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +21,13 @@
     <section class="home-page-container-apply">
         <section class="application-container">
            <!-- nav bar -->
-            <?php include 'nav.php'; ?>
+            <?php
+            if(!empty($_SESSION) && $_SESSION["loggedIn"] == 1){
+                include 'dash_nav.php';    
+            }else{
+                include 'nav.php';
+            }
+            ?>
             <!-- end of nav bar -->
 
           <p>Please read the application outline for your chosen category.</p>

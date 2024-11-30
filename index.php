@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +18,13 @@
     <!-- home page -->
     <section class="home-page-container">
     <!-- nav bar -->
-    <?php include 'nav.php'; ?>
+    <?php
+    if(!empty($_SESSION) && $_SESSION["loggedIn"] == 1){
+        include 'dash_nav.php';    
+    }else{
+        include 'nav.php';
+    }
+     ?>
     <!-- end of nav bar -->
 
     <!-- hero -->

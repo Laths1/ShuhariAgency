@@ -50,6 +50,7 @@
                 if (password_verify($password, $row["password_hash"])) {
                     $_SESSION["loggedIn"] = true;
                     $_SESSION["username"] = $row["username"];
+                    $_SESSION["admin"] = true;
                     header("Location: admin_dashboard.php");
                 } else {
                     echo "Incorrect password";

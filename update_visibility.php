@@ -24,6 +24,6 @@ if ($stmt->execute()) {
 }
 
 // Redirect back to the admin page or previous page
-header("Location: admin_dashboard.php");
+header("Location: userdata.php");
 exit;
 ?>

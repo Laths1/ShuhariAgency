@@ -17,7 +17,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <?php include 'nav.php'; ?>
+    <?php
+    if($_SESSION["loggedIn"] == 1){
+        include 'dash_nav.php';    
+    }else{
+        include 'nav.php';
+    }
+     ?>
 
     <?php
         // Get the user ID from the POST request

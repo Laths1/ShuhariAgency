@@ -14,7 +14,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <?php include 'nav.php'; ?>
+    <?php
+    if($_SESSION["loggedIn"] == 1){
+        include 'dash_nav.php';    
+    }else{
+        include 'nav.php';
+    }
+     ?>
     <?php
     $username = $_SESSION["username"];
     $sql = "
@@ -64,7 +70,3 @@ if ($stmt) {
 </body>
 </html>
 <?php include 'footer.php'; ?>
-<?php
-    session_unset();
-    session_destroy();
-?>

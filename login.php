@@ -50,6 +50,7 @@
                 if (password_verify($password, $row["password"])) {
                     $_SESSION["loggedIn"] = true;
                     $_SESSION["username"] = $row["username"];
+                    $_SESSION["admin"] = false;
                     header("Location: talent_dashboard.php");
                 } else {
                     echo "Incorrect password";

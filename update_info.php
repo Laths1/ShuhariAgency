@@ -12,11 +12,11 @@ if ($_SESSION["loggedIn"] != 1) {
 $user_id = intval($_POST['user_id']);
 $name = htmlspecialchars($_POST['name']);
 $surname = htmlspecialchars($_POST['surname']);
-$bio = htmlspecialchars($_POST['bio']);
+$bio = $_POST['bio'];
 $role = htmlspecialchars($_POST['role']); // Make sure this is passed if roles vary
 
 // Role-specific fields
-if ($role == 'Model') {
+if ($role == 'model') {
     $height = intval($_POST['height']);
     $waist = intval($_POST['waist']);
     $shoe_size = floatval($_POST['shoe_size']);
@@ -25,7 +25,7 @@ if ($role == 'Model') {
 }
 
 // Update database
-if ($role == 'Model') {
+if ($role == 'model') {
     $sql = "
         UPDATE models 
         SET 
@@ -39,7 +39,7 @@ if ($role == 'Model') {
     ";
 
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("iidsssi", $height, $waist, $shoe_size, $location, $gender, $profile_image_path, $user_id);
+    $stmt->bind_param("iidssi", $height, $waist, $shoe_size, $location, $gender, $user_id);
     $stmt->execute();
 }
 if ($role == 'photographer') {
@@ -52,7 +52,7 @@ if ($role == 'photographer') {
     ";
 
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("iidsssi", $location, $user_id);
+    $stmt->bind_param("si", $location, $user_id);
     $stmt->execute();
 }
 if ($role == 'videographer') {
@@ -65,7 +65,7 @@ if ($role == 'videographer') {
     ";
 
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("iidsssi", $location, $user_id);
+    $stmt->bind_param("si", $location, $user_id);
     $stmt->execute();
 }
 

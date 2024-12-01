@@ -25,40 +25,40 @@
     }
     ?>
     <h1>Add New User</h1>
-    <form action="talent2db.php" method="POST">
-        <p>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-        </p>
-        <p>
-            <label for="surname">Surname:</label>
-            <input type="text" id="surname" name="surname" required>
-        </p>
-        <p>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </p>
-        <p>
-            <label for="phone_number">Phone Number:</label>
-            <input type="text" id="phone_number" name="phone_number" required>
-        </p>
-        <p>
-            <label for="role">Role:</label>
-            <select id="role" name="role" required>
-                <option value="model">Model</option>
-                <option value="editor">Editor</option>
-                <option value="videographer">Videographer</option>
-                <option value="photographer">Photographer</option>
-                <option value="graphic_designer">Graphic Designer</option>
-            </select>
-        </p>
-        <p>
-            <label for="bio">Bio:</label>
-            <textarea id="bio" name="bio" rows="5"></textarea>
-        </p>
-        <div id="role-specific-fields"></div>
-        <button type="submit">Add User</button>
-    </form>
+    <form action="addforms.php" method="POST">
+    <p>
+        <label for="option1">
+            <input type="radio" name="role" value="model" id="option1" required>
+            Model
+        </label>
+    </p>
+    <p>
+        <label for="option2">
+            <input type="radio" name="role" value="editor" id="option2" required>
+            Editors
+        </label>
+    </p>
+    <p>
+        <label for="option3">
+            <input type="radio" name="role" value="graphic designer" id="option3" required>
+            Graphic Designer
+        </label>
+    </p>
+    <p>
+        <label for="option4">
+            <input type="radio" name="role" value="photographer" id="option4" required>
+            Photographer
+        </label>
+    </p>
+    <p>
+        <label for="option5">
+            <input type="radio" name="role" value="videographer" id="option5" required>
+            Videographer
+        </label>
+    </p>
+    <button type="submit">Submit</button>
+</form>
+
 
     <?php include 'footer.php'; ?>
 </body>

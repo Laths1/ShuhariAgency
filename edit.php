@@ -114,6 +114,7 @@
         
         // Hidden field to include the user's ID
         echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
+        echo '<input type="hidden" name="role" value="' . htmlspecialchars($row['role']) . '">';
         
         echo '<p><label for="name">Name:</label>';
         echo '<input type="text" id="name" name="name" value="' . htmlspecialchars($row['name']) . '" required></p>';
@@ -157,6 +158,7 @@
         
         // Hidden field to include the user's ID
         echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
+        echo '<input type="hidden" name="role" value="' . htmlspecialchars($row['role']) . '">';
         
         echo '<p><label for="name">Name:</label>';
         echo '<input type="text" id="name" name="name" value="' . htmlspecialchars($row['name']) . '" required></p>';
@@ -184,6 +186,7 @@
         
         // Hidden field to include the user's ID
         echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
+        echo '<input type="hidden" name="role" value="' . htmlspecialchars($row['role']) . '">';
         
         echo '<p><label for="name">Name:</label>';
         echo '<input type="text" id="name" name="name" value="' . htmlspecialchars($row['name']) . '" required></p>';
@@ -211,6 +214,7 @@
         
         // Hidden field to include the user's ID
         echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
+        echo '<input type="hidden" name="role" value="' . htmlspecialchars($row['role']) . '">';
         
         echo '<p><label for="name">Name:</label>';
         echo '<input type="text" id="name" name="name" value="' . htmlspecialchars($row['name']) . '" required></p>';

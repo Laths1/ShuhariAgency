@@ -242,7 +242,7 @@
             
         </div>
         <div class="contact-btn-con">
-              <script type="text/javascript" src="https://form.jotform.com/jsform/243234163507047" defer></script>
+              
         </div>
     </section>
     <!-- end of contact -->

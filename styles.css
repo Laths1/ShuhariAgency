@@ -1131,27 +1131,21 @@ label{
 
 .contact-form {
     background: var(--primary-color-5);
-    padding: 20px;
-    border-radius: 8px;
+    /* padding: 20px; */
+    /* border-radius: 8px; */
     box-shadow: 0 4px 10px var(--primary-color-3);
-    width: 30%;
+    /* width: 30%; */
     text-align: center;
+
   }
-  .contact-btn-con{
-    width: 100vw;
-    height: 55rem;
-    overflow-y: hidden;
-  }
-  .contact-form h2 {
-    /* margin-bottom: 20px; */
-    font-size: 24px;
-  }
+ 
+
   .contact-form input, .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    /* border-radius: 5px; */
   }
   .contact-form button {
     background-color: var(--primary-color-6);

@@ -242,7 +242,22 @@
             
         </div>
         <div class="contact-btn-con">
-              
+              <form class="contact-form" id="contact-form" method="POST" action="contact.php">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" name="name" required>
+
+                <label for="contact-name">Suranme</label>
+                <input type="text" id="contact-name" name="surname" required>
+            
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" name="email" required>
+            
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="4" required></textarea>
+            
+                <button type="submit">Send</button>
+                
+              </form>
         </div>
     </section>
     <!-- end of contact -->

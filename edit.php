@@ -78,6 +78,7 @@
 
         // Check if the user exists
         if ($row = $result->fetch_assoc()) {
+            echo '<div class="edit-container">';
             echo "<h1 id='admin-title'>User Details</h1>";
             echo "<p><strong>Name:</strong> " . htmlspecialchars($row['name']) . "</p>";
             echo "<p><strong>Surname:</strong> " . htmlspecialchars($row['surname']) . "</p>";
@@ -85,6 +86,7 @@
             echo "<p><strong>Bio:</strong> " . htmlspecialchars($row['bio']) . "</p>";
             echo "<p><strong>Email:</strong> " . htmlspecialchars($row['email']) . "</p>";
             echo "<p><strong>Phone Number:</strong> " . htmlspecialchars($row['phone_number']) . "</p>";
+            
 
     // Display role-specific details
     if ($row['role'] == 'model') {
@@ -105,11 +107,13 @@
     } else {
         echo "<p>User not found.</p>";
     }
+    echo '</div>';
     ?>
 
     <h1 id="admin-title">Edit details</h1>
     <?php
     if ($row['role'] == 'model') {
+        echo '<div class="edit-container">';
         echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';
         
         // Hidden field to include the user's ID
@@ -152,8 +156,10 @@
         
         echo '<button type="submit">Update Info</button>';
         echo '</form>';
+        echo '</div>';
     }
     if ($row['role'] == 'photographer') {
+        echo '<div class="edit-container">';
         echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';
         
         // Hidden field to include the user's ID
@@ -180,8 +186,10 @@
         
         echo '<button type="submit">Update Info</button>';
         echo '</form>';
+        echo '</div>';
     }
     if ($row['role'] == 'videographer') {
+        echo '<div class="edit-container">';
         echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';
         
         // Hidden field to include the user's ID
@@ -208,8 +216,10 @@
         
         echo '<button type="submit">Update Info</button>';
         echo '</form>';
+        echo '</div>';
     }
     if ($row['role'] == 'graphic_designer') {
+        echo '<div class="edit-container">';
         echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';
         
         // Hidden field to include the user's ID
@@ -233,6 +243,7 @@
         
         echo '<button type="submit">Update Info</button>';
         echo '</form>';
+        echo '</div>';
     }
     ?>
 

@@ -65,7 +65,8 @@
         }
     ?>
 
-    <h1>Edit Visibility</h1>
+    <h1 id="admin-title">Edit Visibility</h1>
+    <div class="edit-container">
     <form method="POST" action="update_visibility.php">
         <input type="hidden" name="user_id" value="<?php echo $userid; ?>">
         <p>
@@ -76,17 +77,16 @@
         <p>
             <strong>Visibility:</strong><br>
             <label>
-                <input type="radio" name="is_active" value="1" <?php if ($visibility === 1) echo "checked"; ?>>
-                Visible
+                Visible<input type="radio" name="is_active" value="1" <?php if ($visibility === 1) echo "checked"; ?>>
+                
             </label><br>
             <label>
-                <input type="radio" name="is_active" value="0" <?php if ($visibility === 0) echo "checked"; ?>>
-                Hidden
+                Hidden<input type="radio" name="is_active" value="0" <?php if ($visibility === 0) echo "checked"; ?>>
             </label>
         </p>
         <button type="submit">Update Visibility</button>
     </form>
-
+    </div>
     <?php include 'footer.php'; ?>
 </body>
 </html>

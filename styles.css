@@ -1018,9 +1018,8 @@ apply
     text-align: center;
     overflow-x: hidden;
   }
-  .application{
-    height:100rem;
-    overflow-y: hidden;
+  .application h2{
+    margin: auto;
   }
   .outlines{
     display:flex;
@@ -1761,7 +1760,90 @@ footer
     text-align: center;
     padding: 2rem;
  }
+ .edit-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
 
+.edit-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.edit-container p {
+    margin: 0;
+}
+
+.edit-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: var(--primary-color-1);
+}
+
+.edit-container input,
+.edit-container select,
+.edit-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.edit-container input:focus,
+.edit-container select:focus,
+.edit-container textarea:focus {
+    border-color: var(--primary-color-6);
+    outline: none;
+    box-shadow: 0 0 3px var(--primary-color-6);
+}
+
+.edit-container textarea {
+    resize: none;
+}
+
+.edit-container button {
+    padding: 10px 15px;
+    background-color: var(--primary-color-6);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-container button:hover {
+    background-color: var(--primary-color-6);
+}
+
+.edit-container input[type="file"] {
+    padding: 5px;
+}
+
+.edit-container input[type="file"]::-webkit-file-upload-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: var(--primary-color-6);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-container input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #0056b3;
+}
 
  .admin-items li:hover{
     background: var(--primary-color-3);
@@ -1805,6 +1887,39 @@ footer
     flex-direction: column;
     gap: 2rem;
   }
-     
+  table {
+    display: block;
+    width: 100%;
+}
+
+thead {
+    display: none;
+}
+
+tbody tr {
+    display: block;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--primary-color-6);
+}
+
+tbody td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td:before {
+    content: attr(data-label); /* Add custom labels for mobile */
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--primary-color-6);
+    text-transform: capitalize;
+}
+
+tbody td:last-child {
+    border-bottom: none;
+}
  }
  

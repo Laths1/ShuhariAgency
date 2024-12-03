@@ -24,7 +24,7 @@
     <ul class="admin-items">
         <li><a href="userdata.php"><p>user data</p></a></li>
         <li><a href="add.php"><p>Add talent</p></a></li>
-        <li><a href="application.php"><p>Applications</p></a></li>
+        <li><a href="applicationmessages.php"><p>Applications</p></a></li>
         <li><a href="contactmessages.php"><p>Contact</p></a></li>
         <li><a href="talent_messages.php"><p>talent messages</p></a></li>
     </ul>

@@ -1106,7 +1106,7 @@ apply
 /* ==========
 contact
 ========== */
-.contact-container{
+.contact-container,.application{
     padding: 4rem ;
     padding-top: 0;
     display: flex;
@@ -1131,12 +1131,12 @@ label{
 
 .contact-form {
     background: var(--primary-color-5);
-    /* padding: 20px; */
+    padding: 20px;
     /* border-radius: 8px; */
     box-shadow: 0 4px 10px var(--primary-color-3);
     /* width: 30%; */
     text-align: center;
-
+    width: 50rem;
   }
  
 

@@ -14,7 +14,7 @@
         <link rel="icon" href="favicon_io/favicon-16x16.png" type="image/x-icon">
         
         <!-- js -->
-      
+        
     </head>
 
 <body>
@@ -39,7 +39,54 @@
                 <div class="cat"><a href="./application outlines/Photographer - Outline.pdf"><p>Photographer</p></a></div>
           </div>
           <div class="application">
-            <script type="text/javascript" src="https://form.jotform.com/jsform/243241120293040"></script>
+             <form action="application.php" method="POST" class="contact-form">
+                <h2>Application Form</h2>
+
+                <!-- Name Fields -->
+                <label for="first_name">First Name*</label>
+                <input type="text" id="first_name" name="name" placeholder="Enter your first name" required>
+
+                <label for="last_name">Last Name*</label>
+                <input type="text" id="last_name" name="surname" placeholder="Enter your last name" required>
+
+                <!-- Email -->
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+                <!-- Phone Number -->
+                <label for="phone">Phone Number*</label>
+                <input type="tel" id="phone" name="number" placeholder="000 000 0000" title="Please enter a valid phone number in the format (000) 000-0000">
+
+                <!-- Location -->
+                <label for="location">Location (City/Province)</label>
+                <input type="text" id="location" name="location" placeholder="Enter your city and province">
+
+                <!-- Portfolio Link -->
+                <label for="portfolio">Link to Portfolio</label>
+                <input type="url" id="portfolio" name="portfolio" placeholder="Personal website, Google Drive, Behance, YouTube, etc.">
+
+                <!-- Social Media Handle -->
+                <label for="social_media">Social Media Handle</label>
+                <input type="text" id="social_media" name="social_media" placeholder="Instagram handle preferred" >
+
+                <!-- Motivation -->
+                <label for="motivation">Motivation*</label>
+                <textarea id="motivation" name="motivation" rows="4" placeholder="Tell us about yourself and your experience" required></textarea>
+
+                <!-- Category Selection -->
+                <label for="category">Select a Category*</label>
+                <select id="category" name="category" required>
+                    <option value="" disabled selected>Select a category</option>
+                    <option value="model">Model</option>
+                    <option value="editor">Editor</option>
+                    <option value="graphic_designer">Graphic Designer</option>
+                    <option value="photographer">Photographer</option>
+                    <option value="videographer">Videographer</option>
+                </select>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
           </div>
         
             <div class="text-container">

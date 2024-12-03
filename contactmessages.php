@@ -23,7 +23,7 @@
     }
     ?>
 
-    <h1>Messages</h1>
+    <h1 id="admin-title">Contact messages</h1>
     <div class="messages-container">
         <?php
         // Fetch messages and user roles from the database

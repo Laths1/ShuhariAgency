@@ -78,7 +78,7 @@
 
         // Check if the user exists
         if ($row = $result->fetch_assoc()) {
-            echo "<h1>User Details</h1>";
+            echo "<h1 id='admin-title'>User Details</h1>";
             echo "<p><strong>Name:</strong> " . htmlspecialchars($row['name']) . "</p>";
             echo "<p><strong>Surname:</strong> " . htmlspecialchars($row['surname']) . "</p>";
             echo "<p><strong>Role:</strong> " . htmlspecialchars($row['role']) . "</p>";
@@ -107,7 +107,7 @@
     }
     ?>
 
-    <h1>Edit details</h1>
+    <h1 id="admin-title">Edit details</h1>
     <?php
     if ($row['role'] == 'model') {
         echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';

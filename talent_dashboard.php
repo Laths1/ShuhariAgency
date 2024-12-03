@@ -53,12 +53,12 @@
         if ($result->num_rows > 0) {
             // Output the rows and create forms for sending messages
             while ($row = $result->fetch_assoc()) {
-                echo "<p>Name: " . htmlspecialchars($row['user_name']) . "</p>";
-                echo "<p>Surname: " . htmlspecialchars($row['user_surname']) . "</p>";
-                echo "<p>Role: " . htmlspecialchars($row['user_role']) . "</p>";
+                echo "<p id='talentdash'>Name: " . htmlspecialchars($row['user_name']) . "</p>";
+                echo "<p id='talentdash'>Surname: " . htmlspecialchars($row['user_surname']) . "</p>";
+                echo "<p id='talentdash'>Role: " . htmlspecialchars($row['user_role']) . "</p>";
                 
                 // Form for sending a message
-                echo '<form action="messages.php" method="POST">';
+                echo '<form action="messages.php" method="POST" id="talentform">';
                 echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
                 echo '<textarea name="message" placeholder="Write your message here..." required></textarea>';
                 echo '<button type="submit">Send</button>';

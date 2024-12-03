@@ -24,8 +24,8 @@
         include 'nav.php';
     }
     ?>
-    <h1>Add New User</h1>
-    <form action="addforms.php" method="POST">
+    <h1 id="addnewtalent">Add New User</h1>
+    <form action="addforms.php" method="POST" id="addform">
     <p>
         <label for="option1">
             <input type="radio" name="role" value="model" id="option1" required>

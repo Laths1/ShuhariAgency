@@ -1129,7 +1129,7 @@ label{
     font-size: 1.25rem;
 }
 
-.contact-form {
+.contact-form ,#talentform{
     background: var(--primary-color-5);
     padding: 20px;
     /* border-radius: 8px; */
@@ -1138,16 +1138,19 @@ label{
     text-align: center;
     width: 50rem;
   }
- 
+  #talentform{
+    margin: auto;
+    padding: 2rem;
+  }
 
-  .contact-form input, .contact-form textarea {
+  .contact-form input, .contact-form textarea ,#talentform input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
     /* border-radius: 5px; */
   }
-  .contact-form button {
+  .contact-form button,#talentform button {
     background-color: var(--primary-color-6);
     color: white;
     padding: 10px;
@@ -1578,7 +1581,9 @@ footer
   }
   
   
-  /* Form Styles */
+  /**********
+   Form Styles
+   ************/
   .update-form {
     display: flex;
     flex-direction: column;
@@ -1667,7 +1672,9 @@ footer
      
  }
  
- /* login */
+ /********
+  login
+  ******** */
  #login {
     display: flex;
     flex-direction: column;
@@ -1722,9 +1729,55 @@ footer
     background-color: var(--primary-color-6); /* Darker blue on hover */
 }
 
-/* admin */
-#admin-title{
+/*********
+ admin
+ **********/
+ button{
+    background: var(--primary-color-6);
+    color: var(--primary-color-5);
+    border-radius: var(--radius);
+    padding:1rem 2rem;
+    transition: var(--transition);
+    font-family: var(--ff-primary-1);
+    width: max-content;
+    border: none;
+ }
+
+ button:hover{
+    background: var(--primary-color-3);
+ }
+ .admin-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    
+ }
+ .admin-items a{
+    text-align: center;
+    padding: 0 10rem;
+ }
+ #addform{
+    text-align: center;
+    padding: 2rem;
+ }
+
+
+ .admin-items li:hover{
+    background: var(--primary-color-3);
+ }
+.admin-items p{
+    color: var(--primary-color-5);
+}
+ .admin-items li{
+    border-radius: var(--radius);
+    background: var(--primary-color-6);
+    transition: var(--transition);
+ }
+#admin-title, #addnewtalent, #addtitle, #talentdash{
+    padding: 2rem;
     margin: auto;
+    text-align: center;
 }
 .admin-data{
     border-collapse: collapse;
@@ -1738,3 +1791,20 @@ footer
 .admin-data th {
     background-color: #f4f4f4;
 }
+.messages-container{
+    padding: 2rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.message{
+    background: var(--primary-color-2);
+}
+@media screen and (max-width:996px){
+  .admin-items{
+    flex-direction: column;
+    gap: 2rem;
+  }
+     
+ }
+ 

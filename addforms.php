@@ -26,8 +26,8 @@
     ?>
     <?php 
     if($_POST['role'] == 'model'){
-        echo '<h1>add model</h1>';
-        echo '<form action="adddb.php" method="POST">';
+        echo '<h1 id="addtitle">add model</h1>';
+        echo '<form action="adddb.php" method="POST" id="talentform">';
         echo '<input type="hidden" name="role" value="model">';
         echo '<p>';
         echo '<p><label for="name">name:</label>';
@@ -59,8 +59,8 @@
         echo '</form>';
     }
     else if($_POST["role"] == "editor"){
-        echo '<h1>add editor</h1>';
-        echo '<form action="adddb.php" method="POST">';
+        echo '<h1 id="addtitle">add editor</h1>';
+        echo '<form action="adddb.php" method="POST" id="talentform">';
         echo '<input type="hidden" name="role" value="editor">';
         echo '<p>';
         echo '<p><label for="name">name:</label>';
@@ -74,10 +74,11 @@
         echo '<p><label for="bio">bio:</label>';
         echo '<textarea id="bio" name="bio" rows="5" cols="30" placeholder="Enter your bio here..." required></textarea><br>';
         echo '<button type="submit">submit</button>';
+        echo '</form>';
     }
     else if($_POST["role"] == "photographer"){
-        echo '<h1>add photographer</h1>';
-        echo '<form action="adddb.php" method="POST">';
+        echo '<h1 id="addtitle">add photographer</h1>';
+        echo '<form action="adddb.php" method="POST" id="talentform">';
         echo '<input type="hidden" name="role" value="photographer">';
         echo '<p>';
         echo '<p><label for="name">name:</label>';
@@ -93,10 +94,11 @@
         echo '<p><label for="bio">bio:</label>';
         echo '<textarea id="bio" name="bio" rows="5" cols="30" placeholder="Enter your bio here..." required></textarea><br>';
         echo '<button type="submit">submit</button>';
+        echo '</form>';
     }
     else if($_POST["role"] == "videographer"){
-        echo '<h1>add videographer</h1>';
-        echo '<form action="adddb.php" method="POST">';
+        echo '<h1 id="addtitle">add videographer</h1>';
+        echo '<form action="adddb.php" method="POST" id="talentform">';
         echo '<input type="hidden" name="role" value="videographer">';
         echo '<p>';
         echo '<p><label for="name">name:</label>';
@@ -112,10 +114,11 @@
         echo '<p><label for="bio">bio:</label>';
         echo '<textarea id="bio" name="bio" rows="5" cols="30" placeholder="Enter your bio here..." required></textarea><br>';
         echo '<button type="submit">submit</button>';
+        echo '</form>';
     }
     else if($_POST["role"] == "graphic designer"){
-        echo '<h1>add graphic_designer</h1>';
-        echo '<form action="adddb.php" method="POST">';
+        echo '<h1 id="addtitle">add graphic_designer</h1>';
+        echo '<form action="adddb.php" method="POST" id="talentform">';
         echo '<input type="hidden" name="role" value="graphic designer">';
         echo '<p>';
         echo '<p><label for="name">name:</label>';
@@ -129,13 +132,15 @@
         echo '<p><label for="bio">bio:</label>';
         echo '<textarea id="bio" name="bio" rows="5" cols="30" placeholder="Enter your bio here..." required></textarea><br>';
         echo '<button type="submit">submit</button>';
+        echo '</form>';
     }else{
         echo 'role not found';
     }
     ?>
     
 
-    <?php include 'footer.php'; ?>
+   
 </body>
 </html>
+ <?php include 'footer.php'; ?>
 

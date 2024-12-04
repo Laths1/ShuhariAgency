@@ -11,16 +11,16 @@
     // Validate the POST data
     if (isset($_POST['role']) && isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['email']) && isset($_POST['number'])) {
         // Collect common user information
-        $name = $_POST['name'];
-        $surname = $_POST['surname'];
+        $name = strtolower($_POST['name']);
+        $surname = strtolower($_POST['surname']);
         $email = $_POST['email'];
         $phone_number = $_POST['number'];
         $role = $_POST['role'];
         $bio = $_POST['bio'];
-
+        $username = $name . $surname;
         // Insert into the Users table
-        $stmt = $conn->prepare("INSERT INTO users (name, surname, email, bio, phone_number, is_active) VALUES (?, ?, ?, ?, ?, 0)");
-        $stmt->bind_param("sssss", $name, $surname, $email, $bio, $phone_number);
+        $stmt = $conn->prepare("INSERT INTO users (name, surname, email, bio, phone_number, is_active, username) VALUES (?, ?, ?, ?, ?, 0, ?)");
+        $stmt->bind_param("ssssss", $name, $surname, $email, $bio, $phone_number, $username);
         $stmt->execute();
         $user_id = $conn->insert_id; // Get the inserted user's ID
 

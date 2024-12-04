@@ -9,11 +9,71 @@ if ($_SESSION["loggedIn"] != 1) {
 }
 
 // Retrieve form data
+// Validate and sanitize inputs
 $user_id = intval($_POST['user_id']);
-$name = htmlspecialchars($_POST['name']);
-$surname = htmlspecialchars($_POST['surname']);
-$bio = $_POST['bio'];
-$role = htmlspecialchars($_POST['role']); // Make sure this is passed if roles vary
+$name = trim($_POST['name']);
+$surname = trim($_POST['surname']);
+$bio = trim($_POST['bio']);
+$role = trim($_POST['role']); // Ensure this matches valid roles in your system
+
+// Generate username
+$username = strtolower($name . $surname);
+
+// Define the target directory
+$targetDir = "$role/$username/";
+if (!file_exists($targetDir)) {
+    mkdir($targetDir, 0777, true); // Create the directory if it does not exist
+}
+
+// Process profile image
+if (!empty($_FILES['profile_image']['name'])) {
+    $profileImage = $targetDir . basename($_FILES["profile_image"]["name"]);
+    if (!move_uploaded_file($_FILES["profile_image"]["tmp_name"], $profileImage)) {
+        die("Failed to upload profile image.");
+    }
+} else {
+    $profileImage = $_POST['existing_profile_image'];
+}
+
+// Validate role to ensure it's a safe table name
+$allowed_roles = ['model', 'editor', 'photographer']; // Define allowed roles
+if (!in_array($role, $allowed_roles)) {
+    die("Invalid role specified.");
+}
+
+// Process additional images
+if (isset($_FILES['images']['name']) && count($_FILES['images']['name']) > 0) {
+    for ($i = 0; $i < count($_FILES['images']['name']); $i++) {
+        if (!empty($_FILES['images']['name'][$i])) {
+            $imagePath = $targetDir . basename($_FILES['images']['name'][$i]);
+            if (move_uploaded_file($_FILES['images']['tmp_name'][$i], $imagePath)) {
+                // Insert the image into the database
+                $stmt = $conn->prepare("INSERT INTO $role (user_id, image_url) VALUES (?, ?)");
+                if (!$stmt) {
+                    die("Failed to prepare statement.");
+                }
+                $stmt->bind_param("is", $user_id, $imagePath);
+                if (!$stmt->execute()) {
+                    die("Failed to insert image into database: " . $stmt->error);
+                }
+                $stmt->close();
+            } else {
+                die("Failed to upload image: " . $_FILES['images']['name'][$i]);
+            }
+        }
+    }
+}
+
+// Update profile image in the database (optional, depending on your schema)
+$stmt = $conn->prepare("UPDATE users SET profile_image = ? WHERE id = ?");
+if ($stmt) {
+    $stmt->bind_param("si", $profileImage, $user_id);
+    $stmt->execute();
+    $stmt->close();
+} else {
+    die("Failed to prepare statement for updating profile image.");
+}
+
 
 // Role-specific fields
 if ($role == 'model') {
@@ -23,7 +83,9 @@ if ($role == 'model') {
     $location = htmlspecialchars($_POST['location']);
     $gender = htmlspecialchars($_POST['gender']);
 }
-
+if($role == 'photographer' || $role == 'videographer' ){
+    $location = htmlspecialchars($_POST['location']);
+}
 // Update database
 if ($role == 'model') {
     $sql = "
@@ -76,13 +138,14 @@ $sql = "
     SET 
         name = ?, 
         surname = ?, 
-        bio = ? 
+        bio = ?,
+        profile_image = ? 
     WHERE 
         user_id = ?
 ";
 
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("sssi", $name, $surname, $bio, $user_id);
+$stmt->bind_param("ssssi", $name, $surname, $bio, $profileImage, $user_id);
 $stmt->execute();
 
 // Redirect back to the editing page or show success message

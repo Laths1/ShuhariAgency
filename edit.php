@@ -35,6 +35,7 @@
                 u.name AS name, 
                 u.user_id, 
                 u.surname AS surname, 
+                u.profile_image,
                 r.role_name AS role,
                 u.is_active AS visibility,
                 u.bio AS bio,
@@ -149,7 +150,10 @@
         echo '<textarea id="bio" name="bio" rows="5" required>' . htmlspecialchars($row['bio']) . '</textarea></p>';
         
         echo '<p><label for="profile_image">Profile Image:</label>';
-        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*"></p>';
+        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*">';
+        // Hidden input to store the existing profile image path
+        echo '<input type="hidden" name="existing_profile_image" value="' . htmlspecialchars($row['profile_image']) . '"></p>';
+
         
         echo '<p><label for="images">Additional Images:</label>';
         echo '<input type="file" id="images" name="images[]" accept="image/*" multiple></p>';
@@ -179,7 +183,10 @@
         echo '<textarea id="bio" name="bio" rows="5" required>' . htmlspecialchars($row['bio']) . '</textarea></p>';
         
         echo '<p><label for="profile_image">Profile Image:</label>';
-        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*"></p>';
+        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*">';
+        // Hidden input to store the existing profile image path
+        echo '<input type="hidden" name="existing_profile_image" value="' . htmlspecialchars($row['profile_image']) . '"></p>';
+
         
         echo '<p><label for="images">Additional Images:</label>';
         echo '<input type="file" id="images" name="images[]" accept="image/*" multiple></p>';
@@ -209,7 +216,10 @@
         echo '<textarea id="bio" name="bio" rows="5" required>' . htmlspecialchars($row['bio']) . '</textarea></p>';
         
         echo '<p><label for="profile_image">Profile Image:</label>';
-        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*"></p>';
+        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*">';
+        // Hidden input to store the existing profile image path
+        echo '<input type="hidden" name="existing_profile_image" value="' . htmlspecialchars($row['profile_image']) . '"></p>';
+
         
         echo '<p><label for="images">Additional Images:</label>';
         echo '<input type="file" id="images" name="images[]" accept="image/*" multiple></p>';
@@ -236,7 +246,10 @@
         echo '<textarea id="bio" name="bio" rows="5" required>' . htmlspecialchars($row['bio']) . '</textarea></p>';
         
         echo '<p><label for="profile_image">Profile Image:</label>';
-        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*"></p>';
+        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*">';
+        // Hidden input to store the existing profile image path
+        echo '<input type="hidden" name="existing_profile_image" value="' . htmlspecialchars($row['profile_image']) . '"></p>';
+
         
         echo '<p><label for="images">Additional Images:</label>';
         echo '<input type="file" id="images" name="images[]" accept="image/*" multiple></p>';

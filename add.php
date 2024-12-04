@@ -40,7 +40,7 @@
     </p>
     <p>
         <label for="option3">
-            <input type="radio" name="role" value="graphic designer" id="option3" required>
+            <input type="radio" name="role" value="graphic_designer" id="option3" required>
             Graphic Designer
         </label>
     </p>

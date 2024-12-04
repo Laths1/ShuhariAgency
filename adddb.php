@@ -51,11 +51,11 @@
         } elseif ($role == 'videographer') {
             $location = $_POST['location'];
             $stmt = $conn->prepare("INSERT INTO videographers (videographer_id, location) VALUES (?, ?)");
-            $stmt->bind_param("iss", $user_id, $location);
+            $stmt->bind_param("is", $user_id, $location);
             $stmt->execute();
         } elseif ($role == 'graphic_designer') {
-            $stmt = $conn->prepare("INSERT INTO graphic_designers (graphic_designer_id, specialization) VALUES (?, ?)");
-            $stmt->bind_param("is", $user_id, $specialization);
+            $stmt = $conn->prepare("INSERT INTO graphic_designers (graphic_designer_id) VALUES (?)");
+            $stmt->bind_param("i", $user_id);
             $stmt->execute();
         }
 

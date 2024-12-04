@@ -20,7 +20,12 @@ $role = trim($_POST['role']); // Ensure this matches valid roles in your system
 $username = strtolower($name . $surname);
 
 // Define the target directory
-$targetDir = "$role/$username/";
+if($role == 'editor' && $role == 'videographer'){
+    $targetDir = "$role . 's'/";    
+}else{
+    $targetDir = "$role/$username/";
+}
+
 if (!file_exists($targetDir)) {
     mkdir($targetDir, 0777, true); // Create the directory if it does not exist
 }
@@ -36,7 +41,7 @@ if (!empty($_FILES['profile_image']['name'])) {
 }
 
 // Validate role to ensure it's a safe table name
-$allowed_roles = ['model', 'editor', 'photographer']; // Define allowed roles
+$allowed_roles = ['model', 'editor', 'photographer', 'graphic_designer','videographer']; // Define allowed roles
 if (!in_array($role, $allowed_roles)) {
     die("Invalid role specified.");
 }
@@ -45,10 +50,11 @@ if (!in_array($role, $allowed_roles)) {
 if (isset($_FILES['images']['name']) && count($_FILES['images']['name']) > 0) {
     for ($i = 0; $i < count($_FILES['images']['name']); $i++) {
         if (!empty($_FILES['images']['name'][$i])) {
+            $table = $role . '_images';
             $imagePath = $targetDir . basename($_FILES['images']['name'][$i]);
             if (move_uploaded_file($_FILES['images']['tmp_name'][$i], $imagePath)) {
                 // Insert the image into the database
-                $stmt = $conn->prepare("INSERT INTO $role (user_id, image_url) VALUES (?, ?)");
+                $stmt = $conn->prepare("INSERT INTO $table (user_id, image_url) VALUES (?, ?)");
                 if (!$stmt) {
                     die("Failed to prepare statement.");
                 }
@@ -65,7 +71,7 @@ if (isset($_FILES['images']['name']) && count($_FILES['images']['name']) > 0) {
 }
 
 // Update profile image in the database (optional, depending on your schema)
-$stmt = $conn->prepare("UPDATE users SET profile_image = ? WHERE id = ?");
+$stmt = $conn->prepare("UPDATE users SET profile_image = ? WHERE user_id = ?");
 if ($stmt) {
     $stmt->bind_param("si", $profileImage, $user_id);
     $stmt->execute();
@@ -85,6 +91,9 @@ if ($role == 'model') {
 }
 if($role == 'photographer' || $role == 'videographer' ){
     $location = htmlspecialchars($_POST['location']);
+}
+if($role == 'editor' || $role == 'videographer' ){
+    $video_link = $_POST['video_link'];
 }
 // Update database
 if ($role == 'model') {
@@ -117,17 +126,31 @@ if ($role == 'photographer') {
     $stmt->bind_param("si", $location, $user_id);
     $stmt->execute();
 }
-if ($role == 'videographer') {
+if ($role == 'videographer'){
     $sql = "
         UPDATE videographers 
         SET 
-            location = ?
+            location = ?,
+            youtube_link = ?
         WHERE 
             videographer_id = ?
     ";
 
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("si", $location, $user_id);
+    $stmt->bind_param("ssi", $location, $video_link, $user_id);
+    $stmt->execute();
+}
+if ($role == 'editor'){
+    $sql = "
+        UPDATE editors 
+        SET 
+            youtube_link = ?
+        WHERE 
+            editor_id = ?
+    ";
+
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("si", $video_link, $user_id);
     $stmt->execute();
 }
 

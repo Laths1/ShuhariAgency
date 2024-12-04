@@ -162,7 +162,7 @@
         echo '</form>';
         echo '</div>';
     }
-    if ($row['role'] == 'photographer') {
+    else if ($row['role'] == 'photographer') {
         echo '<div class="edit-container">';
         echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';
         
@@ -195,7 +195,7 @@
         echo '</form>';
         echo '</div>';
     }
-    if ($row['role'] == 'videographer') {
+    else if ($row['role'] == 'videographer') {
         echo '<div class="edit-container">';
         echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';
         
@@ -208,6 +208,9 @@
         
         echo '<p><label for="surname">Surname:</label>';
         echo '<input type="text" id="surname" name="surname" value="' . htmlspecialchars($row['surname']) . '" required></p>';
+
+        echo '<p><label for="yt_video_link">Youtube video link:</label>';
+        echo '<input type="text" id="yt_video_link" name="video_link" value="' . htmlspecialchars($row['videographer_youtube_link']) . '" required></p>';
         
         echo '<p><label for="location">Location:</label>';
         echo '<input type="text" id="location" name="location" value="' . htmlspecialchars($row['videographer_location']) . '" required></p>';
@@ -219,16 +222,41 @@
         echo '<input type="file" id="profile_image" name="profile_image" accept="image/*">';
         // Hidden input to store the existing profile image path
         echo '<input type="hidden" name="existing_profile_image" value="' . htmlspecialchars($row['profile_image']) . '"></p>';
-
-        
-        echo '<p><label for="images">Additional Images:</label>';
-        echo '<input type="file" id="images" name="images[]" accept="image/*" multiple></p>';
         
         echo '<button type="submit">Update Info</button>';
         echo '</form>';
         echo '</div>';
     }
-    if ($row['role'] == 'graphic_designer') {
+    else if ($row['role'] == 'editor') {
+        echo '<div class="edit-container">';
+        echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';
+        
+        // Hidden field to include the user's ID
+        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
+        echo '<input type="hidden" name="role" value="' . htmlspecialchars($row['role']) . '">';
+        
+        echo '<p><label for="name">Name:</label>';
+        echo '<input type="text" id="name" name="name" value="' . htmlspecialchars($row['name']) . '" required></p>';
+        
+        echo '<p><label for="surname">Surname:</label>';
+        echo '<input type="text" id="surname" name="surname" value="' . htmlspecialchars($row['surname']) . '" required></p>';
+        
+        echo '<p><label for="yt_editor_link">Editor video link:</label>';
+        echo '<input type="text" id="yt_editor_link" name="video_link" value="' . htmlspecialchars($row['editor_youtube_link']) . '" required></p>';
+
+        echo '<p><label for="bio">Bio:</label>';
+        echo '<textarea id="bio" name="bio" rows="5" required>' . htmlspecialchars($row['bio']) . '</textarea></p>';
+        
+        echo '<p><label for="profile_image">Profile Image:</label>';
+        echo '<input type="file" id="profile_image" name="profile_image" accept="image/*">';
+        // Hidden input to store the existing profile image path
+        echo '<input type="hidden" name="existing_profile_image" value="' . htmlspecialchars($row['profile_image']) . '"></p>';
+        
+        echo '<button type="submit">Update Info</button>';
+        echo '</form>';
+        echo '</div>';
+    }
+    else if ($row['role'] == 'graphic_designer') {
         echo '<div class="edit-container">';
         echo '<form action="update_info.php" method="POST" enctype="multipart/form-data">';
         
@@ -257,6 +285,8 @@
         echo '<button type="submit">Update Info</button>';
         echo '</form>';
         echo '</div>';
+    }else {
+        echo 'Not found!';
     }
     ?>
 

@@ -116,10 +116,10 @@
         echo '<button type="submit">submit</button>';
         echo '</form>';
     }
-    else if($_POST["role"] == "graphic designer"){
-        echo '<h1 id="addtitle">add graphic_designer</h1>';
+    else if($_POST["role"] == "graphic_designer"){
+        echo '<h1 id="addtitle">add graphic designer</h1>';
         echo '<form action="adddb.php" method="POST" id="talentform">';
-        echo '<input type="hidden" name="role" value="graphic designer">';
+        echo '<input type="hidden" name="role" value="graphic_designer">';
         echo '<p>';
         echo '<p><label for="name">name:</label>';
         echo '<input type="text" id="name" name="name" required></p>';

@@ -49,7 +49,10 @@
                 e.youtube_link AS editor_youtube_link,
                 v.youtube_link AS videographer_youtube_link,
                 v.location AS videographer_location,
-                p.location AS photographer_location
+                p.location AS photographer_location,
+                mi.image_url AS model_images, 
+                pi.image_url AS photographer_images, 
+                gdi.image_url AS graphic_designer_images 
             FROM 
                 users u
             JOIN 
@@ -57,19 +60,26 @@
             JOIN 
                 roles r ON ur.role_id = r.role_id
             LEFT JOIN 
-                Models m ON u.user_id = m.model_id
+                models m ON u.user_id = m.model_id
             LEFT JOIN 
-                Editors e ON u.user_id = e.editor_id
+                editors e ON u.user_id = e.editor_id
             LEFT JOIN 
-                Videographers v ON u.user_id = v.videographer_id
+                videographers v ON u.user_id = v.videographer_id
             LEFT JOIN 
-                Photographers p ON u.user_id = p.photographer_id
+                photographers p ON u.user_id = p.photographer_id
             LEFT JOIN 
                 graphic_designers gd ON u.user_id = gd.graphic_designer_id
+            LEFT JOIN 
+                model_images mi ON m.model_id = mi.user_id  
+            LEFT JOIN 
+                photographer_images pi ON p.photographer_id = pi.user_id  
+            LEFT JOIN 
+                graphic_designer_images gdi ON gd.graphic_designer_id = gdi.user_id 
             WHERE 
                 u.user_id = ?
             LIMIT 1;
         ";
+
 
         // Prepare and execute the query
         $stmt = $conn->prepare($sql);
@@ -77,7 +87,7 @@
         $stmt->execute();
         $result = $stmt->get_result();
 
-        // Check if the user exists
+                // Check if the user exists
         if ($row = $result->fetch_assoc()) {
             echo '<div class="edit-container">';
             echo "<h1 id='admin-title'>User Details</h1>";
@@ -87,31 +97,73 @@
             echo "<p><strong>Bio:</strong> " . htmlspecialchars($row['bio']) . "</p>";
             echo "<p><strong>Email:</strong> " . htmlspecialchars($row['email']) . "</p>";
             echo "<p><strong>Phone Number:</strong> " . htmlspecialchars($row['phone_number']) . "</p>";
-            
 
-    // Display role-specific details
-    if ($row['role'] == 'model') {
-        echo "<p><strong>Height:</strong> " . htmlspecialchars($row['model_height']) . " cm</p>";
-        echo "<p><strong>Waist:</strong> " . htmlspecialchars($row['model_waist']) . " cm</p>";
-        echo "<p><strong>Shoe Size:</strong> " . htmlspecialchars($row['model_shoe_size']) . "</p>";
-        echo "<p><strong>Location:</strong> " . htmlspecialchars($row['model_location']) . "</p>";
-        echo "<p><strong>Gender:</strong> " . htmlspecialchars($row['model_gender']) . "</p>";
-        } elseif ($row['role'] == 'editor') {
-            echo "<p><strong>YouTube Embed:</strong> " . htmlspecialchars($row['editor_youtube_link']) . "</p>";
-        } elseif ($row['role'] == 'videographer') {
-            echo "<p><strong>YouTube Embed:</strong> " . htmlspecialchars($row['videographer_youtube_link']) . "</p>";
-            echo "<p><strong>Location:</strong> " . htmlspecialchars($row['videographer_location']) . "</p>";
-        } elseif ($row['role'] == 'photographer') {
-            echo "<p><strong>Location:</strong> " . htmlspecialchars($row['photographer_location']) . "</p>";
-        } elseif ($row['role'] == 'graphic_designer') {
+            // Display role-specific details
+            if ($row['role'] == 'model') {
+                echo "<p><strong>Height:</strong> " . htmlspecialchars($row['model_height']) . " cm</p>";
+                echo "<p><strong>Waist:</strong> " . htmlspecialchars($row['model_waist']) . " cm</p>";
+                echo "<p><strong>Shoe Size:</strong> " . htmlspecialchars($row['model_shoe_size']) . "</p>";
+                echo "<p><strong>Location:</strong> " . htmlspecialchars($row['model_location']) . "</p>";
+                echo "<p><strong>Gender:</strong> " . htmlspecialchars($row['model_gender']) . "</p>";
+
+                // Display model images
+                if ($row['model_images']) {
+                    $images = explode(",", $row['model_images']);
+                    echo "<p><strong>Model Images:</strong></p>";
+                    foreach ($images as $image) {
+                        echo '<div>';
+                        echo '<img src="' . htmlspecialchars($image) . '" alt="Model Image" style="width: 100px; height: 100px;">';
+                        echo '<form action="delete_image.php" method="POST">';
+                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
+                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image) . '">';
+                        echo '<button type="submit" name="delete_image">Delete</button>';
+                        echo '</form>';
+                        echo '</div>';
+                    }
+                }
+            } elseif ($row['role'] == 'photographer') {
+                echo "<p><strong>Location:</strong> " . htmlspecialchars($row['photographer_location']) . "</p>";
+
+                // Display photographer images
+                if ($row['photographer_images']) {
+                    $images = explode(",", $row['photographer_images']);
+                    echo "<p><strong>Photographer Images:</strong></p>";
+                    foreach ($images as $image) {
+                        echo '<div>';
+                        echo '<img src="uploads/' . htmlspecialchars($image) . '" alt="Photographer Image" style="width: 100px; height: 100px;">';
+                        echo '<form action="delete_image.php" method="POST">';
+                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
+                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image) . '">';
+                        echo '<button type="submit" name="delete_image">Delete</button>';
+                        echo '</form>';
+                        echo '</div>';
+                    }
+                }
+            } elseif ($row['role'] == 'graphic_designer') {
+                // Display graphic designer images
+                if ($row['graphic_designer_images']) {
+                    $images = explode(",", $row['graphic_designer_images']);
+                    echo "<p><strong>Graphic Designer Images:</strong></p>";
+                    foreach ($images as $image) {
+                        echo '<div>';
+                        echo '<img src="uploads/' . htmlspecialchars($image) . '" alt="Graphic Designer Image" style="width: 100px; height: 100px;">';
+                        echo '<form action="delete_image.php" method="POST">';
+                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
+                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image) . '">';
+                        echo '<button type="submit" name="delete_image">Delete</button>';
+                        echo '</form>';
+                        echo '</div>';
+                    }
+                }
+            }
+        } else {
+            echo "<p>User not found.</p>";
         }
-    } else {
-        echo "<p>User not found.</p>";
-    }
-    echo '</div>';
+        echo '</div>';
     ?>
 
     <h1 id="admin-title">Edit details</h1>
+
     <?php
     if ($row['role'] == 'model') {
         echo '<div class="edit-container">';

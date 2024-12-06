@@ -27,7 +27,7 @@
 
     <?php
         // Get the user ID from the POST request
-        $userid = intval($_POST["user_id"]);
+        $user_id = intval($_POST["user_id"]);
 
         // SQL query to fetch the user's name, surname, and role
         $sql = "
@@ -83,11 +83,12 @@
 
         // Prepare and execute the query
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param("i", $userid);
+        $stmt->bind_param("i", $user_id);
         $stmt->execute();
         $result = $stmt->get_result();
 
                 // Check if the user exists
+                
         if ($row = $result->fetch_assoc()) {
             echo '<div class="edit-container">';
             echo "<h1 id='admin-title'>User Details</h1>";
@@ -106,59 +107,86 @@
                 echo "<p><strong>Location:</strong> " . htmlspecialchars($row['model_location']) . "</p>";
                 echo "<p><strong>Gender:</strong> " . htmlspecialchars($row['model_gender']) . "</p>";
 
-                // Display model images
-                if ($row['model_images']) {
-                    $images = explode(",", $row['model_images']);
+                // Fetch and display model images from the database
+                $user_id = $row['user_id'];
+                $image_query = "SELECT * FROM model_images WHERE user_id = ?";
+                $stmt = $conn->prepare($image_query);
+                $stmt->bind_param('i', $user_id);
+                $stmt->execute();
+                $image_result = $stmt->get_result();
+
+                if ($image_result->num_rows > 0) {
                     echo "<p><strong>Model Images:</strong></p>";
-                    foreach ($images as $image) {
+                    while ($image_row = $image_result->fetch_assoc()) {
                         echo '<div>';
-                        echo '<img src="' . htmlspecialchars($image) . '" alt="Model Image" style="width: 100px; height: 100px;">';
+                        echo '<img src="' . htmlspecialchars($image_row['image_url']) . '" alt="Model Image" style="width: 100px; height: 100px;">';
                         echo '<form action="delete_image.php" method="POST">';
-                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
-                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image) . '">';
+                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($user_id) . '">';
+                        echo '<input type="hidden" name="role" value="' . htmlspecialchars($row['role']) . '">';
+                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image_row['image_url']) . '">';
                         echo '<button type="submit" name="delete_image">Delete</button>';
                         echo '</form>';
                         echo '</div>';
                     }
+                } else {
+                    echo "<p>No images found for this model.</p>";
                 }
             } elseif ($row['role'] == 'photographer') {
                 echo "<p><strong>Location:</strong> " . htmlspecialchars($row['photographer_location']) . "</p>";
-
-                // Display photographer images
-                if ($row['photographer_images']) {
-                    $images = explode(",", $row['photographer_images']);
+    
+                // Fetch and display photographer images
+                $image_query = "SELECT * FROM photographer_images WHERE user_id = ?";
+                $stmt = $conn->prepare($image_query);
+                $stmt->bind_param('i', $user_id);
+                $stmt->execute();
+                $image_result = $stmt->get_result();
+                
+                if ($image_result->num_rows > 0) {
                     echo "<p><strong>Photographer Images:</strong></p>";
-                    foreach ($images as $image) {
+                    while ($image_row = $image_result->fetch_assoc()) {
                         echo '<div>';
-                        echo '<img src="uploads/' . htmlspecialchars($image) . '" alt="Photographer Image" style="width: 100px; height: 100px;">';
+                        echo '<img src="' . htmlspecialchars($image_row['image_url']) . '" alt="Photographer Image" style="width: 100px; height: 100px;">';
                         echo '<form action="delete_image.php" method="POST">';
-                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
-                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image) . '">';
+                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($user_id) . '">';
+                        echo '<input type="hidden" name="role" value="' . htmlspecialchars($row['role']) . '">';
+                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image_row['image_url']) . '">';
                         echo '<button type="submit" name="delete_image">Delete</button>';
                         echo '</form>';
                         echo '</div>';
                     }
+                } else {
+                    echo "<p>No images found for this photographer.</p>";
                 }
             } elseif ($row['role'] == 'graphic_designer') {
-                // Display graphic designer images
-                if ($row['graphic_designer_images']) {
-                    $images = explode(",", $row['graphic_designer_images']);
+                // Fetch and display graphic designer images
+                $image_query = "SELECT * FROM graphic_designer_images WHERE user_id = ?";
+                $stmt = $conn->prepare($image_query);
+                $stmt->bind_param('i', $user_id);
+                $stmt->execute();
+                $image_result = $stmt->get_result();
+
+                if ($image_result->num_rows > 0) {
                     echo "<p><strong>Graphic Designer Images:</strong></p>";
-                    foreach ($images as $image) {
+                    while ($image_row = $image_result->fetch_assoc()) {
                         echo '<div>';
-                        echo '<img src="uploads/' . htmlspecialchars($image) . '" alt="Graphic Designer Image" style="width: 100px; height: 100px;">';
+                        echo '<img src="' . htmlspecialchars($image_row['image_url']) . '" alt="Graphic Designer Image" style="width: 100px; height: 100px;">';
                         echo '<form action="delete_image.php" method="POST">';
-                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($row['user_id']) . '">';
-                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image) . '">';
+                        echo '<input type="hidden" name="user_id" value="' . htmlspecialchars($user_id) . '">';
+                        echo '<input type="hidden" name="role" value="' . htmlspecialchars($row['role']) . '">';
+                        echo '<input type="hidden" name="image_name" value="' . htmlspecialchars($image_row['image_url']) . '">';
                         echo '<button type="submit" name="delete_image">Delete</button>';
                         echo '</form>';
                         echo '</div>';
                     }
+                } else {
+                    echo "<p>No images found for this graphic designer.</p>";
                 }
             }
         } else {
             echo "<p>User not found.</p>";
         }
+
+
         echo '</div>';
     ?>
 

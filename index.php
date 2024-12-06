@@ -141,74 +141,74 @@
     <div class="carousel">
     <div class="carousel-items">
         <div class="carousel-item">
-            <img src="./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/4.jpg" alt="Gift Mathunjwa">
+            <img src="./photographers/giftmathunjwa/4.jpg" alt="Gift Mathunjwa">
             <div class="carousel-caption">
                 <p>Photographer: Gift Mathunjwa</p>
                 <div class="btn"><a href="apply.php">apply</a></div>
             </div>
           </div>
         <div class="carousel-item">
-            <img src="./models/Models/Logan Kirby/2.jpg" alt="Logan Kirby">
+            <img src="./models/logankirby/2.jpg" alt="Logan Kirby">
             <div class="carousel-caption">
                 <p>Model: Logan Kirby</p>
                 <div class="btn"><a href="apply.php">apply</a></div>
             </div>
           </div>
       <div class="carousel-item">
-        <img src="./photographers/Photographers/Melo Bopape/profile p.jpg" alt="Melo Bopape">
+        <img src="./photographers/tumelobopape/profile p.jpg" alt="Melo Bopape">
         <div class="carousel-caption">
             <p>Photographer: Melo Bopape</p>
             <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./graphic designers/Graphic Design/Khanyiso Booi/3.jpg" alt="Khanyiso Booi">
+        <img src="./graphic_designers/khanyisobooi/3.jpg" alt="Khanyiso Booi">
         <div class="carousel-caption">
             <p>Graphic designer: Khanyiso Booi</p>
             <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./graphic designers/Graphic Design/Mabeka Kola/4.png" alt="Mabeka Kola">
+        <img src="./graphic_designers/mabekakola/4.png" alt="Mabeka Kola">
         <div class="carousel-caption">
             <p>Graphic designer: Mabeka Kola</p>
             <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./photographers/Photographers/Katlego Khumalo/Katlego Khumalo/1.jpg" alt="Katlego Khumalo">
+        <img src="./photographers/katlegokhumalo/1.jpg" alt="Katlego Khumalo">
         <div class="carousel-caption">
             <p>Photographer: Katlego Khumalo </p>
             <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./photographers/Photographers/Gift Mathunjwa/Gift Mathunjwa/3.jpg" alt="Gift Mathunjwa">
+        <img src="./photographers/giftmathunjwa/3.jpg" alt="Gift Mathunjwa">
         <div class="carousel-caption">
             <p>Photographer : Gift Mathunjwa</p>
             <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div>
     <div class="carousel-item">
-        <img src="./graphic designers/Graphic Design/Khanyiso Booi/9.png" alt="Khanyiso Booi">
+        <img src="./graphic_designers/khanyisobooi/9.png" alt="Khanyiso Booi">
         <div class="carousel-caption">
             <p>Graphic designer: Khanyiso Booi</p>
             <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div><div class="carousel-item">
-        <img src="./photographers/Photographers/Wessy/6.jpg" alt="Wessy">
+        <img src="./photographers/westonpasinyore/6.jpg" alt="Wessy">
         <div class="carousel-caption">
-            <p>Photographer : Wessy</p>
+            <p>Photographer : Weston Pasinyore</p>
             <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div><div class="carousel-item">
-        <img src="./graphic designers/Graphic Design/Tshepang Bapela/4.png" alt="Tshepang Bapela">
+        <img src="./graphic_designers/tshepangbapela/4.png" alt="Tshepang Bapela">
         <div class="carousel-caption">
             <p>Graphic designer: Tshepang Bapela</p>
             <div class="btn"><a href="apply.php">apply</a></div>
         </div>
       </div><div class="carousel-item">
-        <img src="./models/Models/Mpho Ryan Sihamba/Profile_.jpg" alt="Ryan Sihamba">
+        <img src="./models/ryansihamba/Profile_.jpg" alt="Ryan Sihamba">
         <div class="carousel-caption">
             <p>Model: Ryan Sihamba</p>
             <div class="btn"><a href="apply.php">apply</a></div>

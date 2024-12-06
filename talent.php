@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shuhari-talent</title>
+    <title>Shuhari Talent</title>
     <!-- styles -->
     <link rel="stylesheet" href="styles.css"></link>
     <!-- icons -->
@@ -76,7 +76,7 @@
     <div class="manifesto-container clearfix">
         <article class="manifesto-card">
           <div class="manifesto-img-container">
-            <img src="./graphic designers/Graphic Design/Mabeka Kola/3.png" class="manifesto-img" alt="Graphic designer"/>
+            <img src="./graphic_designers/mabekakola/3.png" class="manifesto-img" alt="Graphic designer"/>
           </div>
           <div class="manifesto-info">
             <h3>graphic designers</h3>

@@ -27,6 +27,7 @@
         <li><a href="applicationmessages.php"><p>Applications</p></a></li>
         <li><a href="contactmessages.php"><p>Contact</p></a></li>
         <li><a href="talent_messages.php"><p>talent messages</p></a></li>
+        <li><a href="newsletteremails.php"><p>News letter emails</p></a></li>
     </ul>
 </body>
 </html>

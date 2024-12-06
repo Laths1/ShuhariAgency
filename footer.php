@@ -58,8 +58,8 @@
                 </div>
                 <div class="footer-updates">
                     <h3>Subscribe to our newsletter</h3>
-                    <form class="update-form">
-                      <input class="email-input" type="text" placeholder="Enter your email address">
+                    <form class="update-form" action="newsletter.php" method="POST">
+                      <input class="email-input" type="email" name="email-input" placeholder="Enter your email address" required>
                       <button class="subscribe-btn" type="submit">Subscribe Now</button>
                     </form>
                   </div>

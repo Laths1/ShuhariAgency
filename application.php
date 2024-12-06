@@ -1,3 +1,13 @@
+<?php 
+    include 'connect.php'; 
+    session_start();
+    
+    // Check if the user is logged in
+    if($_SESSION["loggedIn"] != 1){
+        header("Location: admin.php");
+        exit;
+    }
+?>
 <?php
 include 'connect.php';
 session_start();

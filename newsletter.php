@@ -13,18 +13,15 @@ include 'connect.php';
 session_start();
 
 // Check if the required data is present
-if (isset($_POST['name']) && isset($_POST['message']) && isset($_POST['email']) && isset($_POST['surname'])) {
-    $name = htmlspecialchars($_POST['name']);
-    $surname = htmlspecialchars($_POST['surname']);
-    $email = htmlspecialchars($_POST['email']);
-    $message = htmlspecialchars($_POST['message']);
+if (isset($_POST['email-input'])) {
+    $email = htmlspecialchars($_POST['email-input']);
 
     // Insert the message into the Messages table
-    $sql = "INSERT INTO contact (name, surname, email, message, created_at) VALUES (?, ?, ?, ?, NOW())";
+    $sql = "INSERT INTO newsletter (email, date) VALUES ( ?, NOW())";
     $stmt = $conn->prepare($sql);
 
     if ($stmt) {
-        $stmt->bind_param("ssss", $name, $surname, $email, $message);
+        $stmt->bind_param("s", $email);
         if ($stmt->execute()) {
             header("Location: index.php");
         } else {

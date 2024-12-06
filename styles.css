@@ -1194,7 +1194,7 @@ model page
 }
 .men-container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url(./models/Models/Atero/Atero/1.jpg);
+    url(./models/Atero/1.jpg);
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
@@ -1207,7 +1207,7 @@ model page
     width: 50%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url(./models/Models/Thayanda/Profile\ Pic.jpg);
+    url(./models/thayandasonamzi/Profile\ Pic.jpg);
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;

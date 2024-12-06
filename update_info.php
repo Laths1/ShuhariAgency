@@ -18,12 +18,12 @@ $role = trim($_POST['role']); // Ensure this matches valid roles in your system
 
 // Generate username
 $username = strtolower($name . $surname);
-
+$foldername = $role . 's';
 // Define the target directory
 if($role == 'editor' && $role == 'videographer'){
-    $targetDir = "$role . 's'/";    
+    $targetDir = $foldername; 
 }else{
-    $targetDir = "$role/$username/";
+    $targetDir = "$foldername/$username/";
 }
 
 if (!file_exists($targetDir)) {

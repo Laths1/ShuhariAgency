@@ -87,6 +87,11 @@
                 echo "<button type='submit' class='edit-btn'>Edit</button>";
                 echo "</form> ";
 
+                echo "<form method='POST' action='password.php' style='display:inline;'>";
+                echo "<input type='hidden' name='user_id' value='" . $row['user_id'] . "'>";
+                echo "<button type='submit' class='edit-btn'>Password</button>";
+                echo "</form> ";
+
                 echo "<form method='POST' action='toggle_visibility.php' style='display:inline;'>";
                 echo "<input type='hidden' name='user_id' value='" . $row['user_id'] . "'>";
                 echo "<button type='submit' class='toggle-btn'>Toggle Visibility</button>";

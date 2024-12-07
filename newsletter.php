@@ -25,14 +25,14 @@ if (isset($_POST['email-input'])) {
         if ($stmt->execute()) {
             header("Location: index.php");
         } else {
-            echo "Error sending message: " . $stmt->error;
+            header("Location: error.php");
         }
         $stmt->close();
     } else {
-        echo "Error preparing query: " . $conn->error;
+        header("Location: error.php");
     }
 } else {
-    echo "Invalid input.";
+    header("Location: error.php");
 }
 
 $conn->close();

@@ -1194,7 +1194,7 @@ model page
 }
 .men-container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url(./models/Atero/1.jpg);
+    url(./models/atero/1.jpg);
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;

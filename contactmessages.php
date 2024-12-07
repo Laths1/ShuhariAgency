@@ -26,33 +26,37 @@
     <h1 id="admin-title">Contact messages</h1>
     <div class="messages-container">
         <?php
-        // Fetch messages and user roles from the database
-        $sql = "
-        SELECT 
-            name,
-            surname,
-            email,
-            message,
-            created_at
-        FROM 
-            contact m
-        ORDER BY 
-            m.created_at DESC;
-        ";
+        try{
+                // Fetch messages and user roles from the database
+            $sql = "
+            SELECT 
+                name,
+                surname,
+                email,
+                message,
+                created_at
+            FROM 
+                contact m
+            ORDER BY 
+                m.created_at DESC;
+            ";
 
-        $result = $conn->query($sql);
+            $result = $conn->query($sql);
 
-        if ($result && $result->num_rows > 0) {
-            // Loop through and display each message with the sender's role
-            while ($row = $result->fetch_assoc()) {
-                echo '<div class="message">';
-                echo '<p><strong>From:</strong> ' . htmlspecialchars($row['name']) . ' ' . htmlspecialchars($row['surname']) . ' (' . htmlspecialchars($row['email']) . ')</p>';
-                echo '<p><strong>Message:</strong> ' . htmlspecialchars($row['message']) . '</p>';
-                echo '<p><small><strong>Sent:</strong> ' . htmlspecialchars($row['created_at']) . '</small></p>';
-                echo '</div><hr>';
+            if ($result && $result->num_rows > 0) {
+                // Loop through and display each message with the sender's role
+                while ($row = $result->fetch_assoc()) {
+                    echo '<div class="message">';
+                    echo '<p><strong>From:</strong> ' . htmlspecialchars($row['name']) . ' ' . htmlspecialchars($row['surname']) . ' (' . htmlspecialchars($row['email']) . ')</p>';
+                    echo '<p><strong>Message:</strong> ' . htmlspecialchars($row['message']) . '</p>';
+                    echo '<p><small><strong>Sent:</strong> ' . htmlspecialchars($row['created_at']) . '</small></p>';
+                    echo '</div><hr>';
+                }
+            } else {
+                echo '<p>No messages found.</p>';
             }
-        } else {
-            echo '<p>No messages found.</p>';
+        }catch(Exception $e){
+            header("Location: error.php");
         }
         ?>
     </div>

@@ -18,12 +18,10 @@ $stmt = $conn->prepare($sql);
 $stmt->bind_param("ii", $is_active, $user_id);
 
 if ($stmt->execute()) {
-    echo "Visibility updated successfully!";
+    header("Location: userdata.php");
 } else {
-    echo "Error updating visibility: " . $conn->error;
+    header("Location: error.php");
 }
 
-// Redirect back to the admin page or previous page
-header("Location: userdata.php");
 exit;
 ?>

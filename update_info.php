@@ -34,7 +34,7 @@ if (!file_exists($targetDir)) {
 if (!empty($_FILES['profile_image']['name'])) {
     $profileImage = $targetDir . basename($_FILES["profile_image"]["name"]);
     if (!move_uploaded_file($_FILES["profile_image"]["tmp_name"], $profileImage)) {
-        die("Failed to upload profile image.");
+        header("Location: error.php");
     }
 } else {
     $profileImage = $_POST['existing_profile_image'];
@@ -43,7 +43,7 @@ if (!empty($_FILES['profile_image']['name'])) {
 // Validate role to ensure it's a safe table name
 $allowed_roles = ['model', 'editor', 'photographer', 'graphic_designer','videographer']; // Define allowed roles
 if (!in_array($role, $allowed_roles)) {
-    die("Invalid role specified.");
+    header("Location: error.php");
 }
 
 // Process additional images

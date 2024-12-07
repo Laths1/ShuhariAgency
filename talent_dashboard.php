@@ -68,7 +68,7 @@
             echo "<p>No roles found for the user.</p>";
         }
     } else {
-        echo "Error: " . $conn->error;
+        header("Location: error.php");
     }
     // Close the statement
     $stmt->close();

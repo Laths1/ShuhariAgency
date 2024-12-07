@@ -25,13 +25,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($stmt->execute()) {
         header("Location: userdata.php");
     } else {
-        echo "Error updating password: " . $conn->error;
+        header("Location: error.php");
     }
 
     // Close the statement
     $stmt->close();
 } else {
-    echo "Invalid request.";
+    header("Location: error.php");
     exit;
 }
 

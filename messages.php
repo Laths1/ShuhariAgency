@@ -21,14 +21,14 @@ if (isset($_POST['user_id']) && isset($_POST['message'])) {
         if ($stmt->execute()) {
             header("Location: talent_dashboard.php");
         } else {
-            echo "Error sending message: " . $stmt->error;
+            header("Location: error.php");
         }
         $stmt->close();
     } else {
-        echo "Error preparing query: " . $conn->error;
+        header("Location: error.php");
     }
 } else {
-    echo "Invalid input.";
+    header("Location: error.php");
 }
 
 $conn->close();

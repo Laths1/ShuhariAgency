@@ -28,11 +28,11 @@ if (isset($_POST['name']) && isset($_POST['message']) && isset($_POST['email']) 
         if ($stmt->execute()) {
             header("Location: index.php");
         } else {
-            echo "Error sending message: " . $stmt->error;
+            header("Location: error.php");
         }
         $stmt->close();
     } else {
-        echo "Error preparing query: " . $conn->error;
+        header("Location: error.php");
     }
 } else {
     echo "Invalid input.";

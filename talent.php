@@ -11,9 +11,7 @@
     <!-- icons -->
     <link rel="icon" href="favicon_io/favicon-16x16.png" type="image/x-icon">
     
-    <!-- js -->
-    
-    
+
 </head>
 <body>
 <section>

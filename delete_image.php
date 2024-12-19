@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_image'])) {
     $stmt->execute();
 
     // Redirect back to the edit page
-    header("Location: edit.php");
+    header("Location: userdata.php");
     exit;
 }
 ?>

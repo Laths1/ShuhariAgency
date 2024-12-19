@@ -1773,7 +1773,7 @@ footer
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+    
 }
 
 .edit-container form {
@@ -1870,7 +1870,7 @@ footer
 .admin-data{
     border-collapse: collapse;
     width: 100%;   
-    font-family: var(--ff-primary-1);
+    /* font-family: var(--ff-primary-1); */
 }
 .admin-data th,.admin-data td {
     border: 1px solid #ddd;
@@ -1898,27 +1898,30 @@ footer
     display: block;
     width: 100%;
     overflow: hidden;
+    
 }
 .edit-container button {
     padding: 1rem;
     background-color: var(--primary-color-6);
     color: #fff;
     font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin: 0;
 }
-
+.edit-btn{
+    padding: 1rem;
+}
 thead {
     display: none;
+}
+.edit-container{
+    margin: auto;
 }
 
 tbody tr {
     display: block;
     margin-bottom: 15px;
     border-bottom: 2px solid var(--primary-color-6);
+    
 }
 
 tbody td {
@@ -1927,6 +1930,7 @@ tbody td {
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #ddd;
+    text-align: left;
 }
 
 tbody td:before {
